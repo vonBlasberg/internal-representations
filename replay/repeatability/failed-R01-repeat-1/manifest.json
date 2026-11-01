@@ -3,7 +3,7 @@
   "files": [
     {
       "path": "attempt/approval.json",
-      "sha256": "1b3204bd9e07d3f18fafa7f97979fe660b62b9aa57f7bc0c4403e3923f56c01c",
+      "sha256": "f2fb8ac6ffd38ffe3fd0860b2b59ba46b4fcb15731fdc29d4ad0b22352810512",
       "size_bytes": 1423
     },
     {
@@ -1358,7 +1358,7 @@
     },
     {
       "path": "terminal.json",
-      "sha256": "6e147dd49a4c1a00310590096f0a79b8dfca77fdfac5bbda93edab253527a773",
+      "sha256": "200718eef0b60d0a340f7ceae9cf479a56087ba87ba09d9671bdac2465ba925d",
       "size_bytes": 270
     }
   ],
@@ -1366,7 +1366,7 @@
   "schema_version": 1,
   "terminal": {
     "automatic_retry": false,
-    "plan_sha256": "43d4716d42bc0847196e9298dec8af4b57128f31760f5dba0cd61cd8b786acd0",
+    "plan_sha256": "a3ca63626cf9db48c26f9756eb94956970ad09384306eaf09981e212bace359b",
     "process": {
       "returncode": -15,
       "timed_out": true
@@ -1374,5 +1374,5 @@
     "run_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-1",
     "status": "FAILED_OR_INDETERMINATE_NO_RETRY"
   },
-  "transport_sha256": "27758e59e7a078e5cc1c80990adb8796becdb09bb2b1d233442342088f463b15"
+  "transport_sha256": "15932838e5b3f6e88e1bdf22e320e289c00ece56beb97c6ff211cff839a88cfa"
 }

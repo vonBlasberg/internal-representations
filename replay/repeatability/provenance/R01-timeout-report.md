@@ -20,15 +20,15 @@ The interrupted attempt has index 32, the 33rd attempt: `negotiation-same-prompt
 Exact session 1 terminal record:
 
 ```json
-{"automatic_retry":false,"plan_sha256":"43d4716d42bc0847196e9298dec8af4b57128f31760f5dba0cd61cd8b786acd0","process":{"returncode":-15,"timed_out":true},"run_id":"negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-1","status":"FAILED_OR_INDETERMINATE_NO_RETRY"}
+{"automatic_retry":false,"plan_sha256":"a3ca63626cf9db48c26f9756eb94956970ad09384306eaf09981e212bace359b","process":{"returncode":-15,"timed_out":true},"run_id":"negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-1","status":"FAILED_OR_INDETERMINATE_NO_RETRY"}
 ```
 
 Both deliveries are retained in their exclusive-create `execution/R01/launch/<session>/returned` directories. A separate standard-library check verified all 573 file sizes and SHA256 hashes, exact manifest membership, call identities, frozen transport and plan identities, matching returned/manifest/terminal records, retrieval manifest hashes, attempt counts and original Inspect log statuses. This check performed no behavioral comparison.
 
 Manifest SHA256 values:
 
-- Session 1: `911af3e5f9974516c031ce05db76c4dc8588758ac665dac1bc5b0a67bd8cc4e9`
-- Session 2: `37a90a28b04fe0e6733e17a1e308339839c92b21d09033815aa08acfd05d0b38`
+- Session 1: `7138ada5acc82e9ad026f2f5b5780fd1971d497747cb34bf8c153fe3cdf06529`
+- Session 2: `68aef281dea934e40f415d9089e874d9d3239470140610d8538a6fc0151fbcb6`
 
 The unchanged preparation check passed for all 454 archived A03 payload files, 36 reference rows and 72 exact planned inputs. The frozen adapter, auditor, plan and transport identities matched before retrieval. The source-archive and preparation checks also passed on entry to the unchanged independent auditor.
 

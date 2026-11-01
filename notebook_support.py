@@ -1,4 +1,7 @@
 """Notebook presentation only. Scientific analysis is the unmodified copied code."""
+if not __debug__:
+    raise RuntimeError("Run verification without Python -O or PYTHONOPTIMIZE; required checks must stay enabled.")
+
 from pathlib import Path
 import csv
 import hashlib
@@ -82,6 +85,14 @@ def recalculate():
                  "admission_record": "replay/comparison/audit.json",
                  "admission_record_sha256": hashlib.sha256((REPLAY / "comparison/audit.json").read_bytes()).hexdigest()}
     (exports / "findings.json").write_text(json.dumps(published, indent=2) + "\n")
+    descriptive = {"scope": "Descriptive comparison; frozen primary/secondary contrasts unchanged",
+                   "outcome": "agreement_adjusted_joint_gain",
+                   "weighting": "Equal families; equal variants within family",
+                   "missing_outcomes": "Feasible accepted-package and disagreement-payoff bounds",
+                   "source_request_sha256": hashlib.sha256((REPLAY / "generation_inputs/request.json").read_bytes()).hexdigest(),
+                   "source_report_sha256": audit["source_report_sha256"],
+                   "contrasts": audit["descriptive_contrasts"]}
+    (exports / "descriptive_comparisons.json").write_text(json.dumps(descriptive, indent=2) + "\n", encoding="utf-8")
     party_payoffs(comparison).to_csv(exports / "party_payoff_differences.csv", index=False)
     return {"output": destination, "comparison": comparison,
             "calibration": read(destination / "a10/review.json"),
@@ -223,39 +234,10 @@ def save(fig, name):
     return fig
 
 
-def candidate_figure(calibration):
-    rows = [r for r in calibration["rows"] if r["kind"] == "internal"]
-    fig, axes = plt.subplots(1, 3, figsize=(7.7, 3.3), sharey=True, layout="constrained")
-    labels = [f"L{r['edit']['layer']}  /  {r['edit']['coefficient']:g}"
-              + ("  selected" if r["historically_selected"] else "") for r in rows]
-    for ax, field, title in zip(axes, ("buyer_delta", "supplier_delta", "joint_delta"),
-                               ("Buyer", "Supplier", "Combined")):
-        for i, row in enumerate(rows):
-            if not row["score"]["valid"]:
-                ax.text(0, i, "invalid", ha="center", va="center", fontsize=8)
-                continue
-            value = row["decision_and_payoffs"][field]
-            ax.plot([0, value], [i, i], color="black", lw=.7)
-            ax.scatter(value, i, s=32, facecolors="black" if row["historically_selected"] else "white",
-                       edgecolors="black", linewidths=.8, zorder=3)
-            ax.annotate(f"{value:+g}", (value, i), xytext=(5 if value >= 0 else -5, 0),
-                        textcoords="offset points", ha="left" if value >= 0 else "right", va="center", fontsize=8)
-        ax.axvline(0, color=".65", lw=.5, zorder=0)
-        ax.set(xlim=(-40, 48), xticks=[-25, 0, 25], title=title)
-        ax.spines["left"].set_visible(False)
-        ax.tick_params(axis="y", length=0)
-    axes[0].set_yticks(range(len(rows)), labels)
-    axes[0].set_ylim(len(rows)-.5, -.6)
-    axes[0].set_ylabel("Layer / strength", labelpad=12)
-    fig.suptitle("One-case calibration: filled point selected; open points are other valid settings", fontsize=9)
-    fig.supxlabel("Change from baseline on the calibration case (payoff points)", fontsize=9)
-    return save(fig, "01_candidate_selection")
-
-
 def condition_table(comparison):
     return table([{"Condition": LABELS.get(r["condition"], r["condition"]), "Attempts": r["planned"],
                    "Valid": r["valid"], "Invalid": r["invalid"], "Counteroffers": r["offers"],
-                   "Agreements": r["simulated_agreements"], "Buyer below reservation": r["buyer_below_reservation"]}
+                   "Agreements": r["simulated_agreements"], "Proposed buyer payoff below minimum": r["buyer_below_reservation"]}
                   for r in comparison["accounting"]])
 
 
@@ -266,7 +248,7 @@ def contrast_table(comparison):
                    "Valid pairs / 36": c["valid_pairs"],
                    "Mean difference": round(c["point_estimate"], 2) if c["point_estimate"] is not None else "Not identified",
                    "Missing-outcome bounds": interval(c["full_case_bank_invalid_response_bounds"]),
-                   "Family-resampling interval": interval(c["case_bank_sensitivity_interval"]),
+                   "Family-bootstrap percentile interval": interval(c["case_bank_sensitivity_interval"]),
                    "Variation note": "No variation across families in this case bank" if c["no_observed_family_variation"] else ""}
                   for c in comparison["contrasts"]])
 

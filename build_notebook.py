@@ -15,9 +15,11 @@ md("""
 
 **Does changing a language model's internal state change its decision, who benefits, and does prompting do the same thing?**
 
-This notebook follows one intervention from exploratory selection to a fixed comparison on new negotiation cases. It uses real, independently verified model responses. You can rerun the analysis, examine individual answers, and download every attempt. The figures below are calculated from those records, not illustrative data.
+This prototype, implemented as a notebook, follows one intervention from exploratory selection to a fixed comparison on new negotiation cases. It uses real model responses checked by separate audit and recalculation code. You can rerun the analysis, examine individual answers, and download every attempt. The figures below are calculated from those records.
 
-**The finding in brief:** with the same input prompt, the edit shifted 13 of 33 valid decisions from acceptance to counteroffering. Reversing it turned all ten baseline counteroffers into acceptances; three random edits changed two, one and two decisions. The edited offers requested more for the buyer and less for the supplier. They were rejected, so the behavioral effect did not deliver the intended payoff improvement. Prompting also lowered payoffs against baseline, but less than the edit. Wording tests and two exact fresh-session repeats distinguish transfer from execution stability.
+**The finding in brief:** the edit shifted 13 of 33 valid decisions from acceptance to counteroffering with the same input prompt. Prompting changed 12 of 31 in that direction. An opposite-direction edit turned all ten baseline counteroffers into acceptances. Three random edits changed two, one and two decisions, also toward acceptance. The edited offers demanded more for the buyer and less for the supplier. They were rejected, so the behavioral effect did not deliver the intended payoff improvement. Prompting also lowered payoffs against baseline, but less than the edit. Wording tests and fresh-session repeats distinguish transfer from execution stability.
+
+More demanding AI offers could become a treatment for studying human responses to AI counterparts. This result demonstrates the behavioral contrast under the tested conditions. Validating a conversational treatment and its effects on people is a further research step.
 
 ### Start here
 
@@ -67,7 +69,7 @@ That addition is not the complete prompt. The full starting messages for the ill
 md("""
 ### Recalculate the evidence
 
-This cell reuses the copied, tested analysis code. It checks the saved calibration decisions, scores all 324 evaluation attempts from original response records, reproduces the analysis, and independently recalculates payoffs and contrasts. Each execution retains a fresh calculation directory. The convenient links under `exports/` and the figures are refreshed; original research inputs and retained results stay unchanged.
+This cell reuses the copied, tested analysis code. It checks the saved calibration decisions, scores all 324 evaluation attempts from original response records, and checks the analysis with a separately implemented payoff calculation. Each execution retains a fresh calculation directory. The convenient links under `exports/` and the figures are refreshed; original research inputs and retained results stay unchanged.
 
 This is **analysis reproduction**, not model-generation reproduction. The recorded execution verdict remains available in `replay/comparison/audit.json`. Its GPU checks concern the private originals; the public copy's identifier redactions and checksum bindings are documented in `ANONYMIZATION.md`.
 """)
@@ -77,7 +79,7 @@ comparison = result["comparison"]
 calibration = result["calibration"]
 print(f"Recalculated {len(comparison['all_trials'])} evaluation attempts across "
       f"{comparison['case_count']} cases and {comparison['family_count']} families.")
-print("Saved results agree with the recalculation. Independent payoff checks passed.")
+print("Saved results agree with the recalculation. Separate payoff checks passed.")
 print("Reader downloads: exports/ (refreshed from this replay).")
 """)
 md("""
@@ -89,7 +91,7 @@ Layers **14 and 15** are zero-based decoder-block indices: the fifteenth and six
 
 Eligibility required a valid answer, a strict combined-payoff increase, and no loss to the buyer. The tie break preferred higher combined payoff, then smaller absolute strength, then the lower layer. Prompt candidates were ranked separately. Controls were never eligible for selection.
 
-The table explains **why each candidate qualifies or fails**. The figure shows who gained on the calibration case. Filled points mark the selected setting; open points mark the other valid settings.
+The selection table shows which of the six settings qualified and which was selected.
 """)
 code("""
 construction_scenario, reference_pair = nb.construction_example()
@@ -97,12 +99,17 @@ display(Markdown(construction_scenario))
 display(reference_pair)
 """)
 code("""
-display(nb.candidates(calibration)[["Layer (zero-based)", "Strength", "Qualifies", "Selected", "Why"]])
-nb.candidate_figure(calibration)
-plt.show()
+selection = nb.candidates(calibration)
+selection["Status"] = ["Selected" if s else "Qualified" if q else "Failed"
+                       for s, q in zip(selection["Selected"], selection["Qualifies"])]
+selection["Reason"] = ["First in the declared ranking" if s else "Not first in the declared ranking" if q
+                       else "Invalid answer" if not valid else reason
+                       for s, q, valid, reason in zip(selection["Selected"], selection["Qualifies"],
+                                                     selection["Valid"], selection["Why"])]
+display(selection[["Layer (zero-based)", "Strength", "Status", "Reason"]])
 """)
 md("""
-All five valid settings produced the same payoff changes: buyer +35, supplier -25 and combined +10. The declared tie-break selected strength +0.5, then the lower layer, 14. It did not select a larger effect or different counteroffer contents. One candidate failed because its answer was invalid. Both prompts produced the same counteroffer and payoffs as the selected edit. The construction examples' shared benefit had already failed to carry over on this case.
+All five valid settings produced the same payoff changes: buyer +35, supplier -25 and combined +10. The smallest eligible strength, +0.5, selected layer 14. Layer 15 at +0.5 was invalid, so the lower-layer tie-break was not needed. Selection did not distinguish different counteroffer contents. Both prompts produced the same counteroffer and payoffs as the selected edit. The construction examples' shared benefit had already failed to carry over on this case.
 
 ### Keep the unsuccessful attempts
 
@@ -173,7 +180,7 @@ display(nb.table([{"Comparison": nb.LABELS[r["left"]] + " minus " + nb.LABELS[r[
                  for r in result["independent_check"]["same_case_comparisons"]]))
 """)
 md("""
-The edit increased counteroffering but reduced agreements. Across the 13 changed valid cases, its offers requested an average of **31.6 more points for the buyer and 44.3 fewer for the supplier**; six gave the supplier zero proposed points. All 23 valid edited counteroffers, including the 13 additional ones, were rejected. Prompting produced the only five accepted counteroffers, with two improving combined payoff over baseline. These are decision and payoff findings, not evidence of a general cooperation trait. The controls remain separate comparisons, not replacement candidates.
+The edit increased counteroffering but reduced agreements. Across the 13 changed valid cases, its offers requested an average of **31.6 more points for the buyer and 44.3 fewer for the supplier**; six gave the supplier zero proposed points. All 23 valid edited counteroffers, including the 13 additional ones, were rejected. Prompting changed 12/31 valid decisions toward counteroffering and produced the only five accepted counteroffers, with two improving combined payoff over baseline. Similar observed decision-change rates are not an equivalence test. The edit's distinction is changing behavior without changing the starting prompt. These findings describe decisions and payoffs, not a general cooperation trait.
 
 ## 4. Assess robustness and interpret the result
 
@@ -192,7 +199,7 @@ The selected edit changes 7/12 valid decisions under original wording and 6/12 w
 
 **Verified identical-prompt repeatability.** Two complete fresh sessions repeated the 12 original-wording cases with baseline, the fixed edit and the fixed prompt. All **72/72 responses** matched the original decisions, terms, validity, acceptance and payoffs. All **24/24 case-level baseline-versus-edit contrasts** matched. Text, generated tokens and recorded processed logits also matched exactly for all 72 responses. Each session reproduced the original edit's 7/12 decision changes.
 
-The table below recounts the audited records. The audit checked original Inspect logs, tokenization, weights, runtime, applied edits, restoration and all 602 delivered files. One earlier session timed out after 32 completed responses. It remains a failed attempt, with its records preserved, and is not counted as a complete repeat. The two complete sessions are retained R01 session 2 and the separately approved R02 completion.
+The table below recounts the audited records. The audit checked original Inspect logs, tokenization, weights, runtime, applied edits, restoration and all 602 delivered files. One earlier session timed out after 32 completed responses and is retained as a failed attempt. In the table, **Fresh session 1** is retained R01 session 2 and **Fresh session 2** is the separately approved R02 completion. Both completed sessions were checked with the retained R02 auditor, as documented in [repeatability provenance](replay/repeatability/README.md).
 
 This establishes repeatability for the same prompts and frozen greedy settings. The repeated outputs are not new independent scenarios. The wording sensitivity and negative payoff finding remain unchanged. This notebook reads the records; it does not poll a provider or generate responses.
 """)
@@ -212,6 +219,8 @@ The reusable parts are the sequence of research decisions, condition accounting,
 | New-case test | Held-out scenarios; baseline, prompt and declared controls; all attempts retained. |
 | Robustness | Wording, presentation, repeated sessions and scoring checks; distinguish tested dimensions from untested models or constructions. |
 | Interpretation | Decision change, downstream benefits, invalidity and technical failure reported separately. |
+
+For the next study, use multiple development families and keep the response schema fixed across wording variants. Declare a small strength series and construction-subset checks before evaluation. Use enough random controls for the intended claim, rather than treating a few draws as a universal selectivity test. Sampled repeats address generation variability when the application samples responses. Natural-language quality and multi-turn checks become necessary before using a conversational counterpart with people. These are planned checks, not additional results in this prototype.
 
 ### A small reuse exercise, not a second empirical finding
 
@@ -250,7 +259,8 @@ code("""
 display(Markdown("[All 324 evaluation attempts](exports/evaluation_attempts.csv)"))
 display(Markdown("[All 41 calibration attempts](exports/calibration_attempts.csv)"))
 display(Markdown("[Full findings and settings](exports/findings.json)"))
-display(Markdown("[Independent payoff recalculation](exports/independent_check.json)"))
+display(Markdown("[Separate payoff recalculation](exports/independent_check.json)"))
+display(Markdown("[Descriptive prompting-versus-baseline comparison](exports/descriptive_comparisons.json)"))
 display(Markdown("[All 72 repeatability responses](exports/repeatability_outputs.csv)"))
 display(Markdown("[Repeatability summary and audit sources](exports/repeatability_summary.json)"))
 """)
@@ -261,14 +271,15 @@ md("""
 |---|---|
 | Implemented here | CPU replay of verified selection and new-case findings; figures; individual responses; all-attempt exports; a synthetic scorer-reuse exercise. |
 | Research evidence available | One Qwen3.5-9B intervention, exploratory construction/calibration, one fixed 324-response evaluation, and two verified identical-prompt repeats totaling 72 responses. |
-| Stage 2: own studies | Adapt cases and scorers without changing the common workflow; assess reuse through independent researchers and record the help they need. Pilot selection is open. |
-| Stage 2: intervention validation | Compare candidates across development cases, freeze a selection, and test held-out cases. Keep response formats fixed in wording tests and check intended behavior, side effects and competence separately. |
-| Stage 2: measurement | Develop a recorded-state measure and validate it against external references and simpler text-based alternatives. |
-| Optional later interface | A web app for the same workflow, survey integration and MCP support. The website is not required for Stage 1. |
+| January–February 2027: study adaptation | Enable a new study through replaceable cases and scorers, without changing the common execution and reporting code. Use the tentative February workshop to obtain feedback. Pilot selection remains open. |
+| January–April 2027: measurement | Develop a recorded-state measure and test its validity and added value against external references, text embeddings and prompted ratings. The criterion must fit the organizational construct. |
+| March–April 2027: intervention validation | Compare candidates across development families, freeze a selection, and evaluate held-out cases. Fix response formats during wording tests and assess intended behavior, side effects and competence separately. |
+| May 2027: researcher reuse | Outside researchers adapt inputs and outcomes, reproduce an analysis and report the technical assistance needed. Use those findings to refine the guide and prototype. |
+| Optional execution/interface extensions | A bounded own-account GPU route for supported inputs, followed by a web interface if useful. Explicit cost/response limits and a separate end-to-end check are required before live execution is offered. Survey integration and MCP support remain planned. |
 
 ### Compute and time
 
-Saved-response replay is CPU-only; the measured local time is recorded in `verification/verified_notebook.json`. The original 324-response study used one L40S GPU, eight CPU cores and 64 GiB RAM. Its response-completion span was 3 h 35 min, excluding startup; allow 4–5 GPU hours for a comparable run. The prior estimate was US$11–15 at the recorded October 31 rates, not an invoice or a guaranteed future price. The two complete 36-response repeats took 24 min 26 s and 42 min 44 s from first trial start to final completion, excluding setup and retrieval. R01 reserved US$10 for two sessions with a 40-minute worker limit and 45-minute container limit; one timed out. R02 separately reserved US$5 with a 60-minute worker limit and 65-minute container limit. These are reservations, not final charges.
+Saved-response replay is CPU-only. The release receipt is `verification/verified_notebook.json`; a new terminal replay writes its own `verification/notebook_execution*.json`. The original 324-response study used one L40S GPU, eight CPU cores and 64 GiB RAM. Its response-completion span was 3 h 35 min, excluding startup. The prior planning allowance was 4–5 GPU hours, estimated at US$11–15 using the recorded October 31 rates, not an invoice or a guaranteed future price. The two complete 36-response repeats took 24 min 26 s and 42 min 44 s from first trial start to final completion, excluding setup and retrieval. R01 reserved US$10 for two sessions with a 40-minute worker limit and 45-minute container limit; one timed out. R02 separately reserved US$5 with a 60-minute worker limit and 65-minute container limit. These are reservations, not final charges.
 
 `REPRODUCIBILITY.md` distinguishes analysis replay from generation reproduction. Default execution recalculates existing evidence; it never silently triggers the latter.
 
@@ -294,6 +305,8 @@ The reversed edit raises agreement-adjusted joint payoff by 27.53 points, but 17
 On the original proposed-combined-payoff outcome, missing-outcome bounds are [-5.86, -1.42] for edit minus baseline and [-9.81, 1.69] for edit minus prompting. The outcome amendment was made before generation, not after seeing these results.
 
 Three edited answers and five prompted answers were invalid. Full-bank point estimates are therefore not reported for these contrasts. Instead, the saved analysis assigns every invalid answer the lowest and highest payoff permitted by its case and calculates bounds. Even the assignments most favorable to the edit leave its agreement-adjusted combined payoff below both baseline and prompting.
+
+Prompting also lowers agreement-adjusted combined payoff relative to baseline. Its descriptive missing-outcome bounds are [-35.11, -17.69] points. [The exported calculation](exports/descriptive_comparisons.json) uses the same family weights and invalid-outcome rules. It does not change the original primary and secondary contrast priorities.
 
 The lines below are **missing-outcome bounds, not confidence intervals**. They describe the fixed case bank. The table retains all control comparisons.
 """)

@@ -10,3 +10,5 @@ Use the repository README for installation and replay. These modules were develo
 - `inspect_bridge.py` and `recording_check.py` tested Steerability provider conversion and Inspect logging/scoring with authored responses. CPU notebook replay does not run them.
 
 Scientific scoring and selection logic is retained. Anonymous-copy hash bindings are documented in `../../ANONYMIZATION.md`. The original execution used the separately retained GPU source; this analysis directory is not a general-purpose model launcher.
+
+The supported CPU entry points are `python -B execute_notebook.py` and `python -B -m unittest discover -s tests -v`, from the repository root in the installed environment. The notebook invokes the required analysis modules. Historical preparation, GPU admission and integration commands elsewhere in this snapshot can require the original archive layout or additional dependencies. They are retained as source documentation, not as alternative installation instructions.

@@ -3,6 +3,9 @@
 Uses JSON, the declared utility tables and NumPy only. Does not import the
 research scorer, call a provider or alter the fixed analysis.
 """
+if not __debug__:
+    raise RuntimeError("Run verification without Python -O or PYTHONOPTIMIZE; required checks must stay enabled.")
+
 import argparse
 from collections import defaultdict
 import hashlib
@@ -83,7 +86,8 @@ def check(report_path, request_path):
     summary = {'status':'PASS', 'run_id':report['run_id'], 'fixture_only':report['fixture_only'],
         'cases':len(cases), 'families':report['family_count'], 'attempts':len(rows),
         'source_report_sha256':hashlib.sha256(Path(report_path).read_bytes()).hexdigest(),
-        'score_checks':len(rows), 'conditions':[], 'contrasts':[], 'same_case_comparisons':[]}
+        'score_checks':len(rows), 'conditions':[], 'contrasts':[], 'same_case_comparisons':[],
+        'descriptive_contrasts':[]}
     for account in report['accounting']:
         arm = account['condition']; valid = [scores[(cid,arm)] for cid in cases if scores[(cid,arm)]['valid']]
         assert len(valid) == account['valid'] and len(cases)-len(valid) == account['invalid']
@@ -98,8 +102,11 @@ def check(report_path, request_path):
         summary['conditions'].append(item)
     groups = defaultdict(list)
     for cid,c in cases.items(): groups[c['family_id']].append(cid)
-    for contrast in report['contrasts']:
-        left,right = contrast['left'],contrast['right']; means=[];bounds=[]
+    # Reproduce declared contrasts and the separately reported descriptive prompt comparison.
+    comparisons = [(c['left'],c['right'],c) for c in report['contrasts']]
+    comparisons.append(('prompt','unchanged',None))
+    for left,right,contrast in comparisons:
+        means=[];bounds=[]
         for family in sorted(groups):
             changes=[];limits=[]
             for cid in groups[family]:
@@ -113,17 +120,21 @@ def check(report_path, request_path):
             bounds.append([statistics.mean(x[i] for x in limits) for i in (0,1)])
         full = all(x is not None for x in means)
         point = statistics.mean(means) if full else None
-        assert close(point, contrast['point_estimate']), (left,right,'mean')
         computed_bounds=[statistics.mean(x[i] for x in bounds) for i in (0,1)]
-        assert all(close(a,b) for a,b in zip(computed_bounds,contrast['full_case_bank_invalid_response_bounds']))
+        if contrast is not None:
+            assert close(point, contrast['point_estimate']), (left,right,'mean')
+            assert all(close(a,b) for a,b in zip(computed_bounds,contrast['full_case_bank_invalid_response_bounds']))
         interval=None
         if full:
             values=np.array(means); rng=np.random.Generator(np.random.PCG64(20261029))
             samples=values[rng.integers(0,len(means),size=(10000,len(means)))].mean(axis=1)
             interval=np.quantile(samples,[.025,.975],method='linear').tolist()
-            assert all(close(a,b) for a,b in zip(interval,contrast['case_bank_sensitivity_interval'])),(left,right,'interval')
-        else: assert contrast['case_bank_sensitivity_interval'] is None
-        summary['contrasts'].append({'left':left,'right':right,'point':point,'case_bank_interval':interval,
+            if contrast is not None:
+                assert all(close(a,b) for a,b in zip(interval,contrast['case_bank_sensitivity_interval'])),(left,right,'interval')
+        elif contrast is not None:
+            assert contrast['case_bank_sensitivity_interval'] is None
+        target = 'contrasts' if contrast is not None else 'descriptive_contrasts'
+        summary[target].append({'left':left,'right':right,'point':point,'case_bank_interval':interval,
             'invalid_response_bounds':computed_bounds,'family_effects':dict(zip(sorted(groups),means))})
     for left,right in (('internal','unchanged'),('internal','prompt'),('prompt','unchanged')):
         n=changed=same=better=worse=mutual=adverse=0

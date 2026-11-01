@@ -14,7 +14,7 @@
   "status": "PASS",
   "scope": "Local clean-kernel offline analysis replay; no new research generation",
   "code_cells": 16,
-  "inline_figures": 5,
-  "notebook_sha256": "94983842014626fac33f9bb846ae8fe2602de7e571b50e173fda966be2da437c",
-  "elapsed_seconds": 19.6
+  "inline_figures": 4,
+  "notebook_sha256": "21a291374d21a874542d416fb5bed31d362aa73f12dec5994896544129e17d09",
+  "elapsed_seconds": 9.27
 }

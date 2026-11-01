@@ -16,7 +16,7 @@ try:
 except ImportError:
     import prepare as spec
 
-PLAN_SHA = "43d4716d42bc0847196e9298dec8af4b57128f31760f5dba0cd61cd8b786acd0"
+PLAN_SHA = "a3ca63626cf9db48c26f9756eb94956970ad09384306eaf09981e212bace359b"
 BUILD = "/opt/repeatability-build"
 EVIDENCE_BYTES = 4 * 1024**3
 FILES = ("__init__.py", "prepare.py", "adapter.py")

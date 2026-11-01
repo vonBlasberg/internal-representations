@@ -7,13 +7,15 @@ Follow the installation, replay and test commands in [README.md](README.md). The
 1. rescore calibration responses and reproduce eligibility and ranking;
 2. reconcile all 324 new-case attempts with the declared conditions and saved logs;
 3. reproduce validity, decisions, payoffs, control comparisons and case-bank sensitivity;
-4. compare scientific results with the verified saved report and independently recalculate payoffs;
+4. compare scientific results with the verified saved report and recalculate payoffs with a separate implementation;
 5. recount both complete repeat sessions from their responses and audited comparisons;
 6. regenerate the figures and exports.
 
 Research inputs under `replay/` stay fixed. Each replay retains its calculations in a new `outputs/notebook-*` directory. Reader downloads under `exports/`, the figures and the executed notebook are regenerated. Tests use temporary export locations and leave checked-in results unchanged.
 
-`exports/findings.json` adds the completed admission status and its source to the historical report. The earlier pending label remains in `historical_evidence_label` and the unmodified saved report. [ARTIFACT_STATUS.md](ARTIFACT_STATUS.md) links the main comparison audit and complete-repeat audit.
+`exports/findings.json` adds the completed admission status and its source to the historical report. The earlier pending label remains in `historical_evidence_label`, the retained CSV and the saved report. [SCHEMAS_AND_EXPORTS.md](SCHEMAS_AND_EXPORTS.md) explains inherited status flags. `exports/descriptive_comparisons.json` adds the descriptive prompting-minus-baseline calculation without changing the frozen contrast hierarchy. [ARTIFACT_STATUS.md](ARTIFACT_STATUS.md) links the main comparison audit and complete-repeat audit.
+
+Run verification in normal Python mode. The active replay entry points reject `python -O` and `PYTHONOPTIMIZE`, which disable required checks. Each fresh replay writes `verification/notebook_execution*.json`; `verification/verified_notebook.json` retains the release execution receipt. These are local software checks. An outside researcher reproduction and usability walkthrough are separate checks.
 
 ## What the evidence establishes
 

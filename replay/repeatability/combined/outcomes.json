@@ -111,7 +111,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "0c78c4d8dbef1bca50bbaa29cf8c7519c73a7d3bbafa58499a62735a6f52d040",
+    "source_log_sha256": "fe332775424fc45254e5202678f9d9be5ae473cdfa3425feb40194cbeafc3db2",
     "state_execution_sha256": "8e8486cf4b1f369c53cba2ac4a19f7d9066ac71ee90b940602ccfc0052478432",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-pumps-base--unchanged"
   },
@@ -222,7 +222,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "8d027da75e1bdee089e5fdf32fa6476341e67222f9621bdc38328b3462844b2b",
+    "source_log_sha256": "f374d1163b5cb18b0a236d4ac293c90596ee8d84272265ffd2229aa38bdbd06d",
     "state_execution_sha256": "cd4f87c0d33225f38c6d9f27304a925ed60ec5b89d29e72339a5a12046fbc648",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-pumps-base--prompt"
   },
@@ -333,7 +333,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "f592ef84a10b6c657ffb80d7c38e66a06da8fe183d316345e37aac8c82c108db",
+    "source_log_sha256": "0d684a282ba04e52a771948112659310c3be1b0860883530ea27f6a67a720ff0",
     "state_execution_sha256": "712ef3351002482603acf6b90653906c9c87095edb3484e45b7697b4b890cbee",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-pumps-base--internal"
   },
@@ -449,7 +449,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "148b1f4c1789d949aa65258e983ba5d9343b7be870d8cc5cb81774d9e304fe1d",
+    "source_log_sha256": "66484aea526a542acdd0e764d07b53393457b665e5ac1bffc24434c010c03885",
     "state_execution_sha256": "ca9c0065d8b6d5e91efd170ea9a1162a4bc09e756903e141b4154f44eb6e5b6d",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-scanners-base--unchanged"
   },
@@ -565,7 +565,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "8b19f281cd2249e27337fbfa9d4f7e681d08cc81a2f2fad37354c02614646ed1",
+    "source_log_sha256": "c327f3da5cf123a801e8ea98c9339eaba74dc93170824bd39069215c8edd5fb7",
     "state_execution_sha256": "17071f4de442cda3c2eccfcb456aac44685bea504db173eaa23dc1c321f921bb",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-scanners-base--prompt"
   },
@@ -676,7 +676,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "6251e9823c88e4d17357cf99dcbea91a3d4e4ee5a4cc820f3077604777c897e8",
+    "source_log_sha256": "0e8f73501ed7a0b504b501e97912e5d9ff8aaa313c4ed6b18f3057b28dd19946",
     "state_execution_sha256": "37cafbe0f076f4e4f2cdad9b41b9a179fd548198656171d05c289685d4745ae7",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-scanners-base--internal"
   },
@@ -787,7 +787,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "c53cbd080c117b318e36d83ee37400ee6c5fbb7088d8437c51979eeadbf3309e",
+    "source_log_sha256": "796a57e47b189efd6a62338594c73dfc70b17abf465d77a32ee345bbb586e686",
     "state_execution_sha256": "e87f18ace7b4835a7a252797002789de4062f9e5c5992b8c354b39bac965fc01",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-freezers-base--unchanged"
   },
@@ -898,7 +898,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "dc3e23838b77b6b2e1b2b16d3e12be29c0a50772fde1554693e688380f2e823b",
+    "source_log_sha256": "c7a05ad78e8ae0819f0043521619b3a950e18d9c257cad502cdf58cea963ba4a",
     "state_execution_sha256": "691a00f1a7615155967d9fe07018765ea9df84d38fd2552c17f6e2c363ce7749",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-freezers-base--prompt"
   },
@@ -1009,7 +1009,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "7eddfce748748804a593e23526ede38f914c39eda286faf5f9356314e4811e60",
+    "source_log_sha256": "c721e3d8ea0af848225fd778efba6e9758601b04cec30042a5e0e4ba9dc1471d",
     "state_execution_sha256": "5c7d5da8062a84291030c14d292688cd661f636ff3e43d9cd9e984b915ca5d68",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-freezers-base--internal"
   },
@@ -1125,7 +1125,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "427ef818f80910ab9c780414eee8277ac2ba1154485588b3c6a47a4241ad52aa",
+    "source_log_sha256": "4057a855c2908f39f85290c5682a5b0a1d71a59dcefe5820e55ceb71d1ff7aee",
     "state_execution_sha256": "e55ec22ee870bbeeefeeb2fce188e5a2031c014a3cbda57700f6b521bbc326df",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-printers-base--unchanged"
   },
@@ -1241,7 +1241,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "20dfebdc282942ae83f1ca7908e68cbf120fececa3e517512349ba73b92a205c",
+    "source_log_sha256": "e9ff3779f5e4e19382f5c859e4bd5b609500490a25815498e0e20ae8bb03baf4",
     "state_execution_sha256": "bf7673f6b03fb1fe1a7d71829bf49b90a09a84236a0b26160d16e74a7cbcd13c",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-printers-base--prompt"
   },
@@ -1352,7 +1352,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "bc4d2b4f09a61dff3a7098188dbe46ca92c8123c0d51b62aab297421b8616497",
+    "source_log_sha256": "07aacc3b850a8a0e9baa61079420df38816352347ee40542c854668390e6fe4a",
     "state_execution_sha256": "baa54d7aa7f0b7b67e526caa821a926b23318244dd4684bbc2d4979f53fe57b3",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-printers-base--internal"
   },
@@ -1468,7 +1468,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "cf4830785566b79ee07650ad622402f7a74680f0ddf2eaed545e3e36709cf90a",
+    "source_log_sha256": "5c7e2b135ad1afa8345e49643f2deda7d8c8e12bdacc2f4a942e7fdf105f9064",
     "state_execution_sha256": "d7debacf19836197a604cb363823ceda1e8a0fbc846800e377e6c7141af57ffc",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-sensors-base--unchanged"
   },
@@ -1584,7 +1584,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "84ce268f7a251a0c0798bbe60b08f57b595acfb6d06e1110dd190202c33b0766",
+    "source_log_sha256": "bea414170514a250dda6e5a595e7817443a2cca14d3c34ce9d0a356d527fccd7",
     "state_execution_sha256": "f435fdf6935f5ceab4f35cc4b4c33a2e5c8eceea327c23c0ef50ce0c73d92a9c",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-sensors-base--prompt"
   },
@@ -1700,7 +1700,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "5610c8183ca9ad82dfc65f5cd29b500177957dd9010ad4e135cea4e2b92da892",
+    "source_log_sha256": "25d839370c61186704bddd1eb0a1d300dde1a7ad8769e140259f8eea295f1509",
     "state_execution_sha256": "fed74a624179f4da87b2e246fc7c9ac555e092edc775deca13b25b533805af4a",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-sensors-base--internal"
   },
@@ -1816,7 +1816,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "f484bda2a5eed114715c94098b5075b866ceb6e011d56a8496dd6d4714f08e42",
+    "source_log_sha256": "1b6044d8cf9e5e4be835dd2a0be03151fd5c8648b9774378d9b9aa1bdbecc76d",
     "state_execution_sha256": "a4f6873f920f9ad539633097a6175fdc0d61899a787f0cd9e23bb4190d66235d",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-cabinets-base--unchanged"
   },
@@ -1927,7 +1927,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "76f59b66db1551786775bf770a7d7b17a21179ae297e52214471fcffa79a39c2",
+    "source_log_sha256": "829615cfcbc77abcd3b6726b238f9bdfbef6d26a6747e2c542ef9a3451ff838a",
     "state_execution_sha256": "28f6e9eaa7611a165dd396e19fd47d7cf5bf1ad3983836ad2b6239ed7ec4f164",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-cabinets-base--prompt"
   },
@@ -2038,7 +2038,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "f41b03d56fbc6a65872e73afa679712cdc7431a93923954bf3338d2dc9101357",
+    "source_log_sha256": "ee0c75d15404d9665322c6a660dddcc925cd6a3f4e1af781f1c493740ec899eb",
     "state_execution_sha256": "bcf58b37784a7b06edd40af909983d52ba58e7ba86093b38d3030c8033899372",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-cabinets-base--internal"
   },
@@ -2149,7 +2149,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "88ef7b787d0482eeb31b8fc4752e86b10a3391d6353098177bce7e6ca1c1242f",
+    "source_log_sha256": "d4e32b9a21c11c5cb20203b55406614dff42a0e6aa55bf9651878787ddf96349",
     "state_execution_sha256": "95693a959c446cf807b9aeae5951ae6caeb18d078c3aa13c4402e63f3511848f",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-chargers-base--unchanged"
   },
@@ -2260,7 +2260,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "d3c002708eb1e73222da5a673093f887a30ff9de6fcf6e8f22343374a8534bc5",
+    "source_log_sha256": "5bfe6c27354c94244773701e9bf5875b9242d2743cdedb4a33f01eb0fb9c6190",
     "state_execution_sha256": "d4ca56ff02c0dfe3fe6ae4e9ef7fb08a36e16d17794371309a521881755727f7",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-chargers-base--prompt"
   },
@@ -2371,7 +2371,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "a4a7540cd4bc6dc36845d39a715147189f91951cdaea6587a7ae5e52cb9770ce",
+    "source_log_sha256": "add06af7a2dc6fb42451593c53f193b6bf57d17a2240e323f34637de96cd5a51",
     "state_execution_sha256": "e4dfe7348263aa86527c06295dbff619535ebe783c9de630f85619d7c08b7868",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-chargers-base--internal"
   },
@@ -2482,7 +2482,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "5de7cfef41d26ba9c286164a2cf9d7c33fad0766247d52acc98d9ff5af5d6a1d",
+    "source_log_sha256": "1f4ff6a379a3202195faee19edd9d672de65599b13b9e0541e97737929ea4a0f",
     "state_execution_sha256": "220213e3ac15150993fb48d9430205d37601a9fbe04e3a2135ba9764431c03aa",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-filters-base--unchanged"
   },
@@ -2593,7 +2593,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "d9183c21c9bf46dca3f10e88cd09e1b81d2a58f5523a3c335ebef1e6b5c15ed3",
+    "source_log_sha256": "81e3c5004a38758f26974879c8c57ea2fd8b34b21ecd10e1d6dac23d2ab481ed",
     "state_execution_sha256": "438976e043b15ca28e37a80052c59044fd77768ff14bbabbf7a0987ce4df95e7",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-filters-base--prompt"
   },
@@ -2704,7 +2704,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "d43023572e822020906f66fd0ce09cda8f0e7c0c4091082f0faa116488e575a2",
+    "source_log_sha256": "a897376ea2eea31cf61baac445dc2dd248622109d354cacc8e5aa234dcb4757e",
     "state_execution_sha256": "f036f81963c8e2e5aa2b6a889cc4ca958f59c5d10c210b83e0fb9012f606793b",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-filters-base--internal"
   },
@@ -2820,7 +2820,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "2d9766681a7b16c36fc4364ee453f7a64e6667ac91eefc22669412923c0240ab",
+    "source_log_sha256": "5e8781bcccb63d320f88cf4a1ea789096dab2ec3baf9d89cc174e7d93f42fc9a",
     "state_execution_sha256": "c5dd52e682bc00bb5ff188c99d38a9d22a7dbfd79e8b40dab2c5b7d84828104f",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-terminals-base--unchanged"
   },
@@ -2931,7 +2931,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "1d360890c5e7361f242213fe15317d86956cac81620beb89a2e5ec16048a793f",
+    "source_log_sha256": "41df6b3190cb61a4f7d038982f156ac169d6be34c7a89f240d2666e75ee2c2c1",
     "state_execution_sha256": "45b68fa4b11a306e35af11f8f061af6f05310c9eb5dbf37f43b2b18595a003f4",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-terminals-base--prompt"
   },
@@ -3042,7 +3042,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "5cb061f39300ee6365a59cc706c80101116627966b17ef1799d2d4fa01d0da90",
+    "source_log_sha256": "c5a10442321eaac1fe7d36f361983aa6b2a794825c880f3a315ad3eeb89214e5",
     "state_execution_sha256": "5d92c0e3afb092b92cfe9f0dbded72e20a0e027ee866d03394e25ffd0eaf1297",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-terminals-base--internal"
   },
@@ -3153,7 +3153,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "2c7ebae61f715316338abfd05dec6f1c1cda496f5946b92c0fac65b1238667b8",
+    "source_log_sha256": "c58335c06e995ca5a41113b9d9ba5c662b6e2c921f58cc1c0b1970353b3cbb54",
     "state_execution_sha256": "d4b974b445cad7c739a9c9a3b3cadccd7a3ff3a0b060b505897b440bbd5e5776",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-compressors-base--unchanged"
   },
@@ -3269,7 +3269,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "21741ade2a0b3193cfe6ec4ad8ac06006d9d3e477c903b3231dd99546db45f61",
+    "source_log_sha256": "c7dbd7a9b18e540dcf83df303c6072175e216df2a85a19d91334bb29304bf7c7",
     "state_execution_sha256": "f223e066a473f80bf2d36dcf063905c2d1ec472f1ff504489f2fd00921ece5e7",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-compressors-base--prompt"
   },
@@ -3380,7 +3380,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "e387c0b6b1a04c2d7806705c3d6409b35b787ca1a154cd3445ee95bb275e8174",
+    "source_log_sha256": "f5b04a57f1cdba6fc1357d06b028110381ee24236cf352c8eb164f1a4950a310",
     "state_execution_sha256": "371d5b7a2060476fcd0d9879f9ba4bce696c49bc5cb873c6c9087e4f1ad070b6",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-compressors-base--internal"
   },
@@ -3496,7 +3496,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "127c68cedd9f3c169d39687af5539204aa7082c6c1119bd3ebf8b623b2bec74a",
+    "source_log_sha256": "8d969c2d8f660097b0174796133423d6b68cc31729ed0803ed8842b40e198686",
     "state_execution_sha256": "cc4b24cab0084bc258c736bf735d1d68ba7bc123c338209dce0a3dae76950cf2",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-routers-base--unchanged"
   },
@@ -3607,7 +3607,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "19ab2bb92c2b29f80c6e7dc9d406eb563b584b73b1c326ad69a20dd912d6f6a9",
+    "source_log_sha256": "94a353a99c9f2c107db968c576c45e0ae1ae52cc598afca402b5607ea636a690",
     "state_execution_sha256": "da7af654c105dcfbc79c91e467a942669970ea76ea8d9a7ff27ce21a71f15fe4",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-routers-base--prompt"
   },
@@ -3718,7 +3718,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "4a31a2b1a2c88b7c12c7007234019387647b5657f98ca6c342370b78ef26e66f",
+    "source_log_sha256": "3c7e57c25a9c82b36dcfb0310860ccacb667c98a5f5ae8eec01bb8cd422fccc4",
     "state_execution_sha256": "be129ed6bc395238b5f5453ccedcfcab5e06390be78cb0ea70eed54454747997",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-routers-base--internal"
   },
@@ -3834,7 +3834,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "2bbe5ccec7e11c87b5917d3391eb1014faf43500c8aefc63de5228e1e8c4f108",
+    "source_log_sha256": "6704a9dd7e0e836e6a25e9ada774c9072ae7e61b70b806b4fab2f4e60a799402",
     "state_execution_sha256": "344112348092edfe052ea888b769b7aa95b0468234ec666ee50f6d938052f2ca",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-meters-base--unchanged"
   },
@@ -3950,7 +3950,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "c3ecc38f4ce7a5925eb2b083b2514a24acbd2ab9ebb2d0de51ada15569476f4c",
+    "source_log_sha256": "1922bda1ff497d5f7b2f8ab7b154dfde70cf83cea0b28d5bcc227eb8e2bdab27",
     "state_execution_sha256": "e38fc7008262c4fbd8973f6e22df54955df3cd3dc133af057453f835da9c5820",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-meters-base--prompt"
   },
@@ -4061,7 +4061,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
-    "source_log_sha256": "ec365f509779a83214f05ae565ae070d68d4e1965cce4378845e8a91a77192d9",
+    "source_log_sha256": "8f8b51c86e74cc43ab5f221f1122a9a5eb0b2ba1ff5316cffd2485dc9c210651",
     "state_execution_sha256": "767f585c9829347ba9b00308af30db7ef8babaff0b0b31624447ee8e00b74dc8",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-meters-base--internal"
   },
@@ -4177,7 +4177,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "3b8398ca2d93e4c4b00673174b68a0f3250668079ed347bf1128141716bb538b",
+    "source_log_sha256": "a4225e3398dee9debf7c0eb87a36ce364ab0c1b79d36798414d3840be8bc3ee9",
     "state_execution_sha256": "bd813895ad3a91aa32cfd6e0015640872ec6d8f6b8d9cf1f2b741477fd2e3924",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-pumps-base--unchanged"
   },
@@ -4288,7 +4288,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "a8efaab6976eb149336882f99d3db1281c203e7023c179fcf3743736138218fa",
+    "source_log_sha256": "73a05c126d5bbc2a3ab55dc5adad78949989835c085c6d66de2b5a1650edb9c3",
     "state_execution_sha256": "5cc3ed94f8cf46da4e39a61bcc2e7a3594f63f4aae776046715d7352dd3442c9",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-pumps-base--prompt"
   },
@@ -4399,7 +4399,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "8240ac200316b16b8269422a4050d7815dd56dcb129b4af3f5792757c9871507",
+    "source_log_sha256": "3d06e0d0a8164d046ee6d611a9726f4587a9a37127df98953f756d55b0b5f1ac",
     "state_execution_sha256": "ad7b791a5f580b0265b7e82807310a72a50154560db0a7a632af7f2417e9b4a5",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-pumps-base--internal"
   },
@@ -4515,7 +4515,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "af4c95f9cb0587ab8b4282bb327a751280c6d9f35f85b7eff2c931dee5b99d01",
+    "source_log_sha256": "e8c29503e64a297659c7d4803558f9c94adbfb732cc136268b6d2a00d4cb2bfb",
     "state_execution_sha256": "d5f681f81ca5ffcccea0442a7b0648f22b84832e85f43499c5d9956950c07206",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-scanners-base--unchanged"
   },
@@ -4631,7 +4631,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "e70c4485f8c5eca2d0c1aa8128ddd6e8b76780bd81e970c09c1cf5f81a4017ec",
+    "source_log_sha256": "eaa559b36bd8f9e3d02246ed72009f6acddf4320c77e726c26f4d168c2b29d30",
     "state_execution_sha256": "f18cf7776295bbb0418496da72511ba94b1d99ad03a27e25f71230b688385a5f",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-scanners-base--prompt"
   },
@@ -4742,7 +4742,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "9d3a40727c09f3477ca3a5a0c8547a3518e1a37c4dcdbdf8759d9c759381580a",
+    "source_log_sha256": "ebf46534d683ea247a71c114c89e3a6177f070e7178cf26f6fa2dec272ff4b07",
     "state_execution_sha256": "a7aafb92a62ee75b6554ab36fd13f9a2db83ec104aacf3beaa392b3332c22bf8",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-scanners-base--internal"
   },
@@ -4853,7 +4853,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "9abf8e31b6bdb6ddf4d44fab2e1318b4268f658a54f394687f12eceec354ba66",
+    "source_log_sha256": "2445e77eedadbca161142fb8482bbff2c5de107c1542a7a2708449285075d59d",
     "state_execution_sha256": "6d3ca38a53e202bfa29d6996db51c83fd0fba92836110fec313ce75aa57a2907",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-freezers-base--unchanged"
   },
@@ -4964,7 +4964,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "803492d4d0e2e6ce4e6b9dc0444535c27e1e748b1f60291c7d07ff74637c7eb6",
+    "source_log_sha256": "ca54149df58861325fc07ac979b59db3de9e5e6d5ee2efe4446a0f17e57ae34a",
     "state_execution_sha256": "650327a99bca8f14a2b08bcf1e34c822c2a72acc6a0a380bad4cb3aa3f8ab9c1",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-freezers-base--prompt"
   },
@@ -5075,7 +5075,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "b4a32249dd83fdaab96fa90106481f52591543abe62795009d094cace8b009e0",
+    "source_log_sha256": "f0c57b237c9c312d77f9194232560df33dfb9985c7e3751e8be9f35f514b5b61",
     "state_execution_sha256": "190ad0f38b3630f2cb8d885bca5478d13fd8fd7dd558a80f96bb480b969f29ca",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-freezers-base--internal"
   },
@@ -5191,7 +5191,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "b8611596d20bee6440a87fea3345e0acc24086a8ccb5e2eb7ee630cfd0d289d1",
+    "source_log_sha256": "b17065f4a373ff0258326c5df4563011f3ed4d492eebaadd29cbd162e28eb29b",
     "state_execution_sha256": "b29960f60375013ab50bf3584f226b251411deee1dde4cd4867f67c7a1056a4f",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-printers-base--unchanged"
   },
@@ -5307,7 +5307,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "f69e0ba9a95f90de11997f8de073ff5a709cb4ced4c0c4a46954a0ccecb929ac",
+    "source_log_sha256": "2d9aca5e2b6e1c2e515549bdb9a691d6b07a7ad881876cb597c4e3720fd480cb",
     "state_execution_sha256": "82d43ed42cda58fc7e870b2f111515081ff468294df8fe9c86c3aeea1b899e56",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-printers-base--prompt"
   },
@@ -5418,7 +5418,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "fa531225bf7fe049dc89d5c6fa87ec5c93b8756e670ac747fcdf9e0aaad1dbfd",
+    "source_log_sha256": "a00398aa23d2b651e2756ec1226bba4801ddb0f6b136168a42f5ec7b6f253ba5",
     "state_execution_sha256": "e7fc7709824e866c88d37c0d9b199cf28043732e93c72d22c2b440a30d661a5d",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-printers-base--internal"
   },
@@ -5534,7 +5534,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "d2345f072b7fe380c943c26c0b79a54ad808d6295dd6fd24e83a1f44bc18c00a",
+    "source_log_sha256": "fd769c07a3cf0df2e1c208702551f9e7c97418617dcd40a3fc551b0727b32c33",
     "state_execution_sha256": "8b757d5826012f52935f559e72d1facdac4f39693417190ca0d1431fc94aa23a",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-sensors-base--unchanged"
   },
@@ -5650,7 +5650,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "2e15d76dc545c06a341510b6aa4946fe0d703bde8b44b0d5c91b73fbd01a1d82",
+    "source_log_sha256": "572a650f41a21fc824897f100c8f831f81b41145c44f1624147fd15fbf6c6364",
     "state_execution_sha256": "edf9f31b529b303e2fc77e27278358ae4866c4f6e7ed89e0683a421055efbc49",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-sensors-base--prompt"
   },
@@ -5766,7 +5766,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "37152983ebad9e3c31f90ee5a0cc9e7809ba685ebce3268b81277b283c0b8675",
+    "source_log_sha256": "bc68b26af972423f2d1b5b5bfa0f5195a5d91579ccd8e37cdeed06154d37a4a3",
     "state_execution_sha256": "ff882a7055b3d870b94a35767b6c0407f42daf04b9d7d9b066042a05df0c4c9f",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-sensors-base--internal"
   },
@@ -5882,7 +5882,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "af3449f5f37e8752274f89e2329551974ed59eb2b1d86af3c12def12e0aa91b0",
+    "source_log_sha256": "f566b644fe67c48d1364eeb7e60d4b1ed906a6da0880cc6cbfd50380b78b3ab4",
     "state_execution_sha256": "f312b7538afd17d9336cb2fc2c388cffb300c10c5cdc9f9e6237dd626926471c",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-cabinets-base--unchanged"
   },
@@ -5993,7 +5993,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "c1ab07106165089f18992ee4e405c892ccfebd6be70268488193ca199f1bdd10",
+    "source_log_sha256": "a0bdbe8de657056cc92c38e7944d7ddba9589f2be1ab6331abd901af50c21989",
     "state_execution_sha256": "e4947c96ff10cd1baead52039553cbb8995fcd8bc41fa23edd05d80e4e44ab6d",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-cabinets-base--prompt"
   },
@@ -6104,7 +6104,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "cc209abefc8b9ee9f0afadd32ff448111dc904c0db857f018269074c8327c013",
+    "source_log_sha256": "96b37e890272f640e527bcdc162ebb960c6f5e890e46558997945c227fea21d4",
     "state_execution_sha256": "cb62c509d159cda08c227bea345ff9d5b39b13b6f9553111641327675786a7db",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-cabinets-base--internal"
   },
@@ -6215,7 +6215,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "d36d6986fb1d07090c9ebb07ab8d5aff116b50eb2f108e4f03d7852c4a26c246",
+    "source_log_sha256": "189aa5dadb8ce761316700804aaed3a4d28de94e2a5d9c922dff6ea5644b5c3a",
     "state_execution_sha256": "c70569b8d96eedbbd8a84a53ad0f19b674e5139b22b9ceb19d11bcdb2ef5337e",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-chargers-base--unchanged"
   },
@@ -6326,7 +6326,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "ab4db17735a076410e25edb9e65d283917bb9752e095ba667d079adc74b71f2b",
+    "source_log_sha256": "6f054fab4e53c0c89cae09d9db93f200d5234462b5176e5ad2c6ec73ccf26b4f",
     "state_execution_sha256": "052f67f54b929b14b669649f34af17f6abb716ba9855d9247988789f1ea9b214",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-chargers-base--prompt"
   },
@@ -6437,7 +6437,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "b476b0d01b2e9165a01c7579aabaf1ac05ca79c99698a8e8a7d5304bcb6b0fcc",
+    "source_log_sha256": "ac9cb01128370dbcaba2957679462d9ed3d345bd78a082abe3d363c6958ac946",
     "state_execution_sha256": "c45da21154778605a49367007c192c890d5b7696a1a8057189b9c9e64a9ca516",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-chargers-base--internal"
   },
@@ -6548,7 +6548,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "dbc91f688d0c6e92f9175636eb2b0b0d83cbfe329342e63eee8689f721107afb",
+    "source_log_sha256": "6d329e1cc55c828890b25c4aca704282044cd805666997790f24a39a8938d31e",
     "state_execution_sha256": "64e3f416d51f7b919702e84e1c67c6fc5f8e86db559f68eafe0a07e85163f695",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-filters-base--unchanged"
   },
@@ -6659,7 +6659,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "e60073f3f5b386cd33c5724cd1ac21f2408a9bc56fdbadd41b6cb132e9740091",
+    "source_log_sha256": "64026512446660b626d84553b497f5789fede35a31658ce848b62d8cfbf34179",
     "state_execution_sha256": "b566f0317da078fc04326f26fa4a41eca5ddc3c935fa74ffc1be5e5f9d013988",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-filters-base--prompt"
   },
@@ -6770,7 +6770,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "24395f54554e5aca70a3f494971671c30dcfeb17031892dd54550787b8d86509",
+    "source_log_sha256": "d7983c68b27eb713461c588a94ef29f6eb31ef827a813828af5aa969fc3babe4",
     "state_execution_sha256": "e987e71c65b3f7be880f6ab4ae7adc0304a7c2c0d0a0bf5cbd7e510b81a1c228",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-filters-base--internal"
   },
@@ -6886,7 +6886,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "15a3cd8ad7fbbe2085d3d5cdb7286c928a131f786969a4e86fb7e1b10b0c2376",
+    "source_log_sha256": "4088347966b56b743b8f1447e39fea599156cf7198e71c0d365b89197e23808c",
     "state_execution_sha256": "eb4430305a9bca614930af2a9fcf96ab7ad33f67a4859a9a9617a58b44599fbf",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-terminals-base--unchanged"
   },
@@ -6997,7 +6997,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "f938a0bddc0169d6111e8b8fe3e54b23c623fe32a352a4458f639c6d9fb724a2",
+    "source_log_sha256": "9ea41e0f0bcb50d696b136c2129e8c8394dfb470f31c4f3b7fca825c068c4359",
     "state_execution_sha256": "463e645568f771b6ba05c0a4c7dff9eac45471de96b2f3572fe01816d41f60ac",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-terminals-base--prompt"
   },
@@ -7108,7 +7108,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "232b36b2896c95cba02409caece6b68b4f900f4706d4ed339a4db543bd0b240c",
+    "source_log_sha256": "a041f39fe8150d7ee45d0fb405369d7d213906b3ba50d5e6a4ae8a0b4b35c9fa",
     "state_execution_sha256": "01db40eb21d034fd00d05ad0bb5d0c426e3336c56cfccc3edfe9fb39978e5265",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-terminals-base--internal"
   },
@@ -7219,7 +7219,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "b5f625e5c1c348442673602cb66110a18f7db480fad54fea5f4733720f81bd9f",
+    "source_log_sha256": "c9cf7e83202bb6b7ab68d56293e005f4326a5d27b22f8c6fdd70977dac5a3b2b",
     "state_execution_sha256": "94e8902f35e2bf2de395e9e2264b31a9fc373eb9cef6f7f258b5ffa3ac43646d",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-compressors-base--unchanged"
   },
@@ -7335,7 +7335,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "71d7314625e5b5f92b58c441189d8dd4c45f65eb24f2f5ac3b7531137e44a72e",
+    "source_log_sha256": "cd3a24243aa5f095e591586ad723106605bcc67d5c97b6e15d10f40c4cb467db",
     "state_execution_sha256": "bd5107fcb2933b910cbc86b75d42159deded5444480af2e60cd6ae11219777fe",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-compressors-base--prompt"
   },
@@ -7446,7 +7446,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "045d4bff892dea18f9a4d44ad9ca242cb62d6cea80bc60279608e8e3c8b858fa",
+    "source_log_sha256": "cd338fa370d40233297a8d87bb742809fcbbc7ed30160dcbaf65f07ec3530c15",
     "state_execution_sha256": "a0bc1746c3764ba5ade93dfd7ffd18b471bb77048b3a30fe1df6ec5466a1bb1e",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-compressors-base--internal"
   },
@@ -7562,7 +7562,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "5d469c4ce29328ec4ea762ef7930319577cd21edfd208171d21ef5320d105161",
+    "source_log_sha256": "9b2b615f023b2f42f6ed9a53226149ddfc3c9bcba21d72797d866ce00fbdf792",
     "state_execution_sha256": "74c5545bc68ee1745e796a624e7dd76eafebeda482693801969381a85ba16a30",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-routers-base--unchanged"
   },
@@ -7673,7 +7673,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "657e057fa0557f25ca3471b464de9484e16b6a2bd5292568668162b9f1697046",
+    "source_log_sha256": "e0f3236cc2a118b12be601d11501db9052b14b72cdaa2cd8865dc4ceb3837ce1",
     "state_execution_sha256": "31ba684c33d312fff6df6bfa73b676e27603e3a2c95ec2328262fc124a91a1d8",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-routers-base--prompt"
   },
@@ -7784,7 +7784,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "27da5eeebb14f2331fa6e5780b8f253592a5c8907c725fb0eee2aeed5d2e96dc",
+    "source_log_sha256": "1dc72116a3e5ff1d6d77d6a841f78d569b54b58746c7bc414a19ffe7faf639c1",
     "state_execution_sha256": "ba67f79548ac34b0173f296ea5fe40d83a336a998f547cc3fec194bf01ce28b1",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-routers-base--internal"
   },
@@ -7900,7 +7900,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "7b2bc88e6aae560a0f5b9607154c836b2a99e5edf3ef42c9006f84a86cc97ce8",
+    "source_log_sha256": "dd875d42f0bef2b34881cee75daef0becc97fa4d8bcf9f5753ba31036a2a3d38",
     "state_execution_sha256": "ce7c63645decf6ddb37e95a89e03d6124989f43e04bc754e152d04a601152c4a",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-meters-base--unchanged"
   },
@@ -8016,7 +8016,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "c6185ae0fa747d67c018bb778f386aaff753c8044fb4f19bfe0763e58979db31",
+    "source_log_sha256": "8a9a81facaf0a1b4299b65376577ca17bd5afa6fe4c151f6177cb45bde42d2bd",
     "state_execution_sha256": "48f5f62647e19c6ec32532f4cd3936dc8bff9852958b310e0b7da79b699a35bf",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-meters-base--prompt"
   },
@@ -8127,7 +8127,7 @@
       "valid": true
     },
     "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
-    "source_log_sha256": "d228747eb00295b4798b06cd00c2cba52c32b84d05bf96f3d0ff02fc34e384b5",
+    "source_log_sha256": "2e56079b874eca96a484d6cacfb19d89aef8406bdc95bdcfc114628ed3b1ea3f",
     "state_execution_sha256": "7921b2a67533ced6dd6bc2b802d62dbbd762d4a883d2c5bd6e0fdf72f0b5d2b3",
     "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-meters-base--internal"
   }

@@ -378,5 +378,31 @@
       "at_least_one_benefits_neither_loses": 1,
       "at_least_one_loses": 11
     }
+  ],
+  "descriptive_contrasts": [
+    {
+      "left": "prompt",
+      "right": "unchanged",
+      "point": null,
+      "case_bank_interval": null,
+      "invalid_response_bounds": [
+        -35.11111111111111,
+        -17.694444444444443
+      ],
+      "family_effects": {
+        "prospective-20261031-cabinets": -39.666666666666664,
+        "prospective-20261031-chargers": null,
+        "prospective-20261031-compressors": null,
+        "prospective-20261031-filters": 0,
+        "prospective-20261031-freezers": null,
+        "prospective-20261031-meters": -1.3333333333333333,
+        "prospective-20261031-printers": -27.666666666666668,
+        "prospective-20261031-pumps": null,
+        "prospective-20261031-routers": null,
+        "prospective-20261031-scanners": -41.666666666666664,
+        "prospective-20261031-sensors": -35.666666666666664,
+        "prospective-20261031-terminals": -80
+      }
+    }
   ]
 }

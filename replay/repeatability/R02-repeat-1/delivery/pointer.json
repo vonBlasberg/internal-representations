@@ -3,12 +3,12 @@
   "file_count": 301,
   "manifest": {
     "path": "package-route-qualification/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1-supervisor/result-manifest.json",
-    "sha256": "d90fe2098742ca2fb05f8501ef5db3c764e1eea6b29843881130eadcb88dac94",
+    "sha256": "86c752b9a67d4f7038bd8841e00455438d7cf8f3d71efe662214fe6ca40a161d",
     "size_bytes": 88017
   },
   "run_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
   "schema_version": 1,
   "status": "EXECUTION_COMPLETE_NOT_INDEPENDENTLY_VERIFIED",
-  "transport_sha256": "ad01fc76bc6b7f6dd0a3bfa5b089732c32ad874a1e68f1c46f7418a48bd61205",
+  "transport_sha256": "009450a8b8e20dac7de271d1aca5b0ffc1add1e7cf7a5b115d02d8904f1e801a",
   "volume": "wp3-qwen35-l40s-modal-01-data"
 }

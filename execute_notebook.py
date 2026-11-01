@@ -1,9 +1,13 @@
 """Execute only the offline notebook and retain a timed local verification record."""
+if not __debug__:
+    raise RuntimeError("Run verification without Python -O or PYTHONOPTIMIZE; required checks must stay enabled.")
+
 from pathlib import Path
 import hashlib
 import importlib.metadata
 import json
 import os
+import subprocess
 import sys
 import time
 import traceback
@@ -23,6 +27,8 @@ def main():
     os.environ["PATH"]=str(Path(sys.executable).parent)+os.pathsep+os.environ["PATH"]
     versions={p:importlib.metadata.version(p) for p in
               ("numpy","jsonschema","pandas","matplotlib","nbformat","nbclient","nbconvert","ipykernel","jupyterlab")}
+    # Initialize the font cache before notebook capture, without hiding diagnostics.
+    subprocess.run([sys.executable,"-B","-c","import matplotlib.font_manager"], check=True)
     record={"python":sys.version.split()[0], "libraries":versions, "status":"STARTED",
             "scope":"Local clean-kernel offline analysis replay; no new research generation"}
     try:

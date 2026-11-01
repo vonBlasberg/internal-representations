@@ -4,9 +4,9 @@
 
 **Does an internal edit change an AI's decision, who benefits, and does prompting do the same thing?**
 
-Open [START_HERE.ipynb](START_HERE.ipynb), or download and open [PREVIEW.html](PREVIEW.html). The notebook uses independently verified responses from a negotiation study. Its figures and tables recalculate saved evidence on a CPU; no model download, API key or GPU is needed.
+Open [START_HERE.ipynb](START_HERE.ipynb), or download and open [PREVIEW.html](PREVIEW.html). This prototype is implemented as a notebook. It combines saved responses from a negotiation study with candidate comparisons, outcome scoring and robustness checks. Its figures and tables recalculate the evidence on a CPU; no model download, API key or GPU is needed.
 
-The selected edit changed 13 of 33 valid decisions from acceptance to counteroffering with the same input prompt. Reversal shifted decisions back; random edits changed little. The edited offers requested more for the buyer and less for the supplier, who rejected them. The notebook distinguishes directional behavioral influence from payoff improvement, wording robustness and execution stability.
+The selected edit changed 13 of 33 valid decisions from acceptance to counteroffering while keeping the complete starting prompt unchanged. Prompting changed 12 of 31 valid decisions in the same direction. An opposite-direction edit shifted baseline decisions toward acceptance, while random edits changed little. The edited offers requested more for the buyer and less for the supplier, who rejected them. The prototype shows how to distinguish behavioral influence from payoff improvement, wording robustness and execution stability.
 
 ### A short route through the notebook
 
@@ -40,12 +40,12 @@ Installation downloads ordinary notebook libraries; replay uses bundled records 
 
 ## Contents and adaptation
 
-- Executed notebook, five figures, every evaluation attempt and the historical candidate comparisons.
+- Executed notebook, a candidate-selection table, four figures, every evaluation attempt and the historical candidate comparisons.
 - Scoring/analysis code, original response records, settings and completed audits.
 - An editable model-free allocation example using the shared saved-response scoring interface.
 - [Case, response and export guide](SCHEMAS_AND_EXPORTS.md), [reproducibility guide](REPRODUCIBILITY.md), and [current artifact status](ARTIFACT_STATUS.md).
 
-The proposal, technical appendix and cover letter are submitted separately. The repository contains the notebook, code and supporting evidence.
+The proposal, Technical Appendix and cover letter are submitted separately. The repository contains the notebook, code and supporting evidence.
 
 ## Credentials and license
 

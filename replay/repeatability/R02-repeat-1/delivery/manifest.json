@@ -3,22 +3,22 @@
   "files": [
     {
       "path": "attempt/approval.json",
-      "sha256": "75db314e673c8f7abf563f0117c3223979c1dbfc562a621cb2fb3cdce69eddee",
+      "sha256": "032b4342c389e06d0830af6caba79e33fdb76ac5d44af40421b0f7f99b13d5f7",
       "size_bytes": 1111
     },
     {
       "path": "attempt/approved-plan.json",
-      "sha256": "49e1a2adf7ba2f2a384a0c919623fa5ecfced3537b02f895bf1baed3ceedfc62",
+      "sha256": "82559986db4eaab7c9baf8fa44b7f1175af8ccff53d10b25d8f31f5957f47f06",
       "size_bytes": 195189
     },
     {
       "path": "attempt/execution/outer.json",
-      "sha256": "a568aabe1b0b3f1fb852bcfd02405213288a9e99411c3049cffbecf7d065a025",
+      "sha256": "8eceb1472fa7c577f67d42b744a2c7b09be7e18943eef9840fb852627760d252",
       "size_bytes": 23110
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-cabinets-base--internal/attempt.json",
-      "sha256": "4d916fb2b6babf71b9f75a8de1d87b14822afb7ea1c7e2808adbada87f2086c6",
+      "sha256": "1fa3ffd49159c7dc022edf838563bb90141f2661a277ff77eb44de34c21505f0",
       "size_bytes": 240
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-cabinets-base--internal/inspect/2026-10-31T22-00-14-00-00_preparatory-repeatability_NkgfMNcKTfKTs8j6ti6Y8r.json",
-      "sha256": "cc209abefc8b9ee9f0afadd32ff448111dc904c0db857f018269074c8327c013",
+      "sha256": "96b37e890272f640e527bcdc162ebb960c6f5e890e46558997945c227fea21d4",
       "size_bytes": 58606
     },
     {
@@ -53,12 +53,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-cabinets-base--internal/verified.json",
-      "sha256": "c5920172582f55335b2c25dc263b6b2d42250da1d7fe787261913dc6fabb4e8c",
+      "sha256": "e09a0101d0ff11580d867c04375b7ee6473740abe58aae19ebe4bdb9907ce59b",
       "size_bytes": 529
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-cabinets-base--prompt/attempt.json",
-      "sha256": "bb145e76231a7964c8cbfa5f8a12458473ce9df594086e97d1d60c93fd3ff890",
+      "sha256": "e6872db37a6bac3e64a41426421a37ed1ce60a9c1916cc240995f88cc8aa432b",
       "size_bytes": 238
     },
     {
@@ -68,7 +68,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-cabinets-base--prompt/inspect/2026-10-31T21-59-02-00-00_preparatory-repeatability_RPWD4Ae2ri2kqgmJtdskGc.json",
-      "sha256": "c1ab07106165089f18992ee4e405c892ccfebd6be70268488193ca199f1bdd10",
+      "sha256": "a0bdbe8de657056cc92c38e7944d7ddba9589f2be1ab6331abd901af50c21989",
       "size_bytes": 60375
     },
     {
@@ -93,12 +93,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-cabinets-base--prompt/verified.json",
-      "sha256": "1f4a466e81ec3f8a3d3639dfc9d1010677f05a470243d71db91885a3daf8d1dc",
+      "sha256": "44144b674ca385ced3d1b661023cdee9634625199a973850ed7124965a8e3cc1",
       "size_bytes": 525
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-cabinets-base--unchanged/attempt.json",
-      "sha256": "9c3c1da68978f26029662ef9df06248918f7e3bb2f6e1297ad67a77d12787c9e",
+      "sha256": "d889470c98ce92aba5750ebbec7d37e3be31b6882d857b274b0435d5f4654754",
       "size_bytes": 241
     },
     {
@@ -108,7 +108,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-cabinets-base--unchanged/inspect/2026-10-31T21-57-50-00-00_preparatory-repeatability_eLobCJ7kuEWNAvR6MV7x8m.json",
-      "sha256": "af3449f5f37e8752274f89e2329551974ed59eb2b1d86af3c12def12e0aa91b0",
+      "sha256": "f566b644fe67c48d1364eeb7e60d4b1ed906a6da0880cc6cbfd50380b78b3ab4",
       "size_bytes": 57619
     },
     {
@@ -133,12 +133,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-cabinets-base--unchanged/verified.json",
-      "sha256": "a64b5394d91c06b159031da1097d463926ab6ce86443a8363d6a14ded806b853",
+      "sha256": "8f504f6865d0669ff33dd77ede3fca5a505c84b13ad267a03f051789ea7dd626",
       "size_bytes": 531
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-chargers-base--internal/attempt.json",
-      "sha256": "625678facc18e778bad7845bd58061d1ea132ceb5ad3e94d5399b80b06ee9695",
+      "sha256": "e4bbead1a9b6201a702caedef6fddb6b0988551d85b7e488c03f41f13c49f817",
       "size_bytes": 240
     },
     {
@@ -148,7 +148,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-chargers-base--internal/inspect/2026-10-31T22-03-58-00-00_preparatory-repeatability_VTvJzcEzkLkNJnkctmT646.json",
-      "sha256": "b476b0d01b2e9165a01c7579aabaf1ac05ca79c99698a8e8a7d5304bcb6b0fcc",
+      "sha256": "ac9cb01128370dbcaba2957679462d9ed3d345bd78a082abe3d363c6958ac946",
       "size_bytes": 58764
     },
     {
@@ -173,12 +173,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-chargers-base--internal/verified.json",
-      "sha256": "ce58f2aa41c94e3cf3e0e7b07fdd8b6d5e7358c812e6cb04bcfb174d0347001b",
+      "sha256": "d9bff015003cf88e9b41d46565a3aa883e2cf6a8b055e3f383792a9b2c5fd6d0",
       "size_bytes": 529
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-chargers-base--prompt/attempt.json",
-      "sha256": "b847b68ffc60dd98d730d565b015b2938749cf77d29e33b25e961672c2ef7724",
+      "sha256": "3494d548216ee703551e833f47a58bb0e1fae33564f10c7f4b80e7069fb46511",
       "size_bytes": 238
     },
     {
@@ -188,7 +188,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-chargers-base--prompt/inspect/2026-10-31T22-02-46-00-00_preparatory-repeatability_eduskAvdxVJ27B6y362sjF.json",
-      "sha256": "ab4db17735a076410e25edb9e65d283917bb9752e095ba667d079adc74b71f2b",
+      "sha256": "6f054fab4e53c0c89cae09d9db93f200d5234462b5176e5ad2c6ec73ccf26b4f",
       "size_bytes": 60503
     },
     {
@@ -213,12 +213,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-chargers-base--prompt/verified.json",
-      "sha256": "89a0ee298ca3c7aaf556df37567e28662e53bbd3250c45aef1666599c06bf0ec",
+      "sha256": "8cd558c88b5421ca3f1ddfdbd5994e36f3124846550ebd5ab69584994c897107",
       "size_bytes": 525
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-chargers-base--unchanged/attempt.json",
-      "sha256": "acf58fca5974fec70ea3de95ff609590ad63fc7782aff2fe2138ce17c8068e1f",
+      "sha256": "ee892b5a9a4bbcdbf479fce59e8b138afbbeafe84001156c655e07d3caabce3c",
       "size_bytes": 241
     },
     {
@@ -228,7 +228,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-chargers-base--unchanged/inspect/2026-10-31T22-01-35-00-00_preparatory-repeatability_ezZHhxzMuCgLKX7eDZ64iz.json",
-      "sha256": "d36d6986fb1d07090c9ebb07ab8d5aff116b50eb2f108e4f03d7852c4a26c246",
+      "sha256": "189aa5dadb8ce761316700804aaed3a4d28de94e2a5d9c922dff6ea5644b5c3a",
       "size_bytes": 57771
     },
     {
@@ -253,12 +253,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-chargers-base--unchanged/verified.json",
-      "sha256": "92b7fcfbc9a8c1053faf443f17da8088000917a543c35570d3a08d8a6a7be591",
+      "sha256": "9ac0cc0c616ad447811afbaa83abc13bff1969631ef99d19153e4782521b87be",
       "size_bytes": 531
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-compressors-base--internal/attempt.json",
-      "sha256": "b9095b64305485f8cbc299bae5d8be1e99e70d13de29e33748f13668a3d8efcb",
+      "sha256": "c0c080b3f9ce911d4beab5dd9637f2266e53304b729764053971e368fa5ef970",
       "size_bytes": 243
     },
     {
@@ -268,7 +268,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-compressors-base--internal/inspect/2026-10-31T22-14-32-00-00_preparatory-repeatability_DSmCadthaFCcmugqAU2h4J.json",
-      "sha256": "045d4bff892dea18f9a4d44ad9ca242cb62d6cea80bc60279608e8e3c8b858fa",
+      "sha256": "cd338fa370d40233297a8d87bb742809fcbbc7ed30160dcbaf65f07ec3530c15",
       "size_bytes": 58730
     },
     {
@@ -293,12 +293,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-compressors-base--internal/verified.json",
-      "sha256": "8ebf210d52a7343a61e8d5bc0c5d511451e832b44d64b6e703eed2fc0c150ff2",
+      "sha256": "25d8efb9bf4526375e20a5a1c3025f8c1a162086ec0a5066662cbc5b233df9c5",
       "size_bytes": 535
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-compressors-base--prompt/attempt.json",
-      "sha256": "2d214ec6d7d4658954d40e41351933e1b91df9176d2091e895134a14067b51bf",
+      "sha256": "700e574bb57ffe3d29ce4f30fb89619f1bde3661f53297f818bdd4e51051eebc",
       "size_bytes": 241
     },
     {
@@ -308,7 +308,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-compressors-base--prompt/inspect/2026-10-31T22-13-21-00-00_preparatory-repeatability_mRQxYbdboJgwAMsjzHfig6.json",
-      "sha256": "71d7314625e5b5f92b58c441189d8dd4c45f65eb24f2f5ac3b7531137e44a72e",
+      "sha256": "cd3a24243aa5f095e591586ad723106605bcc67d5c97b6e15d10f40c4cb467db",
       "size_bytes": 60496
     },
     {
@@ -333,12 +333,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-compressors-base--prompt/verified.json",
-      "sha256": "cd5e35c718bf717c02ecf36bd31831a5a9ebfe4be9ef612e6f220ea14216fa05",
+      "sha256": "303bfa073e313b0b4de06f7f272cef05ea7c8038c0f469a06dddac85a00f8259",
       "size_bytes": 531
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-compressors-base--unchanged/attempt.json",
-      "sha256": "76243a77249e109533e66706dc03200aad2252c42f7ccb2f97fd8f6c25ec2945",
+      "sha256": "5f2081671e1e37c408024afcdead27d5a5dc6f0d24d1f2a0dc21fe54f2dcda2b",
       "size_bytes": 244
     },
     {
@@ -348,7 +348,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-compressors-base--unchanged/inspect/2026-10-31T22-12-09-00-00_preparatory-repeatability_mrdNG7NFVtzzRRsRkejuDQ.json",
-      "sha256": "b5f625e5c1c348442673602cb66110a18f7db480fad54fea5f4733720f81bd9f",
+      "sha256": "c9cf7e83202bb6b7ab68d56293e005f4326a5d27b22f8c6fdd70977dac5a3b2b",
       "size_bytes": 57737
     },
     {
@@ -373,12 +373,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-compressors-base--unchanged/verified.json",
-      "sha256": "a417e2cd7bd2cdedfce32486b81e61c0d5f19c737407dd9da4c9ca3aa00c5a52",
+      "sha256": "654c70387e859528bb451e607f7c71f1170974cd1f68a414f09cfcd4467e7e0a",
       "size_bytes": 537
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-filters-base--internal/attempt.json",
-      "sha256": "0fd956e7a7d80be07a39b2900626b36010991bc44852987c4f3e04434589e9ee",
+      "sha256": "bb69788f0df853655bf9c57fbe3ae444af7c14e3b00bd3e1a373ffb83ffb688f",
       "size_bytes": 239
     },
     {
@@ -388,7 +388,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-filters-base--internal/inspect/2026-10-31T22-07-23-00-00_preparatory-repeatability_RVvNJGTq68yz92TdembN8X.json",
-      "sha256": "24395f54554e5aca70a3f494971671c30dcfeb17031892dd54550787b8d86509",
+      "sha256": "d7983c68b27eb713461c588a94ef29f6eb31ef827a813828af5aa969fc3babe4",
       "size_bytes": 58610
     },
     {
@@ -413,12 +413,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-filters-base--internal/verified.json",
-      "sha256": "7162cc128185a5bead65866105543b3a4d860ecb03e8fe341901bb637936433e",
+      "sha256": "796f354715e8b880a9bb16f9fc5bd91a976a00572cd42054ffbb8b16e2fe18b1",
       "size_bytes": 527
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-filters-base--prompt/attempt.json",
-      "sha256": "c0e2ae8083a1f33eaeac66baa9426bc5a1eb26de9906b27e201e5b022f1c5b67",
+      "sha256": "44e5be6623bbadbf11d0de3c40ff8ba84d19e946b304650d1ba8b7d8f7c46689",
       "size_bytes": 237
     },
     {
@@ -428,7 +428,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-filters-base--prompt/inspect/2026-10-31T22-06-11-00-00_preparatory-repeatability_2r8BMxDTu5MtSQqZsCUof6.json",
-      "sha256": "e60073f3f5b386cd33c5724cd1ac21f2408a9bc56fdbadd41b6cb132e9740091",
+      "sha256": "64026512446660b626d84553b497f5789fede35a31658ce848b62d8cfbf34179",
       "size_bytes": 60378
     },
     {
@@ -453,12 +453,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-filters-base--prompt/verified.json",
-      "sha256": "e420e4d4a9684553e8b55934f8019eed658f8f89865f791c220143fc39e366c3",
+      "sha256": "0b820b264473ffd9dcd9ae0f8e7650a4c0df7bfaa24fe87f8757ae89812c8d8e",
       "size_bytes": 523
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-filters-base--unchanged/attempt.json",
-      "sha256": "f5abc713ef7fccb6606ffaa7a37dedae8a1f2fd6aa9bfe68597c8b00cf260807",
+      "sha256": "9cc1ee26118e965be6a9c4f751060ca2e35e0ab957db362d3c0dcb61b9edb082",
       "size_bytes": 240
     },
     {
@@ -468,7 +468,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-filters-base--unchanged/inspect/2026-10-31T22-05-00-00-00_preparatory-repeatability_ZTZUeCXkyqy3fsN2VMX3wS.json",
-      "sha256": "dbc91f688d0c6e92f9175636eb2b0b0d83cbfe329342e63eee8689f721107afb",
+      "sha256": "6d329e1cc55c828890b25c4aca704282044cd805666997790f24a39a8938d31e",
       "size_bytes": 57614
     },
     {
@@ -493,12 +493,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-filters-base--unchanged/verified.json",
-      "sha256": "8cb86d2a0dbc9d7512d4cadf4effcdfe314f3efd643ba3c1a317e24b81b4243b",
+      "sha256": "4d9cfb1568412386e19564d34d8d55e731a78bb422b3fd6fda0ae5cbde4c56c4",
       "size_bytes": 529
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-freezers-base--internal/attempt.json",
-      "sha256": "e4743eb9effef83a121558bc2a8d2608307f3dfa11df4f832c576c5acd84096a",
+      "sha256": "835945036a16e6565b596b766d36301c79a97aaa16c91ddf76d102226e624d8f",
       "size_bytes": 239
     },
     {
@@ -508,7 +508,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-freezers-base--internal/inspect/2026-10-31T21-49-39-00-00_preparatory-repeatability_Ba5dQbELL9w2VQqLBMhint.json",
-      "sha256": "b4a32249dd83fdaab96fa90106481f52591543abe62795009d094cace8b009e0",
+      "sha256": "f0c57b237c9c312d77f9194232560df33dfb9985c7e3751e8be9f35f514b5b61",
       "size_bytes": 58775
     },
     {
@@ -533,12 +533,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-freezers-base--internal/verified.json",
-      "sha256": "241b9b405e7bb302c237e898de426d8e5bd93696b486c45470928feb6f59d9a7",
+      "sha256": "3bf136d50265479ccfbb44bdc883d2563f8f13bf31a874e588912a561f1b38de",
       "size_bytes": 529
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-freezers-base--prompt/attempt.json",
-      "sha256": "3a8b2e0ef18e97d6ea89a89142779f20b82e56e7884cde3ba4d4af2525156a67",
+      "sha256": "8618a0fbac70fcdaeb6ddd7e5aa9fbddc062b6031491a9d864003b64c60b98bb",
       "size_bytes": 237
     },
     {
@@ -548,7 +548,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-freezers-base--prompt/inspect/2026-10-31T21-48-27-00-00_preparatory-repeatability_EDEfuL5GhfbUMmoqyggs6p.json",
-      "sha256": "803492d4d0e2e6ce4e6b9dc0444535c27e1e748b1f60291c7d07ff74637c7eb6",
+      "sha256": "ca54149df58861325fc07ac979b59db3de9e5e6d5ee2efe4446a0f17e57ae34a",
       "size_bytes": 60534
     },
     {
@@ -573,12 +573,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-freezers-base--prompt/verified.json",
-      "sha256": "b10dad301f55eeb2d905d1ddf192aa2f5e4f8ae1f188cca519c4536dae2177ba",
+      "sha256": "305a97824ffb75b49417983ef964ae5eee563726451e58b5033b2c0f676e52cd",
       "size_bytes": 525
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-freezers-base--unchanged/attempt.json",
-      "sha256": "9e2ebf2339caf79cea526747e05385b2b555a7a70b3a8aec7543ca18a1a16c8d",
+      "sha256": "a525c9642197f6f1b088013a257f6f2571d41b19c944e2d4df8f24573c489261",
       "size_bytes": 240
     },
     {
@@ -588,7 +588,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-freezers-base--unchanged/inspect/2026-10-31T21-47-16-00-00_preparatory-repeatability_BtGF8eNbcb8BhKkCoRWqYr.json",
-      "sha256": "9abf8e31b6bdb6ddf4d44fab2e1318b4268f658a54f394687f12eceec354ba66",
+      "sha256": "2445e77eedadbca161142fb8482bbff2c5de107c1542a7a2708449285075d59d",
       "size_bytes": 57765
     },
     {
@@ -613,12 +613,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-freezers-base--unchanged/verified.json",
-      "sha256": "8e7972b535f2258faba4119de8c8bf211e61744564044f8bbc51e63cf6d36e77",
+      "sha256": "c663bd830e04d2348592f7379ea4daee37cac8f0d28ad22507412fbd2e2092ba",
       "size_bytes": 531
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-meters-base--internal/attempt.json",
-      "sha256": "510f89f83e7495af9785ea6f6d5225b79de2a75dbe0e4cf83aa0eb6fa786b9c3",
+      "sha256": "2324885899a8b0569737a7300b42d1ae211f8253317d960b741d196e2aa99f0f",
       "size_bytes": 238
     },
     {
@@ -628,7 +628,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-meters-base--internal/inspect/2026-10-31T22-21-42-00-00_preparatory-repeatability_Sf29MMHJZXuKRoCzWCEvpD.json",
-      "sha256": "d228747eb00295b4798b06cd00c2cba52c32b84d05bf96f3d0ff02fc34e384b5",
+      "sha256": "2e56079b874eca96a484d6cacfb19d89aef8406bdc95bdcfc114628ed3b1ea3f",
       "size_bytes": 58713
     },
     {
@@ -653,12 +653,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-meters-base--internal/verified.json",
-      "sha256": "795129e5208c5860d069b9d83813e9c19b06b2be034ac399ad4005677e200c01",
+      "sha256": "92793c2c2bdd43a3ecc250f232801e772eab4b039337381227ac06bb56f2344e",
       "size_bytes": 525
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-meters-base--prompt/attempt.json",
-      "sha256": "4388c5c164d09d67eb814f6cd0dcdd50a9ecc858ca5994fb2c3705a194687e10",
+      "sha256": "7435b59ac82e799e91b4080535db13aaaaf506d08859db40c51a447668833dc7",
       "size_bytes": 236
     },
     {
@@ -668,7 +668,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-meters-base--prompt/inspect/2026-10-31T22-20-30-00-00_preparatory-repeatability_TRcSxB3EUUaHyBjzNCQNSw.json",
-      "sha256": "c6185ae0fa747d67c018bb778f386aaff753c8044fb4f19bfe0763e58979db31",
+      "sha256": "8a9a81facaf0a1b4299b65376577ca17bd5afa6fe4c151f6177cb45bde42d2bd",
       "size_bytes": 60473
     },
     {
@@ -693,12 +693,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-meters-base--prompt/verified.json",
-      "sha256": "eb80ef240967a583c9624316e39a30be4f7c9f7daca7034c3966d33f6afd352e",
+      "sha256": "96a56a675e3c25705dbe11ef20daff37ec5c4498cee24c36fc6821a24f367d32",
       "size_bytes": 521
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-meters-base--unchanged/attempt.json",
-      "sha256": "a23288f4d918eaa75a36e8b7e30a78cf6822123616b4b63c17bdb4071bb0cf04",
+      "sha256": "10322b16393ce5951ab414ce63d9ee4f6c6615a7cacae1d28307158a653df6d4",
       "size_bytes": 239
     },
     {
@@ -708,7 +708,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-meters-base--unchanged/inspect/2026-10-31T22-19-19-00-00_preparatory-repeatability_4rTQkM39EFnxRkjWtoxr9X.json",
-      "sha256": "7b2bc88e6aae560a0f5b9607154c836b2a99e5edf3ef42c9006f84a86cc97ce8",
+      "sha256": "dd875d42f0bef2b34881cee75daef0becc97fa4d8bcf9f5753ba31036a2a3d38",
       "size_bytes": 57732
     },
     {
@@ -733,12 +733,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-meters-base--unchanged/verified.json",
-      "sha256": "eef2a0a1dcbc9ab29c045795c8ddb8c58ac9a6512e8c2932224cfa54ada1bc67",
+      "sha256": "e759144c8b686d5595e6648ac9bb024a2676d4f79ad3efb7aaf284c0b670ddae",
       "size_bytes": 527
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-printers-base--internal/attempt.json",
-      "sha256": "a4c3b6b4ca39bee9f334ad2c07ae2132ef7ec7253a904aff63786c98ca56ade3",
+      "sha256": "44419f6431e7f17e199cd2a6bc77b5bb9eaf8ed8ddc6c77af1f5cfe473ddbdf2",
       "size_bytes": 240
     },
     {
@@ -748,7 +748,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-printers-base--internal/inspect/2026-10-31T21-53-04-00-00_preparatory-repeatability_jXwfjVP4JjNyStaJfQnxks.json",
-      "sha256": "fa531225bf7fe049dc89d5c6fa87ec5c93b8756e670ac747fcdf9e0aaad1dbfd",
+      "sha256": "a00398aa23d2b651e2756ec1226bba4801ddb0f6b136168a42f5ec7b6f253ba5",
       "size_bytes": 58643
     },
     {
@@ -773,12 +773,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-printers-base--internal/verified.json",
-      "sha256": "f0ccf02da8fd853f68a8654ea7505c8e228b8cd1a77ae51f379f073f03f0c231",
+      "sha256": "74b6bf1076d250b7977ef82c4f5866e0144aca36fa8845426a14580bb7000086",
       "size_bytes": 529
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-printers-base--prompt/attempt.json",
-      "sha256": "10e0bc6a5e8783da30c5c952137b72017dd5c8f9fdce1cea7fedd89f1c50eb20",
+      "sha256": "d83827b7a60e3eeabe2d68274f71ac9035bcfe753c19c242aed7b63880ea4d88",
       "size_bytes": 238
     },
     {
@@ -788,7 +788,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-printers-base--prompt/inspect/2026-10-31T21-51-53-00-00_preparatory-repeatability_Qw2LtGqisQiQdJHy2XF5T2.json",
-      "sha256": "f69e0ba9a95f90de11997f8de073ff5a709cb4ced4c0c4a46954a0ccecb929ac",
+      "sha256": "2d9aca5e2b6e1c2e515549bdb9a691d6b07a7ad881876cb597c4e3720fd480cb",
       "size_bytes": 60425
     },
     {
@@ -813,12 +813,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-printers-base--prompt/verified.json",
-      "sha256": "388b394442bcaaef547b7cbdcc66e121d6e6e35a3e7155de73866b97143f4d39",
+      "sha256": "b2615a566ea414ae069ce018bff38ba39fd3578dc1caa42cdee0b982dce2d97e",
       "size_bytes": 525
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-printers-base--unchanged/attempt.json",
-      "sha256": "b2c5520fee353c8b9b61295f9417ec535d5d50abf8a98e6b56f77db39aca58bf",
+      "sha256": "3f61428e964c0a07d2d9daf6bc79dc13a9a930f12e0d0e36497db07baef45793",
       "size_bytes": 240
     },
     {
@@ -828,7 +828,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-printers-base--unchanged/inspect/2026-10-31T21-50-41-00-00_preparatory-repeatability_Mm2Q3esJ4D262Nzdhxe3ob.json",
-      "sha256": "b8611596d20bee6440a87fea3345e0acc24086a8ccb5e2eb7ee630cfd0d289d1",
+      "sha256": "b17065f4a373ff0258326c5df4563011f3ed4d492eebaadd29cbd162e28eb29b",
       "size_bytes": 57673
     },
     {
@@ -853,12 +853,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-printers-base--unchanged/verified.json",
-      "sha256": "e228783ba1b5efc75e6481eaa9bd383ce32bfe6d32e3871ca5ba9d9d76db80c6",
+      "sha256": "4bbacea9591cde5ea76f898678516df0065adfb0f30e0369206df7d1b3b2c2be",
       "size_bytes": 531
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-pumps-base--internal/attempt.json",
-      "sha256": "131d3600e72b898ceecb003a14151038831179b2f74345d1d1a32f848b21dbd7",
+      "sha256": "2b41463aec4898e9c154e40226166651a2b680fbf23d7984cf8557fd338ba6e2",
       "size_bytes": 236
     },
     {
@@ -868,7 +868,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-pumps-base--internal/inspect/2026-10-31T21-42-30-00-00_preparatory-repeatability_e2fasZmCH28vNEBeqnh982.json",
-      "sha256": "8240ac200316b16b8269422a4050d7815dd56dcb129b4af3f5792757c9871507",
+      "sha256": "3d06e0d0a8164d046ee6d611a9726f4587a9a37127df98953f756d55b0b5f1ac",
       "size_bytes": 58631
     },
     {
@@ -893,12 +893,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-pumps-base--internal/verified.json",
-      "sha256": "664be4b732cb56511d7cbf472cf861dd744549544215387f501702b4e51a95f9",
+      "sha256": "ea8b679be7b19a6916a8f4b3b5de92ab6e39d08f1f692b1cd500e4953d82b4c7",
       "size_bytes": 523
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-pumps-base--prompt/attempt.json",
-      "sha256": "2015984dd719d10e422d8c2dd265dcecc50d39428a511fdd01246805169fa519",
+      "sha256": "94320a17eed1552024d58faab9cc424531e4c1ad1a5d16a222511a7206687be5",
       "size_bytes": 234
     },
     {
@@ -908,7 +908,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-pumps-base--prompt/inspect/2026-10-31T21-41-18-00-00_preparatory-repeatability_FbRQvakosvpCLA5NXCPiBC.json",
-      "sha256": "a8efaab6976eb149336882f99d3db1281c203e7023c179fcf3743736138218fa",
+      "sha256": "73a05c126d5bbc2a3ab55dc5adad78949989835c085c6d66de2b5a1650edb9c3",
       "size_bytes": 60370
     },
     {
@@ -933,12 +933,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-pumps-base--prompt/verified.json",
-      "sha256": "67234bfc608407a4087a70c2e437ba850ae60e3dd90678c9ca9b64738470be69",
+      "sha256": "dd3c84c9c2818118ddbdbe367fe90c814fefec7fbfb98f3b78a7e6b01af18f4d",
       "size_bytes": 519
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-pumps-base--unchanged/attempt.json",
-      "sha256": "331f41489651f6d7ea283c6a6cbecddf22a5fd657967072a15f238f3c37afd05",
+      "sha256": "6ecf7b0c57fc15cfae37cb404c39235bac8dc3075f40e0f3d46fbd9ec5549daa",
       "size_bytes": 237
     },
     {
@@ -948,7 +948,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-pumps-base--unchanged/inspect/2026-10-31T21-40-19-00-00_preparatory-repeatability_ChsJdLMmyMoRhgWYc4Y7oM.json",
-      "sha256": "3b8398ca2d93e4c4b00673174b68a0f3250668079ed347bf1128141716bb538b",
+      "sha256": "a4225e3398dee9debf7c0eb87a36ce364ab0c1b79d36798414d3840be8bc3ee9",
       "size_bytes": 57645
     },
     {
@@ -973,12 +973,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-pumps-base--unchanged/verified.json",
-      "sha256": "9a4ed641ba066544c7271b134858494070da160d58019279ed2ced46d1130b71",
+      "sha256": "cf1e30faf78e3034ab16502c38142c1abaed189e4deab384e71a97f2fd24eb87",
       "size_bytes": 525
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-routers-base--internal/attempt.json",
-      "sha256": "3d5d5cbe91a3ba85d8eea941ab88f61e601ccf177eb1dbd02552c433b4556c65",
+      "sha256": "2865d3dc8f5437746b9624ff933793052d6b48015142ec9f5cde0b79aad21b8a",
       "size_bytes": 239
     },
     {
@@ -988,7 +988,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-routers-base--internal/inspect/2026-10-31T22-18-17-00-00_preparatory-repeatability_GzghnuKvDBKNrvHDe6iKHa.json",
-      "sha256": "27da5eeebb14f2331fa6e5780b8f253592a5c8907c725fb0eee2aeed5d2e96dc",
+      "sha256": "1dc72116a3e5ff1d6d77d6a841f78d569b54b58746c7bc414a19ffe7faf639c1",
       "size_bytes": 58697
     },
     {
@@ -1013,12 +1013,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-routers-base--internal/verified.json",
-      "sha256": "c64271708bf81ca2a161df02eb27952296702fb8a0de5d6a83b611ea6c084980",
+      "sha256": "b2b061b98bdfd32df913b68459a6767870b86b153036b9b6b5c81e0552740dde",
       "size_bytes": 527
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-routers-base--prompt/attempt.json",
-      "sha256": "92cba8f8025a1113f6d23a9f46e61452c3020213e1640b964432e562ab1772de",
+      "sha256": "e9beeb0c7cf27502513303815df125586e06d2b8cd066e2adbe31b3cdbd8b25c",
       "size_bytes": 237
     },
     {
@@ -1028,7 +1028,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-routers-base--prompt/inspect/2026-10-31T22-17-05-00-00_preparatory-repeatability_BbTVfY64HRUhB8aSVCCB43.json",
-      "sha256": "657e057fa0557f25ca3471b464de9484e16b6a2bd5292568668162b9f1697046",
+      "sha256": "e0f3236cc2a118b12be601d11501db9052b14b72cdaa2cd8865dc4ceb3837ce1",
       "size_bytes": 60464
     },
     {
@@ -1053,12 +1053,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-routers-base--prompt/verified.json",
-      "sha256": "90c265b7b2d2c7af8a990d9fe81d850174b085827fc8233a9beba130de1b515d",
+      "sha256": "183d44035254373551544601e95082bbd6a20b9a4585c19e73e63dff8b337db5",
       "size_bytes": 523
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-routers-base--unchanged/attempt.json",
-      "sha256": "a4f2ed338b8d5df5cea758ea2b208e0d2c2932c99f37f1b092005ea14425ee63",
+      "sha256": "555bba0c3fba01295bdef4b3105669b2bda88876f61ecacd6f4109a26e3a6c0e",
       "size_bytes": 240
     },
     {
@@ -1068,7 +1068,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-routers-base--unchanged/inspect/2026-10-31T22-15-53-00-00_preparatory-repeatability_Wo7oZYeN8jzn3M4Vk9PwD9.json",
-      "sha256": "5d469c4ce29328ec4ea762ef7930319577cd21edfd208171d21ef5320d105161",
+      "sha256": "9b2b615f023b2f42f6ed9a53226149ddfc3c9bcba21d72797d866ce00fbdf792",
       "size_bytes": 57717
     },
     {
@@ -1093,12 +1093,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-routers-base--unchanged/verified.json",
-      "sha256": "bb786947bd6a87d98e4ed0285e9158d6ceafb13e0e0ec7849d4155d99187278c",
+      "sha256": "301c5a36fe802f4ce4b62b65d7ad8ff5f447ed965324efa2e4d1324746775f1f",
       "size_bytes": 529
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-scanners-base--internal/attempt.json",
-      "sha256": "cd8b37c5e479173857e800fe37322f9464c7280e6898b8a464b33bc3c07e626a",
+      "sha256": "083149e8dbad916999c8e2ce6d8732f8515355385260728f1d0dbe1d79e9c235",
       "size_bytes": 239
     },
     {
@@ -1108,7 +1108,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-scanners-base--internal/inspect/2026-10-31T21-45-55-00-00_preparatory-repeatability_Q4YHMoc43XETZkoayTSPrD.json",
-      "sha256": "9d3a40727c09f3477ca3a5a0c8547a3518e1a37c4dcdbdf8759d9c759381580a",
+      "sha256": "ebf46534d683ea247a71c114c89e3a6177f070e7178cf26f6fa2dec272ff4b07",
       "size_bytes": 58842
     },
     {
@@ -1133,12 +1133,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-scanners-base--internal/verified.json",
-      "sha256": "9c1c4caaf90e1963fd2bfee3db9a5f396655e528ede64a95bf715d68c848d4a2",
+      "sha256": "30ccdbeeeba58f4a13a0d194f46bdf9142111e89d7552809885c75cba2d10774",
       "size_bytes": 529
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-scanners-base--prompt/attempt.json",
-      "sha256": "216531875d02d1515512b7fea2fbbbb7fc9aa07650a72549cf4af4a2259c29dc",
+      "sha256": "2ae6676eb1803be16dd94f548a345c4444e7c60a1892d7c9344d8e6ecfa130bb",
       "size_bytes": 237
     },
     {
@@ -1148,7 +1148,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-scanners-base--prompt/inspect/2026-10-31T21-44-43-00-00_preparatory-repeatability_PJVuCMhyrTd827cxrG7iZ7.json",
-      "sha256": "e70c4485f8c5eca2d0c1aa8128ddd6e8b76780bd81e970c09c1cf5f81a4017ec",
+      "sha256": "eaa559b36bd8f9e3d02246ed72009f6acddf4320c77e726c26f4d168c2b29d30",
       "size_bytes": 60605
     },
     {
@@ -1173,12 +1173,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-scanners-base--prompt/verified.json",
-      "sha256": "e17835d79fc03d67c7daddc7515d811e75146ba541c8c15b9e16a13fb93cf500",
+      "sha256": "061c4af1929a5f730bc777840d1209f3ba3b1f05937e4e28ada644a33305906e",
       "size_bytes": 525
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-scanners-base--unchanged/attempt.json",
-      "sha256": "87fa16025e8272ecff6cf3c791e576a15872680fe417ccda5309b5be5120b7c4",
+      "sha256": "93f544d07cb36ffed7e124c8397a6b1146d90dbaff8a268c12c9cc7fe01bb06c",
       "size_bytes": 240
     },
     {
@@ -1188,7 +1188,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-scanners-base--unchanged/inspect/2026-10-31T21-43-32-00-00_preparatory-repeatability_FPEsxvnoPXZ86y4CBX9qcx.json",
-      "sha256": "af4c95f9cb0587ab8b4282bb327a751280c6d9f35f85b7eff2c931dee5b99d01",
+      "sha256": "e8c29503e64a297659c7d4803558f9c94adbfb732cc136268b6d2a00d4cb2bfb",
       "size_bytes": 57852
     },
     {
@@ -1213,12 +1213,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-scanners-base--unchanged/verified.json",
-      "sha256": "fe296304ded48c79abb39e000269b4ac8d95b48851ecec69b208e424361b7c04",
+      "sha256": "7a30e0ea81d28304ee4d401b936f34cff78c5a77759c72d2de8ae962d217bd0a",
       "size_bytes": 531
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-sensors-base--internal/attempt.json",
-      "sha256": "4861db1b9ffadd48c35dfe599394af9127063b73107ffd9b6660ef7201174a4c",
+      "sha256": "05f2ee18fba989691e7a87ae4c9931017a66dbca86b6b41f78c3807eaebf37c2",
       "size_bytes": 239
     },
     {
@@ -1228,7 +1228,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-sensors-base--internal/inspect/2026-10-31T21-56-48-00-00_preparatory-repeatability_GVtHicq9Sggqxz8UGsSGiD.json",
-      "sha256": "37152983ebad9e3c31f90ee5a0cc9e7809ba685ebce3268b81277b283c0b8675",
+      "sha256": "bc68b26af972423f2d1b5b5bfa0f5195a5d91579ccd8e37cdeed06154d37a4a3",
       "size_bytes": 58764
     },
     {
@@ -1253,12 +1253,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-sensors-base--internal/verified.json",
-      "sha256": "c59f833095f5c126b37e8632d68272045d183a727dc6cf8729b1d68309b1ff24",
+      "sha256": "d1b7e9001ea704d18054f96444d320e158d7144d59c57437d50c135610ea0745",
       "size_bytes": 527
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-sensors-base--prompt/attempt.json",
-      "sha256": "ebbb5db94e3c1f3b67b07e82508c05134b30820b7c091dc5c18e6dff132e0544",
+      "sha256": "7ddfb85e71492d37af2d852a0a5716ef595e0e93b444f41d626d80163698f416",
       "size_bytes": 237
     },
     {
@@ -1268,7 +1268,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-sensors-base--prompt/inspect/2026-10-31T21-55-37-00-00_preparatory-repeatability_hM6PhuKUNbQFkZR8UYup8w.json",
-      "sha256": "2e15d76dc545c06a341510b6aa4946fe0d703bde8b44b0d5c91b73fbd01a1d82",
+      "sha256": "572a650f41a21fc824897f100c8f831f81b41145c44f1624147fd15fbf6c6364",
       "size_bytes": 60514
     },
     {
@@ -1293,12 +1293,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-sensors-base--prompt/verified.json",
-      "sha256": "93ce1c6dc157e11c197cf4bcc57224a1ce88cdc6bca745876b1a0e339c6a9f8b",
+      "sha256": "573b1299543558fbb622357e9802e42fa6ebb16e1e2b086800f94b92109bde06",
       "size_bytes": 523
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-sensors-base--unchanged/attempt.json",
-      "sha256": "82f5568c1ae4b79976efbdbb3263961bb359b3c285b367cd63bfe27b7f2f5054",
+      "sha256": "8df11947a2091aff295ab44c1c343bd29f9b75f3cf9d8b28bd84b77c6c67d75f",
       "size_bytes": 240
     },
     {
@@ -1308,7 +1308,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-sensors-base--unchanged/inspect/2026-10-31T21-54-25-00-00_preparatory-repeatability_PpjFazKq8eZCivQE4Vrivi.json",
-      "sha256": "d2345f072b7fe380c943c26c0b79a54ad808d6295dd6fd24e83a1f44bc18c00a",
+      "sha256": "fd769c07a3cf0df2e1c208702551f9e7c97418617dcd40a3fc551b0727b32c33",
       "size_bytes": 57772
     },
     {
@@ -1333,12 +1333,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-sensors-base--unchanged/verified.json",
-      "sha256": "4b65d66911a4fed65f47945f2fe0e4fd00cbbee6000a8091b28091105334b04e",
+      "sha256": "9e12bddf9747864264e04b8ed09ac7a861992169c5b9140c991071413e2debab",
       "size_bytes": 529
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-terminals-base--internal/attempt.json",
-      "sha256": "2fa7d8cb66b21ebce116ba1b1abaf07f47b7a27fd182015dd7b236472013c419",
+      "sha256": "15c072f5dbcb2d2fc34440c0768458e4af83baef51dd019b8c3668cb0c516ee0",
       "size_bytes": 241
     },
     {
@@ -1348,7 +1348,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-terminals-base--internal/inspect/2026-10-31T22-11-07-00-00_preparatory-repeatability_4qemJLpf3Xbu9aG7cfwLCr.json",
-      "sha256": "232b36b2896c95cba02409caece6b68b4f900f4706d4ed339a4db543bd0b240c",
+      "sha256": "a041f39fe8150d7ee45d0fb405369d7d213906b3ba50d5e6a4ae8a0b4b35c9fa",
       "size_bytes": 58573
     },
     {
@@ -1373,12 +1373,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-terminals-base--internal/verified.json",
-      "sha256": "81a24ac17634ca6f16e092c03bb363614f3d846c74a2164dce862fc478383b62",
+      "sha256": "8754d10b64480fac6a89453f80e48124a41d17a3a4d6ba175021dd09d3e670aa",
       "size_bytes": 531
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-terminals-base--prompt/attempt.json",
-      "sha256": "0059123325cd48ce80f6ffb4f4aa8c43afc867eee26ac4f656d08ca75bcc5fb2",
+      "sha256": "474a8f629ea569e2791527da6d14680594229683d438cbd3a924b75c13c3aa82",
       "size_bytes": 239
     },
     {
@@ -1388,7 +1388,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-terminals-base--prompt/inspect/2026-10-31T22-09-56-00-00_preparatory-repeatability_oBJAucZhSvD5qLQD2AfrkW.json",
-      "sha256": "f938a0bddc0169d6111e8b8fe3e54b23c623fe32a352a4458f639c6d9fb724a2",
+      "sha256": "9ea41e0f0bcb50d696b136c2129e8c8394dfb470f31c4f3b7fca825c068c4359",
       "size_bytes": 60324
     },
     {
@@ -1413,12 +1413,12 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-terminals-base--prompt/verified.json",
-      "sha256": "fef2ef46d2832b7a11f5bc4f8c55be24fd85c0789ccafb1f1a035e7a5a1647e0",
+      "sha256": "e1bd15819980d81cc1893e31e01e26dd0d167e2dc48cefb287e53593cbf7e6a1",
       "size_bytes": 527
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-terminals-base--unchanged/attempt.json",
-      "sha256": "aa42b397cee3d58db606b0bc261461321318cfda27b0ccad7015a743b20319d3",
+      "sha256": "4b670184a0333d0711890ef8c84a1e56e57ee2ce8eb7e989bfe309102e3cedc1",
       "size_bytes": 242
     },
     {
@@ -1428,7 +1428,7 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-terminals-base--unchanged/inspect/2026-10-31T22-08-44-00-00_preparatory-repeatability_WBNi35XZ5N725JjzWV3Wz2.json",
-      "sha256": "15a3cd8ad7fbbe2085d3d5cdb7286c928a131f786969a4e86fb7e1b10b0c2376",
+      "sha256": "4088347966b56b743b8f1447e39fea599156cf7198e71c0d365b89197e23808c",
       "size_bytes": 57587
     },
     {
@@ -1453,17 +1453,17 @@
     },
     {
       "path": "attempt/execution/trials/negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-terminals-base--unchanged/verified.json",
-      "sha256": "322800278ad39422139cf6df56525f26fbae436ee154751d1981ba576ccd2e01",
+      "sha256": "c179cc25df0aa52008b4364c301ce89d7263696162333f31ba08cf93baebd677",
       "size_bytes": 533
     },
     {
       "path": "attempt/process.json",
-      "sha256": "a79314554c7269dfa212baf95a32395fa7b079a6c8ac1c05d5f84988ba2a1f4c",
+      "sha256": "9f9ac8e5387715101ef6e185c629028887fa434973320f06e1c05a507f18b947",
       "size_bytes": 216
     },
     {
       "path": "attempt/result.json",
-      "sha256": "5a971b2e55121ff1a586ee255586d8eb2ee232428cc23b5ca4c52b2b628c991b",
+      "sha256": "b360651bc0604a905f7d7ef3988f4b648b4e54421f7cdb59ed3c0f5aebaf1059",
       "size_bytes": 651
     },
     {
@@ -1488,7 +1488,7 @@
     },
     {
       "path": "claimed.json",
-      "sha256": "8a7220c4c51ba60803bd8603c6ff88483b648b17338b6cf0de65273295eec832",
+      "sha256": "3916a25f3224f301da24ee1b294dfed5e8aa4e06199abf7bbc1f8fafaeb380d9",
       "size_bytes": 160
     },
     {
@@ -1503,7 +1503,7 @@
     },
     {
       "path": "terminal.json",
-      "sha256": "e2a41f4b2fdca2fe33c7388815752c170d0025da676c9f07add4cb1d9be2f522",
+      "sha256": "0e4e2568734701ba607b88cf63bc8489f7e13eb3d3f0389367de024412c104b4",
       "size_bytes": 282
     }
   ],
@@ -1511,7 +1511,7 @@
   "schema_version": 1,
   "terminal": {
     "automatic_retry": false,
-    "plan_sha256": "1c85479ab372e13ec72d3d257375ae07c0e66520f9f1b2c5286872898fc166c1",
+    "plan_sha256": "396e17a1ceef23f025b38a72065472a2509df5ef3959db8785831712ababd64e",
     "process": {
       "returncode": 0,
       "timed_out": false
@@ -1519,5 +1519,5 @@
     "run_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1",
     "status": "EXECUTION_COMPLETE_NOT_INDEPENDENTLY_VERIFIED"
   },
-  "transport_sha256": "ad01fc76bc6b7f6dd0a3bfa5b089732c32ad874a1e68f1c46f7418a48bd61205"
+  "transport_sha256": "009450a8b8e20dac7de271d1aca5b0ffc1add1e7cf7a5b115d02d8904f1e801a"
 }

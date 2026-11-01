@@ -1,0 +1,12 @@
+{
+  "attempted_trials": 11,
+  "automatic_retry": false,
+  "completed_trials": 11,
+  "concurrent_generation": false,
+  "failed": false,
+  "generation_attempts": 11,
+  "generation_attempts_lower_bound": 11,
+  "generation_count_verified": true,
+  "model_load_attempts": 1,
+  "reuse_policy": "same_admitted_weights_new_pipeline_and_dynamic_cache_per_trial"
+}

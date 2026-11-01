@@ -1,0 +1,11 @@
+{
+  "attempt_index": 25,
+  "concurrent_generation": false,
+  "fresh_dynamic_cache_per_generation": true,
+  "load_index": 1,
+  "load_record": "shared_model/loaded_model.json",
+  "load_record_sha256": "6d8e51a4d8d26aa51b2374a49403a83cdefff352fc70dcbb9cbd6d4a4ae3cae9",
+  "past_key_values_supplied": false,
+  "reused_weights": true,
+  "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2--prospective-20261031-terminals-base--unchanged"
+}

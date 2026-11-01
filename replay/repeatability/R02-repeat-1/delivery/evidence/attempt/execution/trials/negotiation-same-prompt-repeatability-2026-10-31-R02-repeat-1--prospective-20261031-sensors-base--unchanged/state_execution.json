@@ -1,0 +1,5385 @@
+{
+  "records": [
+    {
+      "application_rule": "cast_direction_to_model_dtype_then_scale_then_add_at_last_active_prefill_position_and_each_decode_position",
+      "applied_direction_sha256": null,
+      "attention_mask": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cache_state": {
+        "cache": {
+          "fields": {
+            "layer_class_to_replicate": null,
+            "layers": [
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "32cc4448e0ab2dddf92a480ce60f98fe97a1bb4f23cdab0454082a0b2cfdb0bb",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "e2306a1100ea05b0ffaf26c0a04b2705e11406af2754d98868a0b6f1f9b5d167",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "05b7c9c59209eed1df776f3b2fedb60a999fefde5599dde542a56345968e26a2",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "6cbc706c0ca2a566448a07f1172e760d84fd04a9326615d914fe64f4cbd012a3",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "2caaaa94070fd2f419728f028af63f9e23559a50ae5e8ee5c0b55f7e46ae1366",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "55644ca012057267c6b460505de300c8c8cd113c7d32248f171ad40b949d27e8",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "is_initialized": true,
+                  "keys": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "397ef49d21680261cc6acf5379b581e45f7e6436e9f3e9f44aed0fd2cc062666",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_key_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  },
+                  "values": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "e53adce8fcc0b1d8a3f880598f401d11ebc5419e6c8f2f54e9a5d619e14c14d7",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_value_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  }
+                },
+                "object_type": "DynamicLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "a08b5cab1ffe8eac2e70b7ed68c6a9059855122499653b77a73864d61d2e4495",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "548490884deceadd467e1c07d18bedcf69f591a6db888be30769cbdd3a63bd09",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "db290b5b61c7eaee6ac7131d019c19f7f76c0024af95e0081d177124961cd5c7",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "3a0b4701b78e63f05a85b7dd5414a1c601964d8a74a6e52f7cbec95a914db398",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "fe75f51f05774447513a03b562ab78f7dc68d4eb9ff4f49e9a0736b0f07ade48",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "9e15fc9d3baffa7e17a670927b8fa8cf6f9a082a60668eb91fa340a4a96261f5",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "is_initialized": true,
+                  "keys": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "7d75bc4fdebcfff74ef23cf7faa6712a25494cc4fbc5e747e9bc17b10c56a078",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_key_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  },
+                  "values": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "f8814241a719dc031d1f66b3909c10a87db2b8867e86dd81c5c0cb76a6e08156",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_value_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  }
+                },
+                "object_type": "DynamicLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "d2b1e6085fd72b105128dbd351702c9cd047f9ed8981d641dcfd9679e9ba2a30",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "9a8fb8a8fd68db22c41df446a24a60b87ccbbd78dce92a189697b5175c35ea29",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "5d3f01990bb93bc13eb0ed569bbb2af2f6a1c50cbecd4baaa0cb4f3f32529af4",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "9730b1b8db9c92e8d1c72222a6e09d2084921b44aa9815acc2d2d9aa946099b6",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "73545c72379cad05abeb9cf396a96bf356ca8eba2f83f0a4610caa52933cbf58",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "5b61139ecc9a15d6f6b4790487e9416d29081367ae55731349d34cff32636fb9",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "is_initialized": true,
+                  "keys": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "df14aff0708e1c38baa6f0349c3b50a57626764e2d43b545af3e86a39455596a",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_key_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  },
+                  "values": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "651b971546a1058ea88a20487be81141c254259df4a9b1469d5dc09b76657d8f",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_value_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  }
+                },
+                "object_type": "DynamicLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "366a1155989a9a773ef8a21f96113473c2a9f82bdc13c865884bf27d9c6135fe",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "c4a15ea6f18113a20d4e1567e1070afaf5b4f0bc329611f6f8753bf85aee4780",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "450a35fcc8c1ba19bef79f9f05ad10af35cc1bfc8b90e15be228dddf7dd6fb75",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "9211658fd9fcc840693256351e4d750913c77d0f67b4baf97b06d2905c8a1afe",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "db62e5a4b3cbaea375eb600954feabd58952f7e3dec8f43e913916b7c05475a3",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "71e5083a59ddf55452f3ca91bc1beb991b7a089c4adb90b40cd2795a2a3e13f6",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "is_initialized": true,
+                  "keys": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "1811669106a432cdf51d7c0b2c9022c62acfc9bb48726aba4d62a4943b2a7c4d",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_key_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  },
+                  "values": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "a3dc4f5213ccc5cf0bb2e60b236fe6421356b62c100b33b29381304629fdcdb5",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_value_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  }
+                },
+                "object_type": "DynamicLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "b80468b5bfaa3baedb971e7322f4fd7fd8ced95136938a71cc4452e891a30dc8",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "d7ff63298829f4fee31a4fe6805db50a3d99d4b543dc9237933bcde165f416b0",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "4a21733d6a74ee6d8cd6d4215898a147f1f2016bbcf674d186cd40b365ee1290",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "0a65dcb3ca0c7d82d1aab4cba757fc318b2d9e0bb40a0dffe62fa018f2bae930",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "99a2de6bfa816e782a389e29f7343867ab8b86caf0ece43d948b787b556439e4",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "5f4886fac778b34b319324d15ee9b77235ec94dab72daf88924390e904ebebb9",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "is_initialized": true,
+                  "keys": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "5d0a27bc735721b4d18713e3df389735953f60be207266da2ae99cdc581f5d16",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_key_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  },
+                  "values": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "210540820ffcfe9161d7d05b3ad468996351bd04a82a01f335f93f2b658523ff",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_value_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  }
+                },
+                "object_type": "DynamicLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "e951eec3700faf17a6b01ac7580f64abe091f8e5539500a9a646158f49ffb9f8",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "8b712828b1028c5627048b5d454422f6ea7650a948b049e232045f88b474e950",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "6e274781572af1ba61a957206398fa4bc1a99984f99403ff4ef2d5fcbe481eab",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "528050f9d3c2dd6ce10f6f85577a0a00150bb428c4c753ba208df659df068da8",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "536018c6f56567dd44adedf4e9a7f3bc5d13545cbc89226f758ee9888eca9f35",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "110b89790eb57d2565dfb06928f31e1018594642e08429e14648713c9f106849",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "is_initialized": true,
+                  "keys": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "0942802921c6b3b6bed21c042d6679fb36a771f320a04d770dca6ee80a182db0",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_key_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  },
+                  "values": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "3b7f0146551403e824187cec849428d3df337dfff97c0f40f640474e57fce0f0",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_value_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  }
+                },
+                "object_type": "DynamicLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "db0484a5f57c2169138a18fd053a6bdf5f66ed3129844a9383fbf0bbc1f29210",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "789bf7812559958d09d8cad44a63e33c9610052f2a07ceae3e8dde13a956176e",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "9930a3e93ee01cb8ea5dc3b4cc1365566875494133c3772742726d4eba5bb685",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "daf1622863cc562a5106027ee2a8d60a5b5c8ec1a3ea89c16802a6400bf371b0",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "30579ff08211be98a28279cb0a730a2fd46ed017fa03f8a6b4227d7f9fcdf27c",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "ec863a77bfc99b8165f066bcb8d372ec07030c0a64801b6b6580bcc78bff757f",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "is_initialized": true,
+                  "keys": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "0f202506473c149f1ce5d91b00e767f81ab04641b98eb1058df9e5fb15670d97",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_key_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  },
+                  "values": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "9416ee82a8d144d8ba7c72166204d60b6337151a16b7a9e4a61f561e27af816e",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_value_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  }
+                },
+                "object_type": "DynamicLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "b9ee58d429e72eacf0fa79526866c099aa3f91cf4d6e0294b6fee378ba20b440",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "577668c16bbab6728566d1274152dd7d8890275a2899dc4ef25b624f23757a27",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "786c8050754aaefaa1ab131da72c294fd2f4133f176b730a6181382ffcb8652b",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "117eb4636aa8fa218c6a089d36d4a053a01fe2eef267b4700be75fe611c3c3f1",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "conv_kernel_size": {
+                    "0": 4
+                  },
+                  "conv_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "e9336ef81068f4cb84f6a6035503a5dbcc73634d8bcc614407e19533e5e1ce0d",
+                      "numel": 32768,
+                      "shape": [
+                        1,
+                        8192,
+                        4
+                      ],
+                      "state_kind": "linear_convolution_state",
+                      "storage_dtype": "torch.bfloat16"
+                    }
+                  },
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "has_previous_state": {
+                    "0": true
+                  },
+                  "is_conv_states_initialized": {
+                    "0": true
+                  },
+                  "is_recurrent_states_initialized": {
+                    "0": true
+                  },
+                  "number_of_states": 1,
+                  "record_past": false,
+                  "recurrent_states": {
+                    "0": {
+                      "device": "cuda:0",
+                      "finite": true,
+                      "kind": "tensor_native_byte_summary",
+                      "native_sha256": "9eed28c8debb24a3ad65f96132ffdc102d95e9a2316e9bc1aa0e627b4080f10e",
+                      "numel": 524288,
+                      "shape": [
+                        1,
+                        32,
+                        128,
+                        128
+                      ],
+                      "state_kind": "linear_recurrent_state",
+                      "storage_dtype": "torch.float32"
+                    }
+                  }
+                },
+                "object_type": "LinearAttentionLayer"
+              },
+              {
+                "fields": {
+                  "device": "cuda:0",
+                  "dtype": "torch.bfloat16",
+                  "is_initialized": true,
+                  "keys": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "07d6f9109e212dab609b89b42a4b7dc373ca518f9feae62f77581c3cb4671e5a",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_key_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  },
+                  "values": {
+                    "device": "cuda:0",
+                    "finite": true,
+                    "kind": "tensor_native_byte_summary",
+                    "native_sha256": "de5273a90cbd6e46d3aa845882016aafaaf7bd1e11604215ead8257724c96b93",
+                    "numel": 464896,
+                    "shape": [
+                      1,
+                      4,
+                      454,
+                      256
+                    ],
+                    "state_kind": "full_attention_value_cache",
+                    "storage_dtype": "torch.bfloat16"
+                  }
+                },
+                "object_type": "DynamicLayer"
+              }
+            ],
+            "offloading": false
+          },
+          "object_type": "DynamicCache"
+        },
+        "cache_implementation": "DynamicCache",
+        "field_coverage": {
+          "complete": true,
+          "object_fields": [
+            {
+              "fields": [
+                "layer_class_to_replicate",
+                "layers",
+                "offloading"
+              ],
+              "path": "cache",
+              "type": "DynamicCache"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[0]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[1]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[2]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "device",
+                "dtype",
+                "is_initialized",
+                "keys",
+                "values"
+              ],
+              "path": "cache.layers[3]",
+              "type": "DynamicLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[4]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[5]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[6]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "device",
+                "dtype",
+                "is_initialized",
+                "keys",
+                "values"
+              ],
+              "path": "cache.layers[7]",
+              "type": "DynamicLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[8]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[9]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[10]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "device",
+                "dtype",
+                "is_initialized",
+                "keys",
+                "values"
+              ],
+              "path": "cache.layers[11]",
+              "type": "DynamicLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[12]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[13]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[14]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "device",
+                "dtype",
+                "is_initialized",
+                "keys",
+                "values"
+              ],
+              "path": "cache.layers[15]",
+              "type": "DynamicLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[16]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[17]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[18]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "device",
+                "dtype",
+                "is_initialized",
+                "keys",
+                "values"
+              ],
+              "path": "cache.layers[19]",
+              "type": "DynamicLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[20]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[21]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[22]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "device",
+                "dtype",
+                "is_initialized",
+                "keys",
+                "values"
+              ],
+              "path": "cache.layers[23]",
+              "type": "DynamicLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[24]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[25]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[26]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "device",
+                "dtype",
+                "is_initialized",
+                "keys",
+                "values"
+              ],
+              "path": "cache.layers[27]",
+              "type": "DynamicLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[28]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[29]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "conv_kernel_size",
+                "conv_states",
+                "device",
+                "dtype",
+                "has_previous_state",
+                "is_conv_states_initialized",
+                "is_recurrent_states_initialized",
+                "number_of_states",
+                "record_past",
+                "recurrent_states"
+              ],
+              "path": "cache.layers[30]",
+              "type": "LinearAttentionLayer"
+            },
+            {
+              "fields": [
+                "device",
+                "dtype",
+                "is_initialized",
+                "keys",
+                "values"
+              ],
+              "path": "cache.layers[31]",
+              "type": "DynamicLayer"
+            }
+          ],
+          "policy": "All instance fields must be recorded; no implicit exemptions"
+        },
+        "maximum_depth": 24,
+        "maximum_metadata_items": 64,
+        "maximum_nodes": 8192,
+        "model_rope_deltas": {
+          "device": "cuda:0",
+          "kind": "tensor_native_byte_summary",
+          "native_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "numel": 1,
+          "shape": [
+            1,
+            1
+          ],
+          "state_kind": "position_state",
+          "storage_dtype": "torch.int64"
+        },
+        "position_state": null,
+        "raw_tensors_retained": false,
+        "receipt_kind": "BOUNDED_RECURSIVE_CACHE_STATE_RECEIPT",
+        "tensor_count": 65,
+        "tensor_state_kinds_observed": [
+          "full_attention_key_cache",
+          "full_attention_value_cache",
+          "linear_convolution_state",
+          "linear_recurrent_state",
+          "position_state"
+        ]
+      },
+      "calibration_prefill": [],
+      "contract": {
+        "attention_implementation": "eager",
+        "chat_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+        "dtype": "bfloat16",
+        "eos_token_ids": [
+          248044,
+          248046
+        ],
+        "generation_config_sha256": "19a91e2b0f321b5063ddd74a8e92ee127930e5babb7887904da151eba52d492d",
+        "max_generation_calls": 1,
+        "max_input_tokens": 4096,
+        "max_new_tokens": 160,
+        "min_new_tokens": 0,
+        "model_id": "Qwen/Qwen3.5-9B",
+        "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+        "model_type": "qwen3_5",
+        "pad_token_id": 248044,
+        "synthetic_test": false
+      },
+      "contract_sha256": "9d417a90a9f4c454f09f1eb8ad309b6b0471221b74d0b98557d53157d6e3c55e",
+      "depth_diagnostics": {
+        "state_steps": [],
+        "token_steps": [
+          {
+            "maximum_score": 28.25,
+            "selected_score": 28.25,
+            "selected_token_id": 90,
+            "step": 0,
+            "top_ids": [
+              90,
+              71093,
+              4754,
+              72298,
+              13215
+            ],
+            "top_scores": [
+              28.25,
+              22.375,
+              21.25,
+              17.75,
+              16.75
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 5.875
+          },
+          {
+            "maximum_score": 30.0,
+            "selected_score": 30.0,
+            "selected_token_id": 198,
+            "step": 1,
+            "top_ids": [
+              198,
+              328,
+              61781,
+              437,
+              317
+            ],
+            "top_scores": [
+              30.0,
+              16.375,
+              13.75,
+              13.5625,
+              12.9375
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 13.625
+          },
+          {
+            "maximum_score": 28.0,
+            "selected_score": 28.0,
+            "selected_token_id": 220,
+            "step": 2,
+            "top_ids": [
+              220,
+              1,
+              328,
+              61781,
+              43423
+            ],
+            "top_scores": [
+              28.0,
+              20.25,
+              17.5,
+              13.5,
+              12.4375
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 7.75
+          },
+          {
+            "maximum_score": 36.75,
+            "selected_score": 36.75,
+            "selected_token_id": 328,
+            "step": 3,
+            "top_ids": [
+              328,
+              65667,
+              15430,
+              5036,
+              7018
+            ],
+            "top_scores": [
+              36.75,
+              18.75,
+              18.125,
+              18.125,
+              18.0
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 18.0
+          },
+          {
+            "maximum_score": 34.5,
+            "selected_score": 34.5,
+            "selected_token_id": 61781,
+            "step": 4,
+            "top_ids": [
+              61781,
+              1662,
+              10024,
+              101725,
+              7912
+            ],
+            "top_scores": [
+              34.5,
+              22.375,
+              21.625,
+              20.875,
+              20.875
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 12.125
+          },
+          {
+            "maximum_score": 31.5,
+            "selected_score": 31.5,
+            "selected_token_id": 763,
+            "step": 5,
+            "top_ids": [
+              763,
+              487,
+              3147,
+              1,
+              34543
+            ],
+            "top_scores": [
+              31.5,
+              20.125,
+              16.125,
+              15.5625,
+              15.1875
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 11.375
+          },
+          {
+            "maximum_score": 25.5,
+            "selected_score": 25.5,
+            "selected_token_id": 328,
+            "step": 6,
+            "top_ids": [
+              328,
+              313,
+              819,
+              5046,
+              220
+            ],
+            "top_scores": [
+              25.5,
+              20.75,
+              18.375,
+              18.375,
+              17.25
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 4.75
+          },
+          {
+            "maximum_score": 23.75,
+            "selected_score": 23.75,
+            "selected_token_id": 10024,
+            "step": 7,
+            "top_ids": [
+              10024,
+              24282,
+              8034,
+              93997,
+              14311
+            ],
+            "top_scores": [
+              23.75,
+              21.5,
+              20.25,
+              20.125,
+              20.125
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 2.25
+          },
+          {
+            "maximum_score": 24.125,
+            "selected_score": 24.125,
+            "selected_token_id": 487,
+            "step": 8,
+            "top_ids": [
+              487,
+              1217,
+              10932,
+              84925,
+              663
+            ],
+            "top_scores": [
+              24.125,
+              22.0,
+              19.0,
+              18.5,
+              17.875
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 2.125
+          },
+          {
+            "maximum_score": 30.375,
+            "selected_score": 30.375,
+            "selected_token_id": 198,
+            "step": 9,
+            "top_ids": [
+              198,
+              695,
+              328,
+              317,
+              271
+            ],
+            "top_scores": [
+              30.375,
+              16.625,
+              14.0625,
+              12.25,
+              11.3125
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 13.75
+          },
+          {
+            "maximum_score": 31.375,
+            "selected_score": 31.375,
+            "selected_token_id": 220,
+            "step": 10,
+            "top_ids": [
+              220,
+              328,
+              262,
+              2228,
+              1662
+            ],
+            "top_scores": [
+              31.375,
+              14.75,
+              14.375,
+              14.25,
+              13.1875
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 16.625
+          },
+          {
+            "maximum_score": 36.0,
+            "selected_score": 36.0,
+            "selected_token_id": 328,
+            "step": 11,
+            "top_ids": [
+              328,
+              13470,
+              8728,
+              220,
+              7018
+            ],
+            "top_scores": [
+              36.0,
+              18.0,
+              17.5,
+              17.25,
+              16.75
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 18.0
+          },
+          {
+            "maximum_score": 35.25,
+            "selected_score": 35.25,
+            "selected_token_id": 1662,
+            "step": 12,
+            "top_ids": [
+              1662,
+              6352,
+              13360,
+              4595,
+              10024
+            ],
+            "top_scores": [
+              35.25,
+              25.25,
+              20.625,
+              19.875,
+              19.25
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 10.0
+          },
+          {
+            "maximum_score": 33.5,
+            "selected_score": 33.5,
+            "selected_token_id": 763,
+            "step": 13,
+            "top_ids": [
+              763,
+              1,
+              11356,
+              1170,
+              731
+            ],
+            "top_scores": [
+              33.5,
+              18.125,
+              15.875,
+              15.3125,
+              14.6875
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 15.375
+          },
+          {
+            "maximum_score": 30.75,
+            "selected_score": 30.75,
+            "selected_token_id": 313,
+            "step": 14,
+            "top_ids": [
+              313,
+              498,
+              328,
+              5046,
+              819
+            ],
+            "top_scores": [
+              30.75,
+              22.0,
+              21.125,
+              19.75,
+              18.125
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 8.75
+          },
+          {
+            "maximum_score": 32.25,
+            "selected_score": 32.25,
+            "selected_token_id": 198,
+            "step": 15,
+            "top_ids": [
+              198,
+              328,
+              695,
+              3240,
+              487
+            ],
+            "top_scores": [
+              32.25,
+              24.5,
+              16.25,
+              14.5625,
+              14.25
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 7.75
+          },
+          {
+            "maximum_score": 32.0,
+            "selected_score": 32.0,
+            "selected_token_id": 262,
+            "step": 16,
+            "top_ids": [
+              262,
+              220,
+              406,
+              1031,
+              257
+            ],
+            "top_scores": [
+              32.0,
+              20.375,
+              17.125,
+              14.75,
+              13.375
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 11.625
+          },
+          {
+            "maximum_score": 35.75,
+            "selected_score": 35.75,
+            "selected_token_id": 328,
+            "step": 17,
+            "top_ids": [
+              328,
+              8728,
+              5036,
+              15430,
+              12880
+            ],
+            "top_scores": [
+              35.75,
+              20.125,
+              18.625,
+              18.375,
+              17.875
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 15.625
+          },
+          {
+            "maximum_score": 33.5,
+            "selected_score": 33.5,
+            "selected_token_id": 6352,
+            "step": 18,
+            "top_ids": [
+              6352,
+              927,
+              31320,
+              13360,
+              1267
+            ],
+            "top_scores": [
+              33.5,
+              20.25,
+              20.125,
+              19.0,
+              18.625
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 13.25
+          },
+          {
+            "maximum_score": 29.75,
+            "selected_score": 29.75,
+            "selected_token_id": 763,
+            "step": 19,
+            "top_ids": [
+              763,
+              11356,
+              62,
+              16,
+              8768
+            ],
+            "top_scores": [
+              29.75,
+              15.125,
+              15.125,
+              14.875,
+              14.625
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 14.625
+          },
+          {
+            "maximum_score": 27.875,
+            "selected_score": 27.875,
+            "selected_token_id": 328,
+            "step": 20,
+            "top_ids": [
+              328,
+              220,
+              498,
+              10232,
+              4241
+            ],
+            "top_scores": [
+              27.875,
+              23.125,
+              20.5,
+              20.25,
+              19.25
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 4.75
+          },
+          {
+            "maximum_score": 26.875,
+            "selected_score": 26.875,
+            "selected_token_id": 6352,
+            "step": 21,
+            "top_ids": [
+              6352,
+              39640,
+              25252,
+              16,
+              44
+            ],
+            "top_scores": [
+              26.875,
+              22.875,
+              21.5,
+              20.75,
+              16.875
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 4.0
+          },
+          {
+            "maximum_score": 28.75,
+            "selected_score": 28.75,
+            "selected_token_id": 16,
+            "step": 22,
+            "top_ids": [
+              16,
+              17,
+              15,
+              62,
+              487
+            ],
+            "top_scores": [
+              28.75,
+              17.5,
+              17.375,
+              16.875,
+              14.9375
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 11.25
+          },
+          {
+            "maximum_score": 30.25,
+            "selected_score": 30.25,
+            "selected_token_id": 487,
+            "step": 23,
+            "top_ids": [
+              487,
+              318,
+              1,
+              62,
+              25
+            ],
+            "top_scores": [
+              30.25,
+              16.125,
+              15.3125,
+              15.125,
+              14.1875
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 14.125
+          },
+          {
+            "maximum_score": 30.625,
+            "selected_score": 30.625,
+            "selected_token_id": 198,
+            "step": 24,
+            "top_ids": [
+              198,
+              695,
+              328,
+              318,
+              220
+            ],
+            "top_scores": [
+              30.625,
+              15.875,
+              11.625,
+              10.3125,
+              10.125
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 14.75
+          },
+          {
+            "maximum_score": 32.25,
+            "selected_score": 32.25,
+            "selected_token_id": 262,
+            "step": 25,
+            "top_ids": [
+              262,
+              220,
+              406,
+              257,
+              1031
+            ],
+            "top_scores": [
+              32.25,
+              18.125,
+              16.25,
+              15.25,
+              14.3125
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 14.125
+          },
+          {
+            "maximum_score": 38.25,
+            "selected_score": 38.25,
+            "selected_token_id": 328,
+            "step": 26,
+            "top_ids": [
+              328,
+              7018,
+              8728,
+              2823,
+              12880
+            ],
+            "top_scores": [
+              38.25,
+              20.875,
+              19.375,
+              18.25,
+              17.75
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 17.375
+          },
+          {
+            "maximum_score": 33.5,
+            "selected_score": 33.5,
+            "selected_token_id": 31320,
+            "step": 27,
+            "top_ids": [
+              31320,
+              72186,
+              13360,
+              9302,
+              48859
+            ],
+            "top_scores": [
+              33.5,
+              21.625,
+              21.125,
+              21.0,
+              20.875
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 11.875
+          },
+          {
+            "maximum_score": 33.75,
+            "selected_score": 33.75,
+            "selected_token_id": 763,
+            "step": 28,
+            "top_ids": [
+              763,
+              11356,
+              1170,
+              92217,
+              12649
+            ],
+            "top_scores": [
+              33.75,
+              17.625,
+              17.25,
+              17.0,
+              15.875
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 16.125
+          },
+          {
+            "maximum_score": 31.625,
+            "selected_score": 31.625,
+            "selected_token_id": 328,
+            "step": 29,
+            "top_ids": [
+              328,
+              4241,
+              10232,
+              8728,
+              220
+            ],
+            "top_scores": [
+              31.625,
+              16.125,
+              15.5625,
+              15.4375,
+              15.375
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 15.5
+          },
+          {
+            "maximum_score": 31.5,
+            "selected_score": 31.5,
+            "selected_token_id": 31320,
+            "step": 30,
+            "top_ids": [
+              31320,
+              9403,
+              15,
+              6352,
+              21572
+            ],
+            "top_scores": [
+              31.5,
+              19.75,
+              18.875,
+              18.75,
+              18.5
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 11.75
+          },
+          {
+            "maximum_score": 30.25,
+            "selected_score": 30.25,
+            "selected_token_id": 15,
+            "step": 31,
+            "top_ids": [
+              15,
+              16,
+              17,
+              18,
+              487
+            ],
+            "top_scores": [
+              30.25,
+              21.875,
+              19.125,
+              15.25,
+              15.0625
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 8.375
+          },
+          {
+            "maximum_score": 31.0,
+            "selected_score": 31.0,
+            "selected_token_id": 487,
+            "step": 32,
+            "top_ids": [
+              487,
+              1,
+              504,
+              3158,
+              3544
+            ],
+            "top_scores": [
+              31.0,
+              18.125,
+              15.0625,
+              14.0,
+              13.8125
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 12.875
+          },
+          {
+            "maximum_score": 30.125,
+            "selected_score": 30.125,
+            "selected_token_id": 198,
+            "step": 33,
+            "top_ids": [
+              198,
+              695,
+              220,
+              3648,
+              328
+            ],
+            "top_scores": [
+              30.125,
+              16.75,
+              13.9375,
+              13.5625,
+              12.75
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 13.375
+          },
+          {
+            "maximum_score": 35.25,
+            "selected_score": 35.25,
+            "selected_token_id": 262,
+            "step": 34,
+            "top_ids": [
+              262,
+              220,
+              406,
+              257,
+              256
+            ],
+            "top_scores": [
+              35.25,
+              20.875,
+              17.625,
+              17.0,
+              16.5
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 14.375
+          },
+          {
+            "maximum_score": 41.0,
+            "selected_score": 41.0,
+            "selected_token_id": 328,
+            "step": 35,
+            "top_ids": [
+              328,
+              7018,
+              77607,
+              288,
+              8728
+            ],
+            "top_scores": [
+              41.0,
+              22.5,
+              22.25,
+              21.125,
+              19.75
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 18.5
+          },
+          {
+            "maximum_score": 35.75,
+            "selected_score": 35.75,
+            "selected_token_id": 86,
+            "step": 36,
+            "top_ids": [
+              86,
+              8215,
+              11126,
+              1662,
+              13360
+            ],
+            "top_scores": [
+              35.75,
+              21.75,
+              21.5,
+              21.0,
+              20.75
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 14.0
+          },
+          {
+            "maximum_score": 38.25,
+            "selected_score": 38.25,
+            "selected_token_id": 41766,
+            "step": 37,
+            "top_ids": [
+              41766,
+              6390,
+              4579,
+              763,
+              1082
+            ],
+            "top_scores": [
+              38.25,
+              23.25,
+              18.5,
+              18.125,
+              17.125
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 15.0
+          },
+          {
+            "maximum_score": 34.75,
+            "selected_score": 34.75,
+            "selected_token_id": 763,
+            "step": 38,
+            "top_ids": [
+              763,
+              11356,
+              92217,
+              1170,
+              12649
+            ],
+            "top_scores": [
+              34.75,
+              18.0,
+              17.75,
+              17.375,
+              15.625
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 16.75
+          },
+          {
+            "maximum_score": 32.25,
+            "selected_score": 32.25,
+            "selected_token_id": 328,
+            "step": 39,
+            "top_ids": [
+              328,
+              220,
+              288,
+              7111,
+              4241
+            ],
+            "top_scores": [
+              32.25,
+              17.125,
+              15.3125,
+              15.0625,
+              15.0
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 15.125
+          },
+          {
+            "maximum_score": 31.5,
+            "selected_score": 31.5,
+            "selected_token_id": 86,
+            "step": 40,
+            "top_ids": [
+              86,
+              8215,
+              6352,
+              9696,
+              13360
+            ],
+            "top_scores": [
+              31.5,
+              21.375,
+              18.375,
+              17.375,
+              17.0
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 10.125
+          },
+          {
+            "maximum_score": 34.5,
+            "selected_score": 34.5,
+            "selected_token_id": 41766,
+            "step": 41,
+            "top_ids": [
+              41766,
+              6390,
+              8215,
+              24022,
+              4579
+            ],
+            "top_scores": [
+              34.5,
+              20.625,
+              18.5,
+              18.125,
+              17.625
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 13.875
+          },
+          {
+            "maximum_score": 30.625,
+            "selected_score": 30.625,
+            "selected_token_id": 16,
+            "step": 42,
+            "top_ids": [
+              16,
+              17,
+              15,
+              18,
+              487
+            ],
+            "top_scores": [
+              30.625,
+              21.375,
+              21.375,
+              15.9375,
+              13.875
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 9.25
+          },
+          {
+            "maximum_score": 30.625,
+            "selected_score": 30.625,
+            "selected_token_id": 487,
+            "step": 43,
+            "top_ids": [
+              487,
+              1,
+              504,
+              7903,
+              3544
+            ],
+            "top_scores": [
+              30.625,
+              18.125,
+              13.0,
+              12.375,
+              12.0
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 12.5
+          },
+          {
+            "maximum_score": 30.0,
+            "selected_score": 30.0,
+            "selected_token_id": 198,
+            "step": 44,
+            "top_ids": [
+              198,
+              10932,
+              695,
+              317,
+              328
+            ],
+            "top_scores": [
+              30.0,
+              15.3125,
+              15.125,
+              12.1875,
+              11.8125
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 14.6875
+          },
+          {
+            "maximum_score": 31.25,
+            "selected_score": 31.25,
+            "selected_token_id": 262,
+            "step": 45,
+            "top_ids": [
+              262,
+              220,
+              406,
+              257,
+              256
+            ],
+            "top_scores": [
+              31.25,
+              17.375,
+              15.0625,
+              13.875,
+              13.25
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 13.875
+          },
+          {
+            "maximum_score": 38.25,
+            "selected_score": 38.25,
+            "selected_token_id": 328,
+            "step": 46,
+            "top_ids": [
+              328,
+              7018,
+              1001,
+              1535,
+              5036
+            ],
+            "top_scores": [
+              38.25,
+              20.25,
+              17.5,
+              17.0,
+              16.875
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 18.0
+          },
+          {
+            "maximum_score": 36.5,
+            "selected_score": 36.5,
+            "selected_token_id": 13360,
+            "step": 47,
+            "top_ids": [
+              13360,
+              7903,
+              40644,
+              19575,
+              25843
+            ],
+            "top_scores": [
+              36.5,
+              23.625,
+              22.25,
+              20.875,
+              20.75
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 12.875
+          },
+          {
+            "maximum_score": 33.75,
+            "selected_score": 33.75,
+            "selected_token_id": 763,
+            "step": 48,
+            "top_ids": [
+              763,
+              1,
+              1170,
+              92217,
+              3147
+            ],
+            "top_scores": [
+              33.75,
+              17.0,
+              16.5,
+              16.5,
+              15.8125
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 16.75
+          },
+          {
+            "maximum_score": 30.875,
+            "selected_score": 30.875,
+            "selected_token_id": 328,
+            "step": 49,
+            "top_ids": [
+              328,
+              1535,
+              220,
+              8728,
+              7018
+            ],
+            "top_scores": [
+              30.875,
+              15.625,
+              14.8125,
+              13.875,
+              13.625
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 15.25
+          },
+          {
+            "maximum_score": 34.25,
+            "selected_score": 34.25,
+            "selected_token_id": 13360,
+            "step": 50,
+            "top_ids": [
+              13360,
+              7903,
+              40644,
+              5884,
+              19575
+            ],
+            "top_scores": [
+              34.25,
+              21.5,
+              20.625,
+              20.25,
+              19.625
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 12.75
+          },
+          {
+            "maximum_score": 30.25,
+            "selected_score": 30.25,
+            "selected_token_id": 16,
+            "step": 51,
+            "top_ids": [
+              16,
+              15,
+              17,
+              1,
+              18
+            ],
+            "top_scores": [
+              30.25,
+              20.0,
+              19.25,
+              15.6875,
+              14.3125
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 10.25
+          },
+          {
+            "maximum_score": 30.625,
+            "selected_score": 30.625,
+            "selected_token_id": 1,
+            "step": 52,
+            "top_ids": [
+              1,
+              487,
+              8934,
+              828,
+              6
+            ],
+            "top_scores": [
+              30.625,
+              20.25,
+              15.0625,
+              14.5,
+              14.0625
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 10.375
+          },
+          {
+            "maximum_score": 30.25,
+            "selected_score": 30.25,
+            "selected_token_id": 198,
+            "step": 53,
+            "top_ids": [
+              198,
+              271,
+              695,
+              10932,
+              248044
+            ],
+            "top_scores": [
+              30.25,
+              13.8125,
+              13.5,
+              12.8125,
+              12.4375
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 16.4375
+          },
+          {
+            "maximum_score": 29.625,
+            "selected_score": 29.625,
+            "selected_token_id": 220,
+            "step": 54,
+            "top_ids": [
+              220,
+              262,
+              256,
+              92,
+              248046
+            ],
+            "top_scores": [
+              29.625,
+              15.5,
+              13.5,
+              12.9375,
+              11.5
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 14.125
+          },
+          {
+            "maximum_score": 33.75,
+            "selected_score": 33.75,
+            "selected_token_id": 333,
+            "step": 55,
+            "top_ids": [
+              333,
+              2390,
+              2205,
+              847,
+              16414
+            ],
+            "top_scores": [
+              33.75,
+              23.25,
+              16.75,
+              16.5,
+              16.375
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 10.5
+          },
+          {
+            "maximum_score": 31.25,
+            "selected_score": 31.25,
+            "selected_token_id": 198,
+            "step": 56,
+            "top_ids": [
+              198,
+              271,
+              695,
+              248044,
+              248046
+            ],
+            "top_scores": [
+              31.25,
+              15.25,
+              13.8125,
+              13.1875,
+              13.125
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 16.0
+          },
+          {
+            "maximum_score": 32.0,
+            "selected_score": 32.0,
+            "selected_token_id": 92,
+            "step": 57,
+            "top_ids": [
+              92,
+              248046,
+              5193,
+              14728,
+              5368
+            ],
+            "top_scores": [
+              32.0,
+              18.0,
+              17.75,
+              16.625,
+              15.5625
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 14.0
+          },
+          {
+            "maximum_score": 29.625,
+            "selected_score": 29.625,
+            "selected_token_id": 248046,
+            "step": 58,
+            "top_ids": [
+              248046,
+              198,
+              271,
+              248044,
+              71093
+            ],
+            "top_scores": [
+              29.625,
+              18.625,
+              17.0,
+              13.1875,
+              10.0
+            ],
+            "top_scores_finite": [
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "top_two_margin": 11.0
+          }
+        ]
+      },
+      "edit": null,
+      "generated_token_ids": [
+        90,
+        198,
+        220,
+        328,
+        61781,
+        763,
+        328,
+        10024,
+        487,
+        198,
+        220,
+        328,
+        1662,
+        763,
+        313,
+        198,
+        262,
+        328,
+        6352,
+        763,
+        328,
+        6352,
+        16,
+        487,
+        198,
+        262,
+        328,
+        31320,
+        763,
+        328,
+        31320,
+        15,
+        487,
+        198,
+        262,
+        328,
+        86,
+        41766,
+        763,
+        328,
+        86,
+        41766,
+        16,
+        487,
+        198,
+        262,
+        328,
+        13360,
+        763,
+        328,
+        13360,
+        16,
+        1,
+        198,
+        220,
+        333,
+        198,
+        92,
+        248046
+      ],
+      "generation_call": {
+        "cache_implementation": "dynamic",
+        "do_sample": false,
+        "eos_token_id": [
+          248044,
+          248046
+        ],
+        "max_new_tokens": 160,
+        "min_new_tokens": 0,
+        "num_beams": 1,
+        "num_return_sequences": 1,
+        "output_attentions": false,
+        "output_hidden_states": false,
+        "output_scores": true,
+        "pad_token_id": 248044,
+        "return_dict_in_generate": true,
+        "use_cache": true
+      },
+      "generation_call_count": 1,
+      "hooks_restored": true,
+      "input_token_ids": [
+        248045,
+        8678,
+        198,
+        2523,
+        513,
+        279,
+        24318,
+        303,
+        264,
+        26388,
+        799,
+        28253,
+        50807,
+        46446,
+        13,
+        3301,
+        1132,
+        799,
+        4566,
+        1576,
+        12219,
+        279,
+        10897,
+        10485,
+        13,
+        21513,
+        264,
+        4434,
+        2915,
+        466,
+        4054,
+        279,
+        18254,
+        579,
+        10932,
+        6129,
+        13,
+        3054,
+        524,
+        22846,
+        466,
+        1622,
+        279,
+        18254,
+        579,
+        843,
+        81356,
+        1898,
+        13,
+        248046,
+        198,
+        248045,
+        846,
+        198,
+        23733,
+        36978,
+        6331,
+        25,
+        357,
+        4599,
+        5497,
+        369,
+        21877,
+        11810,
+        24296,
+        364,
+        449,
+        23598,
+        4998,
+        6150,
+        13,
+        271,
+        7525,
+        2904,
+        2216,
+        31410,
+        318,
+        7462,
+        1590,
+        198,
+        12,
+        7703,
+        3240,
+        318,
+        6352,
+        1590,
+        11698,
+        3240,
+        498,
+        6352,
+        15,
+        60,
+        283,
+        220,
+        17,
+        20,
+        3387,
+        26,
+        23587,
+        3240,
+        498,
+        6352,
+        16,
+        60,
+        283,
+        220,
+        16,
+        17,
+        3387,
+        26,
+        4962,
+        3240,
+        498,
+        6352,
+        17,
+        60,
+        283,
+        220,
+        15,
+        3387,
+        198,
+        12,
+        25375,
+        318,
+        31320,
+        1590,
+        3648,
+        1936,
+        498,
+        31320,
+        15,
+        60,
+        283,
+        220,
+        18,
+        15,
+        3387,
+        26,
+        14095,
+        5381,
+        498,
+        31320,
+        16,
+        60,
+        283,
+        220,
+        16,
+        20,
+        3387,
+        26,
+        18117,
+        5381,
+        498,
+        31320,
+        17,
+        60,
+        283,
+        220,
+        15,
+        3387,
+        198,
+        12,
+        54635,
+        318,
+        86,
+        41766,
+        1590,
+        3648,
+        1007,
+        498,
+        86,
+        41766,
+        15,
+        60,
+        283,
+        220,
+        15,
+        3387,
+        26,
+        8771,
+        1578,
+        498,
+        86,
+        41766,
+        16,
+        60,
+        283,
+        220,
+        16,
+        22,
+        3387,
+        26,
+        14095,
+        1578,
+        498,
+        86,
+        41766,
+        17,
+        60,
+        283,
+        220,
+        18,
+        20,
+        3387,
+        198,
+        12,
+        19829,
+        318,
+        13360,
+        1590,
+        3038,
+        6735,
+        498,
+        13360,
+        15,
+        60,
+        283,
+        220,
+        16,
+        15,
+        3387,
+        26,
+        220,
+        18,
+        15,
+        2756,
+        498,
+        13360,
+        16,
+        60,
+        283,
+        220,
+        20,
+        3387,
+        26,
+        220,
+        21,
+        15,
+        2756,
+        498,
+        13360,
+        17,
+        60,
+        283,
+        220,
+        15,
+        3387,
+        271,
+        7525,
+        26770,
+        869,
+        25,
+        220,
+        18,
+        15,
+        3387,
+        13,
+        198,
+        7525,
+        59469,
+        81356,
+        25,
+        220,
+        15,
+        3387,
+        13,
+        198,
+        44627,
+        10932,
+        6129,
+        25,
+        3240,
+        28,
+        6352,
+        16,
+        11,
+        9403,
+        28,
+        31320,
+        15,
+        11,
+        8215,
+        61274,
+        41766,
+        16,
+        11,
+        7903,
+        28,
+        13360,
+        16,
+        198,
+        44627,
+        10661,
+        28539,
+        25,
+        24095,
+        9403,
+        8346,
+        1004,
+        5492,
+        9412,
+        15183,
+        1165,
+        10386,
+        264,
+        22602,
+        8215,
+        14713,
+        15183,
+        3038,
+        6735,
+        7903,
+        369,
+        5222,
+        310,
+        586,
+        13,
+        198,
+        26044,
+        16484,
+        25,
+        6643,
+        7551,
+        18207,
+        279,
+        9711,
+        2519,
+        13,
+        271,
+        5423,
+        2892,
+        264,
+        4434,
+        2915,
+        466,
+        449,
+        24693,
+        314,
+        279,
+        10932,
+        6129,
+        13,
+        198,
+        2381,
+        449,
+        24693,
+        11,
+        12771,
+        279,
+        10932,
+        6129,
+        6681,
+        13,
+        198,
+        9947,
+        6681,
+        1439,
+        1844,
+        11258,
+        4566,
+        4881,
+        25,
+        5307,
+        11,
+        6129,
+        13,
+        198,
+        760,
+        6129,
+        6679,
+        513,
+        3240,
+        11,
+        9403,
+        11,
+        8215,
+        11,
+        321,
+        7903,
+        13,
+        3054,
+        524,
+        884,
+        866,
+        975,
+        4881,
+        13,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "loaded_generation_config": {
+        "_from_model_config": true,
+        "assistant_confidence_threshold": null,
+        "assistant_early_exit": null,
+        "assistant_ensemble_weight": null,
+        "assistant_lookbehind": null,
+        "bad_words_ids": null,
+        "begin_suppress_tokens": null,
+        "bos_token_id": null,
+        "cache_config": null,
+        "cache_implementation": null,
+        "compile_config": null,
+        "constraints": null,
+        "continuous_batching_config": null,
+        "decoder_start_token_id": null,
+        "disable_compile": null,
+        "diversity_penalty": null,
+        "do_sample": null,
+        "dola_layers": null,
+        "early_stopping": null,
+        "encoder_no_repeat_ngram_size": null,
+        "encoder_repetition_penalty": null,
+        "eos_token_id": [
+          248044,
+          248046
+        ],
+        "epsilon_cutoff": null,
+        "eta_cutoff": null,
+        "exponential_decay_length_penalty": null,
+        "force_words_ids": null,
+        "forced_bos_token_id": null,
+        "forced_eos_token_id": null,
+        "guidance_scale": null,
+        "is_assistant": null,
+        "length_penalty": null,
+        "low_memory": null,
+        "max_cache_len": null,
+        "max_length": null,
+        "max_matching_ngram_size": null,
+        "max_new_tokens": null,
+        "max_time": null,
+        "min_length": null,
+        "min_new_tokens": null,
+        "min_p": null,
+        "no_repeat_ngram_size": null,
+        "num_assistant_tokens": null,
+        "num_assistant_tokens_schedule": null,
+        "num_beam_groups": null,
+        "num_beams": null,
+        "num_return_sequences": null,
+        "output_attentions": null,
+        "output_hidden_states": null,
+        "output_logits": null,
+        "output_scores": null,
+        "pad_token_id": 248044,
+        "penalty_alpha": null,
+        "prefill_chunk_size": null,
+        "prompt_lookup_num_tokens": null,
+        "remove_invalid_values": null,
+        "renormalize_logits": null,
+        "repetition_penalty": null,
+        "return_dict_in_generate": null,
+        "sequence_bias": null,
+        "speculation_type": null,
+        "stop_strings": null,
+        "suppress_tokens": null,
+        "target_lookbehind": null,
+        "temperature": null,
+        "token_healing": null,
+        "top_h": null,
+        "top_k": null,
+        "top_p": null,
+        "transformers_version": "5.21.0",
+        "typical_p": null,
+        "use_cache": true,
+        "use_mtp": null,
+        "watermarking_config": null
+      },
+      "package_versions": {
+        "inspect-ai": "0.3.286",
+        "steerability": "0.5.7",
+        "torch": "2.15.0",
+        "transformers": "5.21.0"
+      },
+      "processed_logit_steps": [
+        {
+          "native_sha256": "abba65e6c1cd4991a3a0629efc7cd444ecdc26895a60c2ff7ca2847ea24f5a3d",
+          "selected_token_id": 90,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 0,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "ff389f0dd928a8b0d9a38b4e5a6dba376f560653c42b9a1ce96c41f223d55a6d",
+          "selected_token_id": 198,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 1,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "1e48338b35dac364e47cccb49a689290e869220b863b7045b363ab642cff2dfd",
+          "selected_token_id": 220,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 2,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "855e544755bb12aadd925662a1d14f8591c10a4dc50118d4ecf121f738ef2529",
+          "selected_token_id": 328,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 3,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "e61faddfd0fdaae7904b56cdb49e74fabf8f54cb63f6e110a6364873c7faf43e",
+          "selected_token_id": 61781,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 4,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "55e508ce53fdfa43ab80a2f9c9f528a03791ad2b401afd91e8475b3e9951a7d3",
+          "selected_token_id": 763,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 5,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "8eb34266d418e0ad303b66c80ce6d8321e0996aa2ab4de934a4b40f2a9361df8",
+          "selected_token_id": 328,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 6,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "b9ddd546b974e2302dae8c9d688bcd3af0d11ed319aebca0b609f8e4689f11d7",
+          "selected_token_id": 10024,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 7,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "6f582802163973280891a4be644e957e2b3c26632e33a162678015259c37d3c3",
+          "selected_token_id": 487,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 8,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "02332993a982b19701df6d7b9ed86054ebbff0fe84f4c21baa0eb80d04f8689d",
+          "selected_token_id": 198,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 9,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "ff3392c5247ca15e1e9c5e9d306ba326cca70f29f21d53ff16f16d115f85604b",
+          "selected_token_id": 220,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 10,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "0809a91f095870c158ffd2661dc485b7ec198d9b3718c4f47b816d0b4921ec5d",
+          "selected_token_id": 328,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 11,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "d7e22ae2ccde543d91e4bed2ac8224c764e729ac75a081400dcd75746357c263",
+          "selected_token_id": 1662,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 12,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "309ea5bab1b5572d3f03a8b85ba5860a46b58bc14bfe788c7973ce9da14789aa",
+          "selected_token_id": 763,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 13,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "278e82fe4e544fd8f4fce280cd82161507862b4df4b060f9b779aadc77ba3ca3",
+          "selected_token_id": 313,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 14,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "2ba29c239c3a2a05f8fc373b6ea69a367f945287e6d5df7842d3fd93b5d7e3b8",
+          "selected_token_id": 198,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 15,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "d46642af13ac340c323d97132ee5bf47c4987eb3726170f3e6de99deba74d4c7",
+          "selected_token_id": 262,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 16,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "d823fffc01b8cb2318928d4062272f043ee9d60dab0d9bb1a0ffc412ce9c3038",
+          "selected_token_id": 328,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 17,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "4ada335b6af682d60ea89edcddc9eb6938e37e9f8245d61ddd85388d0935a009",
+          "selected_token_id": 6352,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 18,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "9105e5e41f2765323a91b4b917da73ea387c0f2ec04fb653575649ce88b92716",
+          "selected_token_id": 763,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 19,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "6ab32f1e58e7e1ae583cd2e00712708ee1341622067bc54a0585ce446d5d327b",
+          "selected_token_id": 328,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 20,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "a37bc2a6948f3fa8c017e61f0b4df895bf8ad822661c0f7d7c7ee5cfc686918d",
+          "selected_token_id": 6352,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 21,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "605ee6dc7899f12e0bb2cacc4644e136ddc9580cc4007112a2da84d7759fb6e8",
+          "selected_token_id": 16,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 22,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "ce00a6e9fd5ffab658071f97969180cd3a888043f090759a31846db95eeff8fa",
+          "selected_token_id": 487,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 23,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "3fa8de6b03ebf7833e82e4419f1d667c69c80d80dbe32e3b5a46fdc9ce123baf",
+          "selected_token_id": 198,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 24,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "dcb5422e0cb88f0231aea0eb91902540e9735ebff5e8a5f5c9470174533a1925",
+          "selected_token_id": 262,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 25,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "b1d0107a15c0efe24ebcec93e1aa21e9e746017f2c9e41a880d26c4e6e982ed9",
+          "selected_token_id": 328,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 26,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "9d487ef80843d17bd15787170f9bb2ba21a4233e4133a7808a328e0e4feeff43",
+          "selected_token_id": 31320,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 27,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "c5806e536b825ddaebaca1a79b66c9a3de490811999aec45bf8854fc085b992c",
+          "selected_token_id": 763,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 28,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "72cfbae6bae2054fb5cacf8de1d841ac0d791b8c72a5e19015cbd2e07b4c0fc0",
+          "selected_token_id": 328,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 29,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "ab1999f2a87be0b928f0a4e920760e224f1bd0c9c6d621e860382032b8753305",
+          "selected_token_id": 31320,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 30,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "6eb85ea34a3faec19e271f7c0ff7cb52542ccecdb3905752c0a7cfc5909464c3",
+          "selected_token_id": 15,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 31,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "2c12441e7af72659c05b7cc5c8f5b18f36ff4f9546aafaa32ee246ef54e192c1",
+          "selected_token_id": 487,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 32,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "669700801c8aa87a44e26a62be570e8c3c7f45874f0d872201184559e768692d",
+          "selected_token_id": 198,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 33,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "0fe067f4e83686dc4bac3c1d3886bb974b53a2f0f5ea0587d1c08f379ab57035",
+          "selected_token_id": 262,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 34,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "501426635086c892855ab4be0973789d4f9b7948ead349b2c8610ec9ffe496b5",
+          "selected_token_id": 328,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 35,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "cd757cfb5041f36e7995d61cdd05c228f70cec2fb9b335c182c0b85d9902c076",
+          "selected_token_id": 86,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 36,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "cc780edb53ecf7aab63751c612092a3231574a7852c78c025911744d851cf186",
+          "selected_token_id": 41766,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 37,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "e791adefb38dd81b3f561d686af55709cdaf682d005acccde3b1f3805a4d24fa",
+          "selected_token_id": 763,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 38,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "d6e5d82eeb4e1c47791a8620ae14d19ce420e0900a600b9ae1da2df6c4d5b7e7",
+          "selected_token_id": 328,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 39,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "a68cfa33fa2c1611843d0dfd40eec3fde858cac6f3addb7181e004aa5c2e9c05",
+          "selected_token_id": 86,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 40,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "b9d84a4e59bcf10e8e5c61a306477fd88d0cb306dca923137e18454bfaeec31f",
+          "selected_token_id": 41766,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 41,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "f9a32a16b2314e0dca89fa940bd7581b123c74072800feb3aa0a1ffb07a0e0aa",
+          "selected_token_id": 16,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 42,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "302dcf51f8746f5ee64ec735e3df5e810073301c0c91220c212dbd51b18d6e0d",
+          "selected_token_id": 487,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 43,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "550a9cc5ea1eb11462a28e9c0596579eb27ec06c3fb5b20a94471c2dc6a0c146",
+          "selected_token_id": 198,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 44,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "91ba390b6c5cd32c19c171192307fb44504768ad572b2ca7ce83832595e1042d",
+          "selected_token_id": 262,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 45,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "b7eda3ef570905c29d663f2a942f7de515740648a91f6174128b369abb5c0ae1",
+          "selected_token_id": 328,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 46,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "8a285c83712a23070e34f430e19e0b1b6c11435f75f1d8f82ac9bf91ce6f87ca",
+          "selected_token_id": 13360,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 47,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "a56491fa7f6f70cc9ad78f8a4212c4e9b18ffb0c609c0318d5ef95578809ad9b",
+          "selected_token_id": 763,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 48,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "28eb3b008b8caba0b7168b968bb72d7439b38c5316397f6ca419eb8e99d4ce13",
+          "selected_token_id": 328,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 49,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "684b92dfb655b41c2f186724cae519d41cf2d0ade4592f836059736514571b88",
+          "selected_token_id": 13360,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 50,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "855e46e9c911b768d3812d275b199ff8b1ccc48e7e4959fdb11bc6abea5c6fdd",
+          "selected_token_id": 16,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 51,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "9f8ae4f10b5239552343f621f9fdc2a7eab090b05d5c84500857b1b76c9825b7",
+          "selected_token_id": 1,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 52,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "8fedf95caf62ee1081ed432873042ee5bf5755d0e980c0a899d3988e0374a009",
+          "selected_token_id": 198,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 53,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "8952e41925e974b63f57b1397bf4add91e184235260e1f8ea617be02ed3b6efc",
+          "selected_token_id": 220,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 54,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "b9090e2c1020854f4e46d8deeaeaf29813efa9090aa79a59aa40929973c221f2",
+          "selected_token_id": 333,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 55,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "eb4ada11dd349379b24fa24ef0121bed5de82909ae043109143669fdd183ade1",
+          "selected_token_id": 198,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 56,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "a72d11b6be325706bc674708928365f73b3f9e1b3106f0009d88121c8affb9bb",
+          "selected_token_id": 92,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 57,
+          "storage_dtype": "torch.float32"
+        },
+        {
+          "native_sha256": "8b66f57bb05243d842544396b1d7759fcc8e33377b2427cbecd901b79ecc9b4d",
+          "selected_token_id": 248046,
+          "shape": [
+            1,
+            248320
+          ],
+          "step": 58,
+          "storage_dtype": "torch.float32"
+        }
+      ],
+      "release_authorized": false,
+      "research_model_qualified": false,
+      "retry_count": 0,
+      "scientific_evidence": false,
+      "state_observations": [],
+      "status": "completed",
+      "synthetic_test": false,
+      "terminal_reason": "eos",
+      "trial_id": "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1--prospective-20261031-sensors-base--unchanged",
+      "weights_after": {
+        "entries_sha256": "caf57f9851b3261b15a13c9005c5511f1cede27a87e144bedf00f83ea98303e9",
+        "tensor_count": 760,
+        "total_values": 9409813744
+      },
+      "weights_before": {
+        "entries_sha256": "caf57f9851b3261b15a13c9005c5511f1cede27a87e144bedf00f83ea98303e9",
+        "tensor_count": 760,
+        "total_values": 9409813744
+      },
+      "weights_unchanged": true
+    }
+  ]
+}

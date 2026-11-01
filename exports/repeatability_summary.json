@@ -1,0 +1,90 @@
+{
+  "status": "TWO_COMPLETE_REPEATS_INDEPENDENTLY_VERIFIED",
+  "sessions": [
+    {
+      "audited_call_ids": [
+        "fc-01M69VE8N1ZQ3YFCEXR54A5YS6"
+      ],
+      "audited_session_ids": [
+        "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2"
+      ],
+      "auditor_sha256": "c615885b5cc0343df04626f0c8eb58007bcb698ac275a62c0cee4999a19176a4",
+      "behavior_matching_outputs": 36,
+      "contrast_denominator": 12,
+      "delivered_files": 301,
+      "full_behavioral_repeatability": true,
+      "logit_matching_outputs": 36,
+      "matching_contrasts": 12,
+      "model_loads_during_audit": 0,
+      "original_planned_sessions": 2,
+      "output_denominator": 36,
+      "plan_sha256": "43d4716d42bc0847196e9298dec8af4b57128f31760f5dba0cd61cd8b786acd0",
+      "provider_calls_during_audit": 0,
+      "scope": "1 complete fresh execution(s) of the twelve original-wording cases, with fixed greedy decoding. Not new independent cases, cross-wording robustness or improved outcomes.",
+      "sessions": 1,
+      "status": "REPEATABILITY_INDEPENDENTLY_VERIFIED",
+      "text_matching_outputs": 36,
+      "token_matching_outputs": 36,
+      "transport_sha256": "27758e59e7a078e5cc1c80990adb8796becdb09bb2b1d233442342088f463b15",
+      "verified_new_responses": 36
+    },
+    {
+      "audited_call_ids": [
+        "fc-01M69YDFCDX5AYJW9WBYZ38DQ3"
+      ],
+      "audited_session_ids": [
+        "negotiation-same-prompt-repeatability-2026-10-31-R02-repeat-1"
+      ],
+      "auditor_sha256": "c615885b5cc0343df04626f0c8eb58007bcb698ac275a62c0cee4999a19176a4",
+      "behavior_matching_outputs": 36,
+      "contrast_denominator": 12,
+      "delivered_files": 301,
+      "full_behavioral_repeatability": true,
+      "logit_matching_outputs": 36,
+      "matching_contrasts": 12,
+      "model_loads_during_audit": 0,
+      "original_planned_sessions": 1,
+      "output_denominator": 36,
+      "plan_sha256": "1c85479ab372e13ec72d3d257375ae07c0e66520f9f1b2c5286872898fc166c1",
+      "provider_calls_during_audit": 0,
+      "scope": "1 complete fresh execution(s) of the twelve original-wording cases, with fixed greedy decoding. Not new independent cases, cross-wording robustness or improved outcomes.",
+      "sessions": 1,
+      "status": "REPEATABILITY_INDEPENDENTLY_VERIFIED",
+      "text_matching_outputs": 36,
+      "token_matching_outputs": 36,
+      "transport_sha256": "ad01fc76bc6b7f6dd0a3bfa5b089732c32ad874a1e68f1c46f7418a48bd61205",
+      "verified_new_responses": 36
+    }
+  ],
+  "source_sha256": {
+    "verification/retained-R01-repeat-2-A01/audit.json": "7919de4e3a8cedb7080e8a3de60f54502994580a67d51ed428b09ca6083742d6",
+    "verification/retained-R01-repeat-2-A01/outcomes.json": "5008a3a8c68d5da91798c1af8c0c83a48915b1261b8e9c750e7dc9b1b817a94a",
+    "verification/retained-R01-repeat-2-A01/comparison.json": "795997d82b261d3a33d558aacdb7258a945ab959e028ad5e7d2a6378a3ba7e4d",
+    "verification/R02-terminal-A01/audit.json": "c1b616fe2720928e0da53272429011ba34570b325af2a4d0e3eede225c328849",
+    "verification/R02-terminal-A01/outcomes.json": "d8153973cf0839f36e9f38ec52fbfa1418ca681c988b01cc17aaff86a937e822",
+    "verification/R02-terminal-A01/comparison.json": "977f30f77f10d2c842e79050d7a628e3561313c12d02761f1ee28b9dc1340472",
+    "REPEATABILITY_CHECK_2026-10-31/prepared/plan.json": "f9dce895d5395626c6190b935b7862cf7e4b448e9ce4433f8373a514058b9f1d",
+    "REPEATABILITY_COMPLETION_2026-10-31/prepared/plan.json": "040d6d343f4515d367ec5fbc31d5aff80ece3b02c4bd10af6e408da22137db13",
+    "REPEATABILITY_COMPLETION_2026-10-31/prepared/reference.json": "ff777f333c31a507192b7748a54606a290145b4b7b1a5e1cf551b26ebed5a252",
+    "REPEATABILITY_COMPLETION_2026-10-31/combine_verified.py": "92972e1c2d7d0700386a5ede1c854f596ba9b1f59658b696fe6febdf92c61fae",
+    "REPEATABILITY_COMPLETION_2026-10-31/audit.py": "c615885b5cc0343df04626f0c8eb58007bcb698ac275a62c0cee4999a19176a4",
+    "REPEATABILITY_CHECK_2026-10-31/verification/R01-terminal-failure-A01.md": "58ff9750d0297c54c06532922309d6ee33699ca8dbd371c3acd7e6c43dea4504"
+  },
+  "source_request_sha256": "9ca15d9337561c2d868b35d0419b9e2ad418102d21d6f21a56a13c1045a82953",
+  "source_report_sha256": "8f6d7bf4951ea16e95fcb77031027aab6aa8a9720695716ba2a344a1dd2ac0a0",
+  "failed_attempt": {
+    "session_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-1",
+    "status": "TIMEOUT",
+    "completed_prefix": 32,
+    "included_in_complete_repeat_totals": false
+  },
+  "behavior_matching_outputs": 72,
+  "output_denominator": 72,
+  "matching_contrasts": 24,
+  "contrast_denominator": 24,
+  "text_matching_outputs": 72,
+  "token_matching_outputs": 72,
+  "logit_matching_outputs": 72,
+  "full_behavioral_repeatability": true,
+  "scope": "2 complete fresh execution(s) of the twelve original-wording cases, with fixed greedy decoding. Not new independent cases, cross-wording robustness or improved outcomes."
+}

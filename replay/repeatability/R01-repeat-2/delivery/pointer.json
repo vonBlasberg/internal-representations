@@ -1,0 +1,14 @@
+{
+  "artifact_type": "PERSISTED_QUALIFICATION_RESULT",
+  "file_count": 301,
+  "manifest": {
+    "path": "package-route-qualification/negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2-supervisor/result-manifest.json",
+    "sha256": "37a90a28b04fe0e6733e17a1e308339839c92b21d09033815aa08acfd05d0b38",
+    "size_bytes": 88017
+  },
+  "run_id": "negotiation-same-prompt-repeatability-2026-10-31-R01-repeat-2",
+  "schema_version": 1,
+  "status": "EXECUTION_COMPLETE_NOT_INDEPENDENTLY_VERIFIED",
+  "transport_sha256": "27758e59e7a078e5cc1c80990adb8796becdb09bb2b1d233442342088f463b15",
+  "volume": "wp3-qwen35-l40s-modal-01-data"
+}

@@ -1,0 +1,20 @@
+{
+  "python": "3.12.10",
+  "libraries": {
+    "numpy": "2.5.4",
+    "jsonschema": "4.26.0",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "nbconvert": "7.17.2",
+    "ipykernel": "7.4.0",
+    "jupyterlab": "4.6.5"
+  },
+  "status": "PASS",
+  "scope": "Local clean-kernel offline analysis replay; no new research generation",
+  "code_cells": 16,
+  "inline_figures": 5,
+  "notebook_sha256": "94983842014626fac33f9bb846ae8fe2602de7e571b50e173fda966be2da437c",
+  "elapsed_seconds": 19.6
+}

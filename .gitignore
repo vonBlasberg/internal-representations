@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+outputs/*
+!outputs/figures/
+outputs/figures/*.svg
+verification/*
+!verification/manuscript_before/
+!verification/LOCAL_CHECKS.md
+!verification/verified_notebook.json
+!verification/clone_check.json

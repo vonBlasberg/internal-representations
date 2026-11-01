@@ -1,0 +1,36 @@
+{
+  "admitted_model_id": "Qwen/Qwen3.5-9B",
+  "admitted_model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "direction_sha256": "1902ccade2339953b3141c71434c319957afeb7e68ceb7217f8bfef705c07a53",
+  "generation_contract": {
+    "attention_implementation": "eager",
+    "chat_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "dtype": "bfloat16",
+    "eos_token_ids": [
+      248044,
+      248046
+    ],
+    "generation_config_sha256": "19a91e2b0f321b5063ddd74a8e92ee127930e5babb7887904da151eba52d492d",
+    "max_generation_calls": 1,
+    "max_input_tokens": 4096,
+    "max_new_tokens": 160,
+    "min_new_tokens": 0,
+    "model_id": "Qwen/Qwen3.5-9B",
+    "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "model_type": "qwen3_5",
+    "pad_token_id": 248044,
+    "synthetic_test": false
+  },
+  "hub_identity_metadata_bound_after_snapshot_and_weight_verification": true,
+  "original_local_load_metadata": {
+    "commit_hash": null,
+    "name_or_path": "/opt/wp3-state/qwen35-9b/c202236235762e1c871ad0ccb60c8ee5ba337b9a/approved-snapshot"
+  },
+  "research_checkpoint_loaded": true,
+  "scientific_evidence": false,
+  "weights": {
+    "entries_sha256": "caf57f9851b3261b15a13c9005c5511f1cede27a87e144bedf00f83ea98303e9",
+    "tensor_count": 760,
+    "total_values": 9409813744
+  }
+}

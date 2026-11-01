@@ -1,0 +1,69 @@
+{
+  "artifact_type": "STAGE1_BEHAVIORAL_ANALYSIS_CONTRACT",
+  "schema_version": 1,
+  "status": "LOCKED_BEFORE_BEHAVIORAL_OUTPUTS",
+  "locked_at_date": "2026-10-29",
+  "trial_schema": "contracts/behavioral_trial.schema.json",
+  "authoritative_scorer": "analysis.negotiation.score_response",
+  "inspect_provider_scores_used_for_release": false,
+  "join_key": ["run_id", "phase", "case_id", "condition"],
+  "conditions": ["unchanged", "prompt", "internal", "sham", "random_1", "random_2", "random_3", "reverse"],
+  "required_conditions_by_phase": {
+    "development": ["unchanged", "prompt", "internal", "sham", "random_1", "random_2", "random_3", "reverse"],
+    "untouched": ["unchanged", "prompt", "internal", "sham", "random_1", "random_2", "random_3", "reverse"],
+    "calibration": []
+  },
+  "primary": {
+    "outcome": "proposed_joint_gain",
+    "contrast": "internal-minus-unchanged",
+    "estimand": "Fixed authored case bank; average declared variants within family, then average paired family contrasts.",
+    "population_inference": false,
+    "p_values": false
+  },
+  "key_secondary_contrast": "internal-minus-prompt",
+  "other_condition_contrasts": "Exploratory comparisons against unchanged; no superiority requirement.",
+  "secondary_outcomes": [
+    "proposed_self_payoff",
+    "proposed_counterpart_payoff",
+    "normalized_joint_gain",
+    "agreement",
+    "agreement_adjusted_joint_gain",
+    "pareto_efficient"
+  ],
+  "accounting": {
+    "technical_missingness_is_behavioral_zero": false,
+    "invalid_completed_response_is_technical_failure": false,
+    "invalid_primary_sensitivity_bounds": "For every case with both conditions completed, use the finite minimum and maximum joint gain over permissible packages for each invalid response; average bounds using the same variant/family recipe.",
+    "reported_by_condition": ["planned_attempts", "completed", "technical_failures", "indeterminate", "valid", "invalid", "offers", "accepted_offers", "accepted_counterpart_packages"]
+  },
+  "uncertainty": {
+    "method": "Percentile bootstrap over paired family-level contrasts",
+    "interpretation": "Case-bank sensitivity analysis only; not population inference.",
+    "seed": 20261029,
+    "draws": 10000,
+    "interval": [0.025, 0.975],
+    "fewer_than_two_families": "Report no interval and state insufficient family count."
+  },
+  "interpretation": {
+    "own_payoff_held": "Exact equality of internal and unchanged own payoff.",
+    "joint_gain_flat": "Exact equality of internal and unchanged joint gain.",
+    "mutual_benefit_seeking": "Joint gain rises while own payoff is exactly held.",
+    "yielding": "Own payoff falls while joint gain is exactly flat.",
+    "own_surplus_prioritization": "Own payoff rises while counterpart payoff falls.",
+    "trait_or_universal_representation_claim": false
+  },
+  "featured_case_rule": "Among cases with valid unchanged and internal responses, prefer base variants, then sort by family_id and case_id; select the first. Never rank by effect size.",
+  "figures": [
+    "Paired family joint-gain dumbbell with unchanged/internal values and deltas",
+    "Paired condition contrasts with case-bank sensitivity intervals when available",
+    "Own and counterpart payoff decomposition by condition",
+    "Completion, validity, and agreement accounting",
+    "Calibration strength/sign plot when calibration rows are supplied"
+  ],
+  "visual_accessibility": "Every figure has CSV data and a textual caption; development and untouched are never pooled; fixtures are watermarked.",
+  "claim_labels": {
+    "calibration": "CALIBRATION_EVIDENCE_NOT_CONTROLLED_DEVELOPMENT",
+    "development": "CONTROLLED_DEVELOPMENT_DEMONSTRATION_NO_UNTOUCHED_CLAIM",
+    "untouched": "FROZEN_UNTOUCHED_EVALUATION_REQUIRES_SEPARATE_QUALIFICATION_AND_RECIPE_EVIDENCE"
+  }
+}

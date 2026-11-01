@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "status": "PROPOSED_FOR_OWNER_REVIEW_NOT_APPROVED",
+  "execution_enabled": false,
+  "automatic_retry": false,
+  "deployment_authorized": false,
+  "question": "Does the fixed A10 edit change decisions on new cases, who gains or loses, and how does it compare with prompting?",
+  "model_id": "Qwen/Qwen3.5-9B",
+  "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "source_publication_sha256": "e05e035e3163b5419eb7978eb1f759a351b9197eeeb77ea7fb90ba9adec5b63b",
+  "selected_internal": "internal-14-0p5",
+  "selected_prompt": "prompt-1",
+  "prompt_text": "Seek a mutually beneficial agreement while protecting your own payoff. Use the supplier's stated priorities to look for useful trades. Keep the required JSON format.",
+  "conditions": {
+    "unchanged": {
+      "site": null,
+      "coefficient": null,
+      "direction_sha256": null
+    },
+    "prompt": {
+      "site": null,
+      "coefficient": null,
+      "direction_sha256": null
+    },
+    "internal": {
+      "site": "model.language_model.layers.14",
+      "coefficient": 0.5,
+      "direction_sha256": "dba785066f697f22ae67b7416c7231779567a81eb9f5c571b98c02ba8c8824cf"
+    },
+    "sham": {
+      "site": "model.language_model.layers.14",
+      "coefficient": 0,
+      "direction_sha256": "dba785066f697f22ae67b7416c7231779567a81eb9f5c571b98c02ba8c8824cf"
+    },
+    "random_1": {
+      "site": "model.language_model.layers.14",
+      "coefficient": 0.5,
+      "direction_sha256": "821fa62b2e992100c94777b7ca076b486bf7c58d51323cc31dca76c63f8cdc5f"
+    },
+    "random_2": {
+      "site": "model.language_model.layers.14",
+      "coefficient": 0.5,
+      "direction_sha256": "a8c72706e5993a98f33db140a6712fd77c03810f6eb2ed8379b82032b1e33f87"
+    },
+    "random_3": {
+      "site": "model.language_model.layers.14",
+      "coefficient": 0.5,
+      "direction_sha256": "7d6273d8daf8ff031f9766ffca2f9d3121ea2c5d37fc0967fced0a806456bdf0"
+    },
+    "reverse": {
+      "site": "model.language_model.layers.14",
+      "coefficient": -0.5,
+      "direction_sha256": "dba785066f697f22ae67b7416c7231779567a81eb9f5c571b98c02ba8c8824cf"
+    },
+    "permuted": {
+      "site": "model.language_model.layers.14",
+      "coefficient": 0.5,
+      "direction_sha256": "4c08ae7e62cc7f91f9ba861015420a8c427fcb6ce835adce652bccbf775e85e2"
+    }
+  },
+  "candidate_reselection_allowed": false,
+  "direction_construction_allowed": false,
+  "proposed_family_count": 12,
+  "proposed_variants": [
+    "base",
+    "paraphrase",
+    "issue_order"
+  ],
+  "proposed_generation_count": 324,
+  "case_bank_prepared": false,
+  "case_bank_sha256": null,
+  "prior_exposure_audit_sha256": null,
+  "primary_outcome": "proposed_joint_gain",
+  "primary_contrast": [
+    "internal",
+    "unchanged"
+  ],
+  "key_secondary_contrast": [
+    "internal",
+    "prompt"
+  ],
+  "scoring": "Original pinned decision-only scorer; proposed payoffs and simulated agreement-adjusted outcomes separate",
+  "selection_scope": "Historical A10 calibration only. All future settings fixed before new-case execution.",
+  "uncertainty": "Equal-family paired case-bank sensitivity. Not a population confidence interval or significance test.",
+  "bootstrap": {
+    "seed": 20261029,
+    "draws": 10000,
+    "rng": "numpy.PCG64"
+  },
+  "negligible_effect_threshold": null,
+  "population_inference": false,
+  "existing_design_changes_proposed": [
+    "Add fixed permuted-label control as a ninth condition",
+    "Freeze a new independently reviewed case bank",
+    "Retain evaluation ceiling cases instead of using calibration headroom as an evaluation filter"
+  ],
+  "execution_blockers": [
+    "Owner review of prospective amendment",
+    "New case-bank authoring, rights, independence and prior-exposure audit",
+    "Precision assessment and limits on claims",
+    "Local tests and independent arithmetic checks",
+    "Portable runtime/direction files and exact evidence adapter checks",
+    "Separate one-use execution request and approval"
+  ]
+}
+

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Stage 1 behavioral trial exchange record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "run_id",
+    "phase",
+    "trial_id",
+    "case_id",
+    "condition",
+    "execution_status",
+    "raw_response",
+    "model_id",
+    "model_revision",
+    "manifest_sha256",
+    "source_log_path",
+    "source_log_sha256",
+    "source_sample_id",
+    "site",
+    "coefficient",
+    "direction_sha256",
+    "fixture_only"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "run_id": {"type": "string", "minLength": 1},
+    "phase": {"enum": ["calibration", "development", "untouched"]},
+    "trial_id": {"type": "string", "minLength": 1},
+    "case_id": {"type": "string", "minLength": 1},
+    "condition": {"enum": ["unchanged", "prompt", "internal", "sham", "random_1", "random_2", "random_3", "reverse"]},
+    "execution_status": {"enum": ["COMPLETED", "TECHNICAL_FAILURE", "INDETERMINATE"]},
+    "raw_response": {"type": ["string", "null"]},
+    "model_id": {"type": "string", "minLength": 1},
+    "model_revision": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "manifest_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "source_log_path": {"type": "string", "minLength": 1},
+    "source_log_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "source_sample_id": {"type": ["string", "integer"]},
+    "site": {"type": ["string", "null"]},
+    "coefficient": {"type": ["number", "null"]},
+    "direction_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+    "fixture_only": {"type": "boolean"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"execution_status": {"const": "COMPLETED"}}},
+      "then": {"properties": {"raw_response": {"type": "string"}}}
+    },
+    {
+      "if": {"properties": {"execution_status": {"enum": ["TECHNICAL_FAILURE", "INDETERMINATE"]}}},
+      "then": {"properties": {"raw_response": {"type": "null"}}}
+    },
+    {
+      "if": {"properties": {"condition": {"enum": ["internal", "sham", "random_1", "random_2", "random_3", "reverse"]}}},
+      "then": {"properties": {"site": {"type": "string", "minLength": 1}, "coefficient": {"type": "number"}, "direction_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}}
+    }
+  ]
+}

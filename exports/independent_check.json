@@ -1,0 +1,382 @@
+{
+  "status": "PASS",
+  "run_id": "negotiation-transfer-2026-10-31-A03",
+  "fixture_only": false,
+  "cases": 36,
+  "families": 12,
+  "attempts": 324,
+  "source_report_sha256": "8f6d7bf4951ea16e95fcb77031027aab6aa8a9720695716ba2a344a1dd2ac0a0",
+  "score_checks": 324,
+  "conditions": [
+    {
+      "condition": "unchanged",
+      "valid": 36,
+      "invalid": 0,
+      "agreements": 26,
+      "offers": 10,
+      "all_cases_valid": true,
+      "proposed_self_payoff": 62.416666666666664,
+      "proposed_counterpart_payoff": 41.52777777777778,
+      "proposed_joint_gain": 103.94444444444444,
+      "agreement_adjusted_self_payoff": 37.583333333333336,
+      "agreement_adjusted_counterpart_payoff": 39.138888888888886,
+      "agreement_adjusted_joint_gain": 76.72222222222223
+    },
+    {
+      "condition": "prompt",
+      "valid": 31,
+      "invalid": 5,
+      "agreements": 14,
+      "offers": 22,
+      "all_cases_valid": false,
+      "proposed_self_payoff": null,
+      "proposed_counterpart_payoff": null,
+      "proposed_joint_gain": null,
+      "agreement_adjusted_self_payoff": null,
+      "agreement_adjusted_counterpart_payoff": null,
+      "agreement_adjusted_joint_gain": null
+    },
+    {
+      "condition": "internal",
+      "valid": 33,
+      "invalid": 3,
+      "agreements": 10,
+      "offers": 23,
+      "all_cases_valid": false,
+      "proposed_self_payoff": null,
+      "proposed_counterpart_payoff": null,
+      "proposed_joint_gain": null,
+      "agreement_adjusted_self_payoff": null,
+      "agreement_adjusted_counterpart_payoff": null,
+      "agreement_adjusted_joint_gain": null
+    },
+    {
+      "condition": "sham",
+      "valid": 36,
+      "invalid": 0,
+      "agreements": 26,
+      "offers": 10,
+      "all_cases_valid": true,
+      "proposed_self_payoff": 62.416666666666664,
+      "proposed_counterpart_payoff": 41.52777777777778,
+      "proposed_joint_gain": 103.94444444444444,
+      "agreement_adjusted_self_payoff": 37.583333333333336,
+      "agreement_adjusted_counterpart_payoff": 39.138888888888886,
+      "agreement_adjusted_joint_gain": 76.72222222222223
+    },
+    {
+      "condition": "random_1",
+      "valid": 36,
+      "invalid": 0,
+      "agreements": 28,
+      "offers": 8,
+      "all_cases_valid": true,
+      "proposed_self_payoff": 61.30555555555556,
+      "proposed_counterpart_payoff": 43.47222222222222,
+      "proposed_joint_gain": 104.77777777777777,
+      "agreement_adjusted_self_payoff": 41.02777777777778,
+      "agreement_adjusted_counterpart_payoff": 42.30555555555556,
+      "agreement_adjusted_joint_gain": 83.33333333333333
+    },
+    {
+      "condition": "random_2",
+      "valid": 36,
+      "invalid": 0,
+      "agreements": 27,
+      "offers": 9,
+      "all_cases_valid": true,
+      "proposed_self_payoff": 62.02777777777778,
+      "proposed_counterpart_payoff": 42.611111111111114,
+      "proposed_joint_gain": 104.63888888888889,
+      "agreement_adjusted_self_payoff": 39.388888888888886,
+      "agreement_adjusted_counterpart_payoff": 40.638888888888886,
+      "agreement_adjusted_joint_gain": 80.02777777777777
+    },
+    {
+      "condition": "random_3",
+      "valid": 36,
+      "invalid": 0,
+      "agreements": 28,
+      "offers": 8,
+      "all_cases_valid": true,
+      "proposed_self_payoff": 61.30555555555556,
+      "proposed_counterpart_payoff": 43.47222222222222,
+      "proposed_joint_gain": 104.77777777777777,
+      "agreement_adjusted_self_payoff": 41.02777777777778,
+      "agreement_adjusted_counterpart_payoff": 42.30555555555556,
+      "agreement_adjusted_joint_gain": 83.33333333333333
+    },
+    {
+      "condition": "reverse",
+      "valid": 36,
+      "invalid": 0,
+      "agreements": 36,
+      "offers": 0,
+      "all_cases_valid": true,
+      "proposed_self_payoff": 48.166666666666664,
+      "proposed_counterpart_payoff": 56.083333333333336,
+      "proposed_joint_gain": 104.25,
+      "agreement_adjusted_self_payoff": 48.166666666666664,
+      "agreement_adjusted_counterpart_payoff": 56.083333333333336,
+      "agreement_adjusted_joint_gain": 104.25
+    },
+    {
+      "condition": "permuted",
+      "valid": 35,
+      "invalid": 1,
+      "agreements": 19,
+      "offers": 16,
+      "all_cases_valid": false,
+      "proposed_self_payoff": null,
+      "proposed_counterpart_payoff": null,
+      "proposed_joint_gain": null,
+      "agreement_adjusted_self_payoff": null,
+      "agreement_adjusted_counterpart_payoff": null,
+      "agreement_adjusted_joint_gain": null
+    }
+  ],
+  "contrasts": [
+    {
+      "left": "internal",
+      "right": "unchanged",
+      "point": null,
+      "case_bank_interval": null,
+      "invalid_response_bounds": [
+        -46.388888888888886,
+        -35.833333333333336
+      ],
+      "family_effects": {
+        "prospective-20261031-cabinets": -39.666666666666664,
+        "prospective-20261031-chargers": null,
+        "prospective-20261031-compressors": null,
+        "prospective-20261031-filters": 0,
+        "prospective-20261031-freezers": null,
+        "prospective-20261031-meters": -34,
+        "prospective-20261031-printers": -62,
+        "prospective-20261031-pumps": -60.666666666666664,
+        "prospective-20261031-routers": -73.33333333333333,
+        "prospective-20261031-scanners": -82.66666666666667,
+        "prospective-20261031-sensors": -35.666666666666664,
+        "prospective-20261031-terminals": -80
+      }
+    },
+    {
+      "left": "internal",
+      "right": "prompt",
+      "point": null,
+      "case_bank_interval": null,
+      "invalid_response_bounds": [
+        -28.694444444444443,
+        -0.7222222222222227
+      ],
+      "family_effects": {
+        "prospective-20261031-cabinets": 0,
+        "prospective-20261031-chargers": null,
+        "prospective-20261031-compressors": null,
+        "prospective-20261031-filters": 0,
+        "prospective-20261031-freezers": null,
+        "prospective-20261031-meters": -32.666666666666664,
+        "prospective-20261031-printers": -34.333333333333336,
+        "prospective-20261031-pumps": null,
+        "prospective-20261031-routers": null,
+        "prospective-20261031-scanners": -41,
+        "prospective-20261031-sensors": 0,
+        "prospective-20261031-terminals": 0
+      }
+    },
+    {
+      "left": "sham",
+      "right": "unchanged",
+      "point": 0,
+      "case_bank_interval": [
+        0.0,
+        0.0
+      ],
+      "invalid_response_bounds": [
+        0,
+        0
+      ],
+      "family_effects": {
+        "prospective-20261031-cabinets": 0,
+        "prospective-20261031-chargers": 0,
+        "prospective-20261031-compressors": 0,
+        "prospective-20261031-filters": 0,
+        "prospective-20261031-freezers": 0,
+        "prospective-20261031-meters": 0,
+        "prospective-20261031-printers": 0,
+        "prospective-20261031-pumps": 0,
+        "prospective-20261031-routers": 0,
+        "prospective-20261031-scanners": 0,
+        "prospective-20261031-sensors": 0,
+        "prospective-20261031-terminals": 0
+      }
+    },
+    {
+      "left": "random_1",
+      "right": "unchanged",
+      "point": 6.611111111111111,
+      "case_bank_interval": [
+        0.0,
+        16.527777777777775
+      ],
+      "invalid_response_bounds": [
+        6.611111111111111,
+        6.611111111111111
+      ],
+      "family_effects": {
+        "prospective-20261031-cabinets": 39.666666666666664,
+        "prospective-20261031-chargers": 0,
+        "prospective-20261031-compressors": 0,
+        "prospective-20261031-filters": 39.666666666666664,
+        "prospective-20261031-freezers": 0,
+        "prospective-20261031-meters": 0,
+        "prospective-20261031-printers": 0,
+        "prospective-20261031-pumps": 0,
+        "prospective-20261031-routers": 0,
+        "prospective-20261031-scanners": 0,
+        "prospective-20261031-sensors": 0,
+        "prospective-20261031-terminals": 0
+      }
+    },
+    {
+      "left": "random_2",
+      "right": "unchanged",
+      "point": 3.3055555555555554,
+      "case_bank_interval": [
+        0.0,
+        9.916666666666666
+      ],
+      "invalid_response_bounds": [
+        3.3055555555555554,
+        3.3055555555555554
+      ],
+      "family_effects": {
+        "prospective-20261031-cabinets": 0,
+        "prospective-20261031-chargers": 0,
+        "prospective-20261031-compressors": 0,
+        "prospective-20261031-filters": 39.666666666666664,
+        "prospective-20261031-freezers": 0,
+        "prospective-20261031-meters": 0,
+        "prospective-20261031-printers": 0,
+        "prospective-20261031-pumps": 0,
+        "prospective-20261031-routers": 0,
+        "prospective-20261031-scanners": 0,
+        "prospective-20261031-sensors": 0,
+        "prospective-20261031-terminals": 0
+      }
+    },
+    {
+      "left": "random_3",
+      "right": "unchanged",
+      "point": 6.611111111111111,
+      "case_bank_interval": [
+        0.0,
+        16.527777777777775
+      ],
+      "invalid_response_bounds": [
+        6.611111111111111,
+        6.611111111111111
+      ],
+      "family_effects": {
+        "prospective-20261031-cabinets": 39.666666666666664,
+        "prospective-20261031-chargers": 0,
+        "prospective-20261031-compressors": 0,
+        "prospective-20261031-filters": 39.666666666666664,
+        "prospective-20261031-freezers": 0,
+        "prospective-20261031-meters": 0,
+        "prospective-20261031-printers": 0,
+        "prospective-20261031-pumps": 0,
+        "prospective-20261031-routers": 0,
+        "prospective-20261031-scanners": 0,
+        "prospective-20261031-sensors": 0,
+        "prospective-20261031-terminals": 0
+      }
+    },
+    {
+      "left": "reverse",
+      "right": "unchanged",
+      "point": 27.52777777777778,
+      "case_bank_interval": [
+        11.055555555555555,
+        44.25
+      ],
+      "invalid_response_bounds": [
+        27.52777777777778,
+        27.52777777777778
+      ],
+      "family_effects": {
+        "prospective-20261031-cabinets": 39.666666666666664,
+        "prospective-20261031-chargers": 61.333333333333336,
+        "prospective-20261031-compressors": 53.333333333333336,
+        "prospective-20261031-filters": 79.33333333333333,
+        "prospective-20261031-freezers": 62.666666666666664,
+        "prospective-20261031-meters": 34,
+        "prospective-20261031-printers": 0,
+        "prospective-20261031-pumps": 0,
+        "prospective-20261031-routers": 0,
+        "prospective-20261031-scanners": 0,
+        "prospective-20261031-sensors": 0,
+        "prospective-20261031-terminals": 0
+      }
+    },
+    {
+      "left": "permuted",
+      "right": "unchanged",
+      "point": null,
+      "case_bank_interval": null,
+      "invalid_response_bounds": [
+        -21.27777777777778,
+        -17.666666666666668
+      ],
+      "family_effects": {
+        "prospective-20261031-cabinets": 0,
+        "prospective-20261031-chargers": 0,
+        "prospective-20261031-compressors": null,
+        "prospective-20261031-filters": 0,
+        "prospective-20261031-freezers": 0,
+        "prospective-20261031-meters": -34,
+        "prospective-20261031-printers": 0,
+        "prospective-20261031-pumps": 0,
+        "prospective-20261031-routers": -73.33333333333333,
+        "prospective-20261031-scanners": -41.333333333333336,
+        "prospective-20261031-sensors": 0,
+        "prospective-20261031-terminals": -80
+      }
+    }
+  ],
+  "same_case_comparisons": [
+    {
+      "left": "internal",
+      "right": "unchanged",
+      "valid_pairs": 33,
+      "decision_or_package_changed": 13,
+      "identical_decision_and_package": 20,
+      "higher_adjusted_joint_payoff": 0,
+      "lower_adjusted_joint_payoff": 13,
+      "at_least_one_benefits_neither_loses": 0,
+      "at_least_one_loses": 13
+    },
+    {
+      "left": "internal",
+      "right": "prompt",
+      "valid_pairs": 31,
+      "decision_or_package_changed": 17,
+      "identical_decision_and_package": 14,
+      "higher_adjusted_joint_payoff": 0,
+      "lower_adjusted_joint_payoff": 4,
+      "at_least_one_benefits_neither_loses": 0,
+      "at_least_one_loses": 4
+    },
+    {
+      "left": "prompt",
+      "right": "unchanged",
+      "valid_pairs": 31,
+      "decision_or_package_changed": 19,
+      "identical_decision_and_package": 12,
+      "higher_adjusted_joint_payoff": 2,
+      "lower_adjusted_joint_payoff": 10,
+      "at_least_one_benefits_neither_loses": 1,
+      "at_least_one_loses": 11
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "specification_version": 2,
+  "status": "LOCAL_REVIEW_WORKFLOW_IMPLEMENTED_EXECUTION_AND_USER_VALIDATION_PENDING",
+  "purpose": "Guide researchers from an intervention idea to evidence about whether it works, where it works and what it changes.",
+  "execution_enabled": false,
+  "model_loading_allowed": false,
+  "automatic_retry": false,
+  "deployment_authorized": false,
+  "existing_runtime_or_research_design_changed": false,
+  "scope": {
+    "shared_workflow": "Intervention studies with study-specific cases, outcomes and scorers",
+    "first_empirical_example": "Saved A10 negotiation calibration and the separately proposed fixed-candidate comparison",
+    "empirical_protocol_reference": "protocol/proposed_validation.json",
+    "current_mode": "Saved-evidence review",
+    "general_new_study_execution": "Not implemented",
+    "second_task": "Tested authored-response allocation task using Steerability conversion and Inspect logging/scoring, not empirical state-editing evidence",
+    "other_internal_representation_uses": "Covered by the guide; not all implemented by this prototype"
+  },
+  "stages": [
+    {
+      "id": "define",
+      "title": "Define the intended change",
+      "required": [
+        "observable_behavior",
+        "primary_outcome",
+        "adverse_outcomes",
+        "scoring_examples",
+        "model_information",
+        "case_scope",
+        "data_rights"
+      ],
+      "current_status": "Negotiation definitions exist; general form specified only"
+    },
+    {
+      "id": "compare",
+      "title": "Compare candidate interventions",
+      "required": [
+        "declared_candidate_set",
+        "model_compatibility",
+        "construction_provenance",
+        "calibration_partition",
+        "search_budget",
+        "all_attempts"
+      ],
+      "current_status": "Historical comparisons available; general comparison interface not implemented"
+    },
+    {
+      "id": "select",
+      "title": "Select and explain",
+      "required": [
+        "eligibility_rule",
+        "ranking",
+        "tie_break",
+        "every_candidate_reason",
+        "no_candidate_outcome",
+        "selection_scope"
+      ],
+      "current_status": "Historical selection replay tested, with all reasons and failures visible; no new selection authorized"
+    },
+    {
+      "id": "test",
+      "title": "Test the selected intervention",
+      "required": [
+        "fixed_settings",
+        "held_out_partition",
+        "baseline",
+        "prompting",
+        "justified_controls",
+        "prespecified_variants",
+        "complete_trial_accounting"
+      ],
+      "current_status": "New-case comparison proposed; no new-case results"
+    },
+    {
+      "id": "interpret",
+      "title": "Interpret the evidence",
+      "required": [
+        "decision_effect",
+        "desired_outcome",
+        "adverse_outcomes",
+        "comparison_effects",
+        "uncertainty_scope",
+        "untested_dimensions",
+        "source_bound_export"
+      ],
+      "current_status": "Historical and synthetic HTML/JSON/CSV displays tested; new-case evidence and independent researcher usability pending"
+    }
+  ],
+  "candidate_description_fields": [
+    "model_id",
+    "model_revision",
+    "architecture",
+    "state_component",
+    "module_path",
+    "layer_index",
+    "layer_numbering_convention",
+    "construction_source",
+    "construction_direction_sha256",
+    "activation_extraction_position",
+    "intervention_token_positions",
+    "generation_schedule",
+    "coefficient",
+    "direction_norm",
+    "normalization_rule",
+    "realized_displacement",
+    "runtime_record_reference"
+  ],
+  "selection": {
+    "historical_example": "Display the exact saved A10 rule; do not reselect",
+    "historical_rule_source": "code/reused/local_integration/calibration_selection.py",
+    "historical_display_source": "code/review_package/history.py",
+    "future_new_study": "Separate declared calibration-only operation; rule and budget fixed before comparison",
+    "evaluation_can_change_selection": false,
+    "controls_can_be_promoted_to_intended_candidates": false,
+    "eligibility_equals_robustness": false,
+    "no_candidate_is_valid_outcome": true
+  },
+  "evidence": {
+    "required_fields": [
+      "check_name",
+      "rationale",
+      "implementation_status",
+      "assessment_status",
+      "finding",
+      "scope",
+      "source_reference"
+    ],
+    "implementation_status_values": [
+      "specified",
+      "prepared_untested",
+      "locally_tested",
+      "qualified_on_exact_runtime"
+    ],
+    "assessment_status_values": [
+      "not_assessed",
+      "planned",
+      "checked_on_calibration",
+      "checked_on_held_out_cases",
+      "failed",
+      "inconclusive",
+      "not_applicable"
+    ],
+    "checked_does_not_mean_favorable": true,
+    "global_robustness_badge_allowed": false,
+    "missing_historical_fields": "Remain explicitly missing; never invent or backfill old records"
+  },
+  "robustness": [
+    {
+      "id": "construct_and_outcome",
+      "source_document": "04_ROBUSTNESS_AND_SOURCES.md",
+      "current_scope": "Decision and payoff records; A10 does not isolate cooperation"
+    },
+    {
+      "id": "input_variation",
+      "source_document": "04_ROBUSTNESS_AND_SOURCES.md",
+      "current_scope": "New families, paraphrase and issue-order versions proposed but not run"
+    },
+    {
+      "id": "source_and_edit_location",
+      "source_document": "04_ROBUSTNESS_AND_SOURCES.md",
+      "current_scope": "Historical extraction/edit records; alternate extraction and construction untested"
+    },
+    {
+      "id": "layer_and_strength",
+      "source_document": "04_ROBUSTNESS_AND_SOURCES.md",
+      "current_scope": "One-case exploratory historical comparison; no globally best layer claim"
+    },
+    {
+      "id": "prompt_and_control_comparisons",
+      "source_document": "04_ROBUSTNESS_AND_SOURCES.md",
+      "current_scope": "Calibration results retained; fixed prompting and ninth control proposed for new-case evaluation"
+    },
+    {
+      "id": "answer_encoding",
+      "source_document": "04_ROBUSTNESS_AND_SOURCES.md",
+      "current_scope": "A08 is not A10 evidence; no A10 remapping added"
+    },
+    {
+      "id": "scoring_and_invalidity",
+      "source_document": "04_ROBUSTNESS_AND_SOURCES.md",
+      "current_scope": "Deterministic scorer retained; malformed-answer and complete-physical-sample guard tests pass locally"
+    },
+    {
+      "id": "runtime_and_reproducibility",
+      "source_document": "04_ROBUSTNESS_AND_SOURCES.md",
+      "current_scope": "Historical mechanical audit retained; no general model/backend certification"
+    },
+    {
+      "id": "uncertainty",
+      "source_document": "04_ROBUSTNESS_AND_SOURCES.md",
+      "current_scope": "Paired family-level case-bank sensitivity proposed; not population inference"
+    }
+  ],
+  "reuse": {
+    "steerability": {
+      "version": "0.5.7",
+      "role": "State controls and compatible candidate comparison",
+      "additional_runner_api_status": "Must be checked against pinned version before adoption"
+    },
+    "inspect_ai": {
+      "version": "0.3.286",
+      "role": "Datasets, task execution, scoring interfaces and original sample records"
+    },
+    "runtime": {
+      "source": "reference_runtime/local_integration/research_pipeline.py",
+      "role": "Preserved exact-model execution and state-edit checks"
+    },
+    "study_adapter": {
+      "source": "code/review_package/comparison.py",
+      "status": "Negotiation-specific offline adapter implemented and tested; production execution binding pending"
+    },
+    "generic_interfaces": {
+      "status": "Study/scorer/result interfaces tested with two authored-response tasks; general own-study execution not implemented",
+      "definitions": "05_REUSABLE_TOOL_PLAN.md"
+    },
+    "new_dependencies_installed": false
+  },
+  "acceptance": {
+    "preserve_a10_selection": true,
+    "show_no_eligible_candidate": true,
+    "separate_technical_and_scientific_failure": true,
+    "retain_all_attempts": true,
+    "no_evaluation_reselection": true,
+    "synthetic_second_task_required_before_reusability_claim": true,
+    "synthetic_task_status": "Authored negotiation and allocation tasks pass through actual provider conversion and Inspect logging/scoring; no research model loaded",
+    "independent_researcher_walkthrough_status": "Not performed for this revision",
+    "new_offline_tests_status": "Current exact count and outcomes are recorded in test_receipt; previous receipts remain preserved",
+    "test_receipt": "verification/validation-2026-10-31/full-tests-A02/checks.json",
+    "case_validation": "Same-family base and actual declared variant changes checked; non-fixture planning/admission requires human review bound to exact case bytes and model-visible messages",
+    "changes_to_existing_test_suite": false,
+    "synthetic_reuse_checks": [
+      "Different dataset and scorer use documented interfaces",
+      "Outcome names and displays do not assume buyer/supplier payoffs",
+      "Candidate, failure, robustness and export views remain usable",
+      "Shared authored-response pipeline, provider conversion, logging and general display unchanged across synthetic tasks; actual state-edit path not exercised",
+      "Historical negotiation scoring and selection unchanged",
+      "Synthetic data do not become empirical evidence"
+    ]
+  },
+  "references": {
+    "workflow": "03_PROTOTYPE_AND_ACCEPTANCE.md",
+    "robustness_and_sources": "04_ROBUSTNESS_AND_SOURCES.md",
+    "reusable_implementation": "05_REUSABLE_TOOL_PLAN.md",
+    "reuse_and_history": "02_REUSE_AND_LESSONS.md"
+  },
+  "study_inputs": {
+    "status": "Offline input interfaces and validation implemented; convenient own-study uploads and production execution remain planned",
+    "replaceable": [
+      "cases",
+      "outcome_definitions",
+      "scoring_rules",
+      "intervention_settings"
+    ],
+    "shared_components_unchanged_for_new_task": [
+      "model_access",
+      "state_edit_recording",
+      "task_logging",
+      "candidate_comparison_display",
+      "general_workflow"
+    ],
+    "proposed_formats": [
+      "CSV for flat case tables",
+      "JSON for structured cases"
+    ],
+    "required_case_fields": [
+      "case_id",
+      "family_id",
+      "partition",
+      "variant",
+      "model_visible_input",
+      "scoring_parameters",
+      "source_and_rights"
+    ],
+    "scorer_configuration_separate_from_model_input": true,
+    "executable_uploads_allowed": false,
+    "new_scorers_require_review_and_fixed_expected_score_tests": true,
+    "intervention_input_routes": [
+      {
+        "route": "contrasting_examples",
+        "requires": [
+          "paired_examples",
+          "intended_behavior",
+          "source_and_rights",
+          "confound_review",
+          "extraction_specification",
+          "separate_construction_authorization"
+        ],
+        "implemented": false
+      },
+      {
+        "route": "existing_compatible_intervention",
+        "requires": [
+          "reviewed_tensor_format",
+          "provenance",
+          "exact_model_revision",
+          "state_component",
+          "dimensions",
+          "layer",
+          "extraction_and_edit_positions",
+          "normalization_and_scale",
+          "actual_compatibility_checks"
+        ],
+        "implemented": false
+      }
+    ],
+    "new_study_changes_create_separate_version": true,
+    "changes_to_fixed_a10_study_allowed": false
+  }
+}

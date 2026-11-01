@@ -2,13 +2,13 @@
 
 ## Reading and rerunning the notebook
 
-No API key, account or GPU is required. Follow `README.md` and install `requirements-lock.txt` for the tested CPU environment.
+No API key, account or GPU is required. Follow the [README](../README.md) and install `requirements-lock.txt` for the tested CPU environment.
 
 ## A separate model-generation run
 
 The original study used Modal compute and an open-weight Qwen checkpoint, with Steerability/Inspect recording and the qualified Transformers/PyTorch state-editing path. A key for an ordinary chat-completion API is not a substitute: that service generally does not expose this internal state.
 
-The `.env.example` file contains empty placeholders:
+The [.env.example](../.env.example) file contains empty placeholders:
 
 | Variable | Purpose |
 |---|---|

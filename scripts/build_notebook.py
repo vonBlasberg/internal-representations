@@ -2,7 +2,7 @@
 from pathlib import Path
 import nbformat as nbf
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 path=ROOT/"START_HERE.ipynb"
 notebook=nbf.read(path, as_version=4)
 cells=[]
@@ -71,7 +71,7 @@ md("""
 
 This cell reuses the copied, tested analysis code. It checks the saved calibration decisions, scores all 324 evaluation attempts from original response records, and checks the analysis with a separately implemented payoff calculation. Each execution retains a fresh calculation directory. The convenient links under `exports/` and the figures are refreshed; original research inputs and retained results stay unchanged.
 
-This is **analysis reproduction**, not model-generation reproduction. The recorded execution verdict remains available in `replay/comparison/audit.json`. Its GPU checks concern the private originals; the public copy's identifier redactions and checksum bindings are documented in `ANONYMIZATION.md`.
+This is **analysis reproduction**, not model-generation reproduction. The recorded execution verdict remains available in `replay/comparison/audit.json`. Its GPU checks concern the private originals; the public copy's identifier redactions and checksum bindings are documented in [anonymization](docs/ANONYMIZATION.md).
 """)
 code("""
 result = nb.recalculate()
@@ -246,7 +246,7 @@ md("""
 
 The scorer checks nonnegative integer amounts and their total. Its absolute allocation gap is a numerical outcome, not a definition of fairness. Try a budget of 130: the deliberately invalid answer becomes valid and the other two cease to exhaust the budget.
 
-For a new saved-response task, use `Study`, a scorer's `score(case, raw)` method, and `evaluate_saved` in [workflow.py](replay/code/review_package/workflow.py). The negotiation inputs are in [cases.json](replay/comparison/delivery/cases.json); its deterministic scoring is implemented in [scoring.py](replay/code/review_package/scoring.py) using the retained negotiation scorer. [SCHEMAS_AND_EXPORTS.md](SCHEMAS_AND_EXPORTS.md) identifies the case contract, outcome fields and source links. Copy these inputs for an adaptation; preserve the empirical example as supplied.
+For a new saved-response task, use `Study`, a scorer's `score(case, raw)` method, and `evaluate_saved` in [workflow.py](replay/code/review_package/workflow.py). The negotiation inputs are in [cases.json](replay/comparison/delivery/cases.json); its deterministic scoring is implemented in [scoring.py](replay/code/review_package/scoring.py) using the retained negotiation scorer. The [case and export guide](docs/SCHEMAS_AND_EXPORTS.md) identifies the case contract, outcome fields and source links. Copy these inputs for an adaptation; preserve the empirical example as supplied.
 
 For model generation on a new task, use the separate execution source and requalify task competence, state editing and restoration. An ordinary answer-only API key cannot provide arbitrary access to internal states. The default notebook requires neither an API key nor GPU access.
 """)
@@ -281,7 +281,7 @@ md("""
 
 Saved-response replay is CPU-only. The release receipt is `verification/verified_notebook.json`; a new terminal replay writes its own `verification/notebook_execution*.json`. The original 324-response study used one L40S GPU, eight CPU cores and 64 GiB RAM. Its response-completion span was 3 h 35 min, excluding startup. The prior planning allowance was 4–5 GPU hours, estimated at USD 11–15 using the recorded October 31 rates, not an invoice or a guaranteed future price. The two complete 36-response repeats took 24 min 26 s and 42 min 44 s from first trial start to final completion, excluding setup and retrieval. R01 reserved USD 10 for two sessions with a 40-minute worker limit and 45-minute container limit; one timed out. R02 separately reserved USD 5 with a 60-minute worker limit and 65-minute container limit. These are reservations, not final charges.
 
-`REPRODUCIBILITY.md` distinguishes analysis replay from generation reproduction. Default execution recalculates existing evidence; it never silently triggers the latter.
+The [reproducibility guide](docs/REPRODUCIBILITY.md) distinguishes analysis replay from generation reproduction. Default execution recalculates existing evidence; it never silently triggers the latter.
 
 ### API keys and optional GPU setup
 
@@ -289,7 +289,7 @@ Saved-response replay is CPU-only. The release receipt is `verification/verified
 
 For a separately configured GPU run, `.env.example` provides empty placeholders for `MODAL_TOKEN_ID` and `MODAL_TOKEN_SECRET`. An optional `HF_TOKEN` is relevant only if a model or download route requires Hugging Face authentication. These are credentials for compute and checkpoint access, not ordinary chat-model API keys. Answer-only API access does not expose the internal state edited in this study.
 
-Read `GPU_SETUP.md` for the separate generation route. Use your provider's authenticated setup or an ignored `.env` file. Keep credentials out of notebook cells, outputs and Git. The roadmap describes the planned support for researchers' own model runs.
+Read [GPU setup](docs/GPU_SETUP.md) for the separate generation route. Use your provider's authenticated setup or an ignored `.env` file. Keep credentials out of notebook cells, outputs and Git. The roadmap describes the planned support for researchers' own model runs.
 """)
 md("""
 ## Optional technical detail: payoff bounds and control contrasts
@@ -316,7 +316,7 @@ plt.show()
 display(nb.contrast_table(comparison))
 """)
 md("""
-Family-bootstrap percentile intervals, where an outcome exists for every pair, describe sensitivity to resampling this case bank. A zero-width interval means no observed variation across its families, not perfect population precision. The [artifact status](ARTIFACT_STATUS.md) links the completed audits and separates these findings from planned reuse tests.
+Family-bootstrap percentile intervals, where an outcome exists for every pair, describe sensitivity to resampling this case bank. A zero-width interval means no observed variation across its families, not perfect population precision. The [reproducibility guide](docs/REPRODUCIBILITY.md#current-evidence-and-capabilities) links the completed audits and separates these findings from planned reuse tests.
 """)
 notebook.cells=cells
 notebook.metadata.update({"kernelspec":{"display_name":"Python 3", "language":"python", "name":"python3"},

@@ -4,12 +4,12 @@
 
 | Part | Current file or function |
 |---|---|
-| Authored negotiation cases | [cases.json](replay/comparison/delivery/cases.json): `case_id`, `family_id`, `variant_kind`, issue options and utilities, standing package, reservations, disagreement values, and messages. |
-| Case contract and deterministic payoffs | [negotiation.py](replay/code/reused/negotiation-steering/analysis/negotiation.py): `validate_case`, `payoffs`, and response scoring. |
+| Authored negotiation cases | [cases.json](../replay/comparison/delivery/cases.json): `case_id`, `family_id`, `variant_kind`, issue options and utilities, standing package, reservations, disagreement values, and messages. |
+| Case contract and deterministic payoffs | [negotiation.py](../replay/code/reused/negotiation-steering/analysis/negotiation.py): `validate_case`, `payoffs`, and response scoring. |
 | Response contract | Exactly `decision` (`accept` or `offer`) and `package`, with one allowed option per issue. Acceptance repeats the standing package. The parser retains other labels as invalid. |
-| Saved-trial structure | [behavioral_trial.schema.json](replay/code/reused/negotiation-steering/contracts/behavioral_trial.schema.json); fixed messages are in [original-plan.json](replay/comparison/delivery/original-plan.json). |
-| Reusable synthetic interface | [workflow.py](replay/code/review_package/workflow.py): `Study`, `OutcomeScorer.score(case, raw)`, `AllocationScorer`, `NegotiationScorer`, `evaluate_saved`. The shared interface is currently qualified for model-free examples. |
-| Outcome definitions | [prospective_validation_v2.json](replay/protocol/prospective_validation_v2.json) records the pre-generation outcome amendment. [scoring.py](replay/code/review_package/scoring.py) computes valid negotiation outcomes. |
+| Saved-trial structure | [behavioral_trial.schema.json](../replay/code/reused/negotiation-steering/contracts/behavioral_trial.schema.json); fixed messages are in [original-plan.json](../replay/comparison/delivery/original-plan.json). |
+| Reusable synthetic interface | [workflow.py](../replay/code/review_package/workflow.py): `Study`, `OutcomeScorer.score(case, raw)`, `AllocationScorer`, `NegotiationScorer`, `evaluate_saved`. The shared interface is currently qualified for model-free examples. |
+| Outcome definitions | [prospective_validation_v2.json](../replay/protocol/prospective_validation_v2.json) records the pre-generation outcome amendment. [scoring.py](../replay/code/review_package/scoring.py) computes valid negotiation outcomes. |
 | Notebook presentation | `notebook_support.py` supplies tables, figures, exact saved prompts and the editable example. |
 
 Copy cases and define a scorer for an adaptation; leave the empirical example intact. A new intervention study also needs compatible model access, qualification, development-case selection and a fixed evaluation. Measurement and bias-auditing examples are planned uses, not supported upload formats here.
@@ -36,7 +36,7 @@ One row is one attempted case/condition response. All 324 rows are included, inc
 
 ## Complete field mapping
 
-The CSV contains 51 columns. The exporter in [cli.py](replay/code/review_package/cli.py), function `write_new`, is the exact CSV-to-JSON mapping. The groups not expanded above are:
+The CSV contains 51 columns. The exporter in [cli.py](../replay/code/review_package/cli.py), function `write_new`, is the exact CSV-to-JSON mapping. The groups not expanded above are:
 
 | Fields | Source and meaning |
 |---|---|
@@ -54,6 +54,6 @@ In JSON, these values come from each trial, its `score`, `source`, `edit` or `ge
 
 ## Historical status meanings
 
-The 324-row CSV retains `SAVED_RESULTS_PENDING_INDEPENDENT_ADMISSION` from the original analysis export. The current evidence status is `FIXED_COMPARISON_INDEPENDENTLY_VERIFIED`, linked to [the completed audit](replay/comparison/audit.json) in `findings.json`.
+The 324-row CSV retains `SAVED_RESULTS_PENDING_INDEPENDENT_ADMISSION` from the original analysis export. The current evidence status is `FIXED_COMPARISON_INDEPENDENTLY_VERIFIED`, linked to [the completed audit](../replay/comparison/audit.json) in `findings.json`.
 
 The inherited JSON type `REVIEW_DRAFT_NINE_CONDITION_ANALYSIS` identifies the analysis schema. `qualification_verified: false` means that analysis routine did not itself verify model qualification. `release_approved: false` means it did not grant publication approval. Neither reverses the completed execution audit. `case_independence_verified: false` is retained because variants within a family are dependent. These historical fields are explained rather than changed to manufacture a different execution record.

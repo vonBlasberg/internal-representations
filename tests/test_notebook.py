@@ -4,12 +4,14 @@ import csv
 import hashlib
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
 import tempfile
 import unittest
 import zipfile
+from urllib.parse import unquote, urlsplit
 from unittest.mock import patch
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -18,6 +20,29 @@ import notebook_support as nb
 
 
 class NotebookChecks(unittest.TestCase):
+    def test_reviewer_entry_points_and_local_links(self):
+        for name in ("README.md", "START_HERE.ipynb", "PREVIEW.html", "scripts/build_notebook.py"):
+            self.assertTrue((ROOT/name).is_file(), name)
+        for name in ("REPRODUCIBILITY.md", "GPU_SETUP.md", "ANONYMIZATION.md", "SCHEMAS_AND_EXPORTS.md"):
+            self.assertTrue((ROOT/"docs"/name).is_file(), name)
+            self.assertFalse((ROOT/name).exists(), name)
+        self.assertFalse((ROOT/"ARTIFACT_STATUS.md").exists())
+        pages=[ROOT/"README.md", *sorted((ROOT/"docs").glob("*.md"))]
+        pages.extend(ROOT/"replay"/name/"README.md" for name in
+                     ("code", "evidence", "reference_runtime", "generation_inputs"))
+        texts=[(page, page.read_text()) for page in pages]
+        book=json.loads((ROOT/"START_HERE.ipynb").read_text())
+        texts.extend((ROOT/"START_HERE.ipynb", "".join(cell["source"]))
+                     for cell in book["cells"] if cell["cell_type"]=="markdown")
+        for page,text in texts:
+            for target in re.findall(r"\]\(([^)]+)\)",text):
+                link=urlsplit(target)
+                if link.scheme or link.netloc or not link.path:
+                    continue
+                resolved=(page.parent/unquote(link.path)).resolve()
+                self.assertTrue(resolved.is_relative_to(ROOT), (page.name,target))
+                self.assertTrue(resolved.exists(), (page.name,target))
+
     def test_sources_match(self):
         self.assertGreater(nb.verify_sources()["files_checked"],400)
 

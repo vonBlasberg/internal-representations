@@ -1,6 +1,6 @@
 # Saved evidence
 
-These are anonymized copies of saved results. Responses, scores and selection results are preserved. Identifier redactions and dependent checksum changes are documented in [ANONYMIZATION.md](../../ANONYMIZATION.md).
+These are anonymized copies of saved results. Responses, scores and selection results are preserved. Identifier redactions and dependent checksum changes are documented in [anonymization](../../docs/ANONYMIZATION.md).
 
 - a10-publication.json contains all 41 original display rows, responses, scores and selection.
 - a05-publication.json, a06-publication.json and a09-publication.json retain earlier comparisons, including no-selection outcomes.

@@ -4,7 +4,7 @@
 
 **Does an internal edit change an AI's decision, who benefits, and does prompting do the same thing?**
 
-Open [START_HERE.ipynb](START_HERE.ipynb), or download and open [PREVIEW.html](PREVIEW.html). This prototype is implemented as a notebook. It combines saved responses from a negotiation study with candidate comparisons, outcome scoring and robustness checks. Its figures and tables recalculate the evidence on a CPU; no model download, API key or GPU is needed.
+Open the [notebook](START_HERE.ipynb) to follow the study, or download and open the [HTML preview](PREVIEW.html). Both include the results and figures, so you can read them without installing anything. To recalculate the analysis, follow **Run locally** below. No model download, API key or GPU is needed.
 
 The selected edit changed 13 of 33 valid decisions from acceptance to counteroffering while keeping the complete starting prompt unchanged. Prompting changed 12 of 31 valid decisions in the same direction. An opposite-direction edit shifted baseline decisions toward acceptance, while random edits changed little. The edited offers requested more for the buyer and less for the supplier, who rejected them. The prototype shows how to distinguish behavioral influence from payoff improvement, wording robustness and execution stability.
 
@@ -34,22 +34,21 @@ Choose **Run → Run All Cells**. To replay and test from a terminal:
 .venv/bin/python -B -m unittest discover -s tests -v
 ```
 
-The tested route is macOS with Python 3.12.10. Linux/WSL uses the commands above but has not received an independent platform test. The retained provenance contains long paths: on Windows use a short WSL extraction location rather than Windows Explorer's default ZIP extraction. Native Windows installation and long-path behavior remain untested.
+The tested route is macOS with Python 3.12.10. See the [reproducibility guide](docs/REPRODUCIBILITY.md) for platform notes, completed checks and how replay preserves the evidence. Installation downloads notebook libraries; the analysis itself uses bundled records only.
 
-Installation downloads ordinary notebook libraries; replay uses bundled records only. `requirements-lock.txt` pins the tested environment and `requirements.txt` lists its direct dependencies. Every replay retains a new calculation folder under `outputs/`, then refreshes the reader-facing `exports/` and figures. Original empirical inputs stay unchanged.
+## Supporting files
 
-## Contents and adaptation
+- [exports/](exports/): downloadable results, including every attempted response.
+- [replay/](replay/): cases, original responses, analysis code, settings and verification records. These support reproduction and include unsuccessful attempts.
+- [docs/](docs/REPRODUCIBILITY.md): reproducibility, [cases and scoring](docs/SCHEMAS_AND_EXPORTS.md), [advanced GPU setup](docs/GPU_SETUP.md) and [anonymization](docs/ANONYMIZATION.md).
 
-- Executed notebook, a candidate-selection table, four figures, every evaluation attempt and the historical candidate comparisons.
-- Scoring/analysis code, original response records, settings and completed audits.
-- An editable model-free allocation example using the shared saved-response scoring interface.
-- [Case, response and export guide](SCHEMAS_AND_EXPORTS.md), [reproducibility guide](REPRODUCIBILITY.md), and [current artifact status](ARTIFACT_STATUS.md).
+The notebook includes an editable allocation exercise and the development roadmap. Its build script is under `scripts/`; reviewers can read or rerun the notebook without rebuilding it.
 
 The proposal, Technical Appendix and cover letter are submitted separately. The repository contains the notebook, code and supporting evidence.
 
 ## Credentials and license
 
-CPU replay needs no credentials. [GPU_SETUP.md](GPU_SETUP.md) explains the separate generation route; [.env.example](.env.example) supplies empty placeholders. Keep real credentials in provider configuration or an ignored local environment, outside notebook cells and outputs.
+CPU replay needs no credentials. [Advanced GPU setup](docs/GPU_SETUP.md) explains the separate generation route; [.env.example](.env.example) supplies empty placeholders. Keep real credentials outside notebook cells, outputs and Git.
 
-Original project code and documentation use the [MIT license](LICENSE). Third-party code retains its [own notices](replay/third_party/README.md); model weights are not bundled and retain their model license. The public copy's identifier redactions and checksum scope are described in `ANONYMIZATION.md`. The research archive preserves the originals.
+Original project code and documentation use the [MIT license](LICENSE). Third-party code retains its [own notices](replay/third_party/README.md); model weights are obtained from their licensed source.
 

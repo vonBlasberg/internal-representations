@@ -15,6 +15,6 @@
   "scope": "Local clean-kernel offline analysis replay; no new research generation",
   "code_cells": 16,
   "inline_figures": 4,
-  "notebook_sha256": "21a291374d21a874542d416fb5bed31d362aa73f12dec5994896544129e17d09",
-  "elapsed_seconds": 9.27
+  "notebook_sha256": "a94cf0aa93112af699a8f308f48967310eef2d4fb012dd83adc2b7f2a4fb6137",
+  "elapsed_seconds": 9.77
 }

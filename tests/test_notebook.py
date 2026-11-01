@@ -103,6 +103,8 @@ class NotebookChecks(unittest.TestCase):
         self.assertLess(text.index("nb.outcome_figure"),text.index("nb.wording_figure"))
         self.assertLess(text.index("Optional technical detail: payoff bounds"),text.index("nb.bounds_figure"))
         self.assertLess(text.index("## 6. Export"),text.index("Optional technical detail: payoff bounds"))
+        self.assertNotIn("US$",text)  # GitHub treats paired dollar signs as inline math.
+        self.assertIn("estimated at USD 11–15",text)
 
     def test_strength_is_defined_before_selection(self):
         book=json.loads((ROOT/"START_HERE.ipynb").read_text())
